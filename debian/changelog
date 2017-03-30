@@ -1,9 +1,23 @@
-base-installer (1.167+rpi1) stretch-staging; urgency=medium
+base-installer (1.168+rpi1) stretch-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Tue, 22 Nov 2016 04:25:52 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 30 Mar 2017 12:43:23 +0000
+
+base-installer (1.168) unstable; urgency=medium
+
+  * Print all run-debootstrap arguments to stdout for improved logging.
+  * Check whether mirror/protocol is set to https, since PROTOCOL=file
+    is used for some images (e.g. netinst since base packages are
+    installable without a mirror); install apt-transport-https and
+    ca-certificates when that's the case, since debootstrap can't know
+    by itself (Closes: #855035).
+  * Extend the above fix so that local certificates are copied over to
+    the installed system when mirror/protocol is set to https, even if
+    PROTOCOL if set to file.
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 15 Feb 2017 19:18:16 +0100
 
 base-installer (1.167) unstable; urgency=critical
 
