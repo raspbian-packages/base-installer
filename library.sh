@@ -622,18 +622,18 @@ EOF
 			;;
 		esac
 		resume_devfs="$(get_resume_partition)" || resume_devfs=
-		if [ "$resume_devfs" ] && [ -e "$resume_devfs" ]; then
-			resume="$(mapdevfs "$resume_devfs")" || resume=
-		else
-			resume=
-		fi
-		if [ "$resume" ] && ! echo "$resume" | grep -q "^/dev/mapper/"; then
-			resume_uuid="$(block-attr --uuid "$resume" || true)"
-			if [ "$resume_uuid" ]; then
-				resume="UUID=$resume_uuid"
+		if [ "$resume_devfs" ] && [ -e "$resume_devfs" ] && \
+		   resume="$(mapdevfs "$resume_devfs")"; then
+			if ! echo "$resume" | grep -q "^/dev/mapper/"; then
+				resume_uuid="$(block-attr --uuid "$resume" || true)"
+				if [ "$resume_uuid" ]; then
+					resume="UUID=$resume_uuid"
+				fi
 			fi
+		else
+			resume=none
 		fi
-		if [ -n "$resumeconf" ] && [ "$resume" ]; then
+		if [ -n "$resumeconf" ]; then
 			if [ -f $resumeconf ] ; then
 				sed -e "s@^#* *RESUME=.*@RESUME=$resume@" < $resumeconf > $resumeconf.new &&
 					mv $resumeconf.new $resumeconf

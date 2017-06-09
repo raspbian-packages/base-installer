@@ -1,9 +1,16 @@
-base-installer (1.168+rpi1) stretch-staging; urgency=medium
+base-installer (1.169+rpi1) stretch-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 30 Mar 2017 12:43:23 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 09 Jun 2017 07:45:54 +0000
+
+base-installer (1.169) unstable; urgency=medium
+
+  * library.sh: If there is no suitable resume device, explicitly disable
+    resume (see #860403)
+
+ -- Ben Hutchings <ben@decadent.org.uk>  Wed, 31 May 2017 18:19:10 +0100
 
 base-installer (1.168) unstable; urgency=medium
 
