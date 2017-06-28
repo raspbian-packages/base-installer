@@ -27,15 +27,16 @@
 #
 #   Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
 # YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
+# Yangfl <mmyangfl@gmail.com>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2010-09-28 22:48+0000\n"
-"PO-Revision-Date: PO-Revision-Date: 2014-03-05 14:59+0800\n"
-"Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"PO-Revision-Date: 2017-06-11 18:20+0800\n"
+"Last-Translator: Yangfl <mmyangfl@gmail.com>\n"
+"Language-Team:  <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -402,7 +403,7 @@ msgstr "向目标系统中安装内核时发生错误。"
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Kernel package: '${KERNEL}'."
-msgstr "内核软件包： '${KERNEL}'。"
+msgstr "内核软件包：“${KERNEL}”。"
 
 #. Type: select
 #. Choices
@@ -573,7 +574,7 @@ msgstr "正在接收 Release 文件签名"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:25001
 msgid "Finding package sizes"
-msgstr "查询软件包大小"
+msgstr "正在查询软件包大小"
 
 #. Type: text
 #. Description
@@ -605,7 +606,7 @@ msgstr "正在接收软件包"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:29001
 msgid "Extracting packages"
-msgstr "正在解开软件包"
+msgstr "正在解压软件包"
 
 #. Type: text
 #. Description
@@ -683,7 +684,7 @@ msgstr "正在接收 ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:39001
 msgid "Extracting ${SUBST0}..."
-msgstr "正在解开 ${SUBST0}..."
+msgstr "正在解压 ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -706,7 +707,7 @@ msgstr "正在配置 ${SUBST0}..."
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"
-msgstr "正在接收 Release 签名"
+msgstr "正在检查 Release 签名"
 
 #. Type: text
 #. Description
@@ -715,14 +716,14 @@ msgstr "正在接收 Release 签名"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "有效的 Release 签名 (key id ${SUBST0})"
+msgstr "有效的 Release 签名 (键值 ${SUBST0})"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:44001
 msgid "Resolving dependencies of base packages..."
-msgstr "正在解决基本软件包依赖关系..."
+msgstr "正在解决基本软件包的依赖关系..."
 
 #. Type: text
 #. Description
@@ -746,7 +747,7 @@ msgstr "找到额外的必需软件包依赖关系：${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:47001
 msgid "Found packages in base already in required: ${SUBST0}"
-msgstr "找到已存在于必需类中的基本软件包：${SUBST0}"
+msgstr "找到已存在于必需包中的基本软件包：${SUBST0}"
 
 #. Type: text
 #. Description
@@ -762,7 +763,7 @@ msgstr "正在解决必需软件包依赖关系..."
 #. SUBST1 is a mirror
 #: ../bootstrap-base.templates:49001
 msgid "Checking component ${SUBST0} on ${SUBST1}..."
-msgstr "正在检查组件 ${SUBST0} 于 ${SUBST1} 上..."
+msgstr "正在检查 ${SUBST1} 上的 ${SUBST0} 组件..."
 
 #. Type: text
 #. Description
@@ -784,7 +785,7 @@ msgstr "正在安装核心软件包..."
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:51001
 msgid "Unpacking required packages..."
-msgstr "正在解包必需的软件包..."
+msgstr "正在解包必需软件包..."
 
 #. Type: text
 #. Description
@@ -795,7 +796,7 @@ msgstr "正在解包必需的软件包..."
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:52001
 msgid "Configuring required packages..."
-msgstr "正在配置必需的软件包..."
+msgstr "正在配置必需软件包..."
 
 #. Type: text
 #. Description
@@ -854,7 +855,7 @@ msgstr "正在重新尝试失败的下载 ${SUBST0}"
 #. :sl1:
 #: ../bootstrap-base.templates:60001
 msgid "Selecting the kernel to install..."
-msgstr "选择要安装的内核..."
+msgstr "正在选择要安装的内核..."
 
 #. Type: text
 #. Description
@@ -869,4 +870,4 @@ msgstr "正在安装内核..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "安装内核 - 正在接收并安装 ${SUBST0}..."
+msgstr "正在安装内核 - 正在接收并安装 ${SUBST0}..."
