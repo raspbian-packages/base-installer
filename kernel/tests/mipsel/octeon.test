@@ -7,4 +7,5 @@ usable \
   linux-image-octeon
 unusable \
   linux-image-4kc-malta \
-  linux-image-5kc-malta
+  linux-image-5kc-malta \
+  linux-image-loongson-3
