@@ -1,9 +1,34 @@
-base-installer (1.171+rpi1) buster-staging; urgency=medium
+base-installer (1.174+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Tue, 04 Jul 2017 18:54:27 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sun, 03 Dec 2017 14:57:38 +0000
+
+base-installer (1.174) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Lithuanian (lt.po) by Rimas Kudelis
+  * Norwegian Nynorsk (nn.po) by Allan Nordhøy
+
+ -- Christian Perrier <bubulle@debian.org>  Mon, 27 Nov 2017 07:54:15 +0100
+
+base-installer (1.173) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Greek (el.po) by Sotirios Vrachas
+  * Estonian (et.po) by Kristjan Räts
+  * Swedish (sv.po) by Anders Jonsson
+
+ -- Christian Perrier <bubulle@debian.org>  Wed, 22 Nov 2017 07:46:11 +0100
+
+base-installer (1.172) unstable; urgency=medium
+
+  [ John Paul Adrian Glaubitz ]
+  * m68k: Use common kernel for all subarchitectures (Closes: #874014).
+  * ppc64: Add initial kernel support for ppc64 (Closes: #874353).
+
+ -- Christian Perrier <bubulle@debian.org>  Thu, 07 Sep 2017 14:10:52 +0200
 
 base-installer (1.171) unstable; urgency=medium
 
