@@ -1,9 +1,16 @@
-base-installer (1.175+rpi1) buster-staging; urgency=medium
+base-installer (1.176+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Fri, 22 Dec 2017 11:49:59 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 05 Jan 2018 14:13:37 +0000
+
+base-installer (1.176) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Nepali (ne.po) by Jeewal Kunwar
+
+ -- Christian Perrier <bubulle@debian.org>  Fri, 29 Dec 2017 09:19:17 +0100
 
 base-installer (1.175) unstable; urgency=medium
 
