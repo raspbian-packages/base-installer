@@ -1,9 +1,16 @@
-base-installer (1.177+rpi1) buster-staging; urgency=medium
+base-installer (1.178+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 18 Jan 2018 03:03:23 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 08 Feb 2018 04:06:25 +0000
+
+base-installer (1.178) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Christian Perrier <bubulle@debian.org>  Tue, 30 Jan 2018 07:08:34 +0100
 
 base-installer (1.177) unstable; urgency=medium
 
