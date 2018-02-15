@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2010-09-28 22:48+0000\n"
-"PO-Revision-Date: 2018-01-21 20:21+0500\n"
+"PO-Revision-Date: 2018-02-03 14:48+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: tg\n"
@@ -293,7 +293,7 @@ msgstr "Хатои зерин ба вуҷуд омад:"
 #. Description
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
-msgstr "Абзоре, ки барои эҷодкунии initrd-и роҳандозӣ истифода мешавад:"
+msgstr "Абзоре, ки барои эҷодкунии «initrd»-и роҳандозӣ истифода мешавад:"
 
 #. Type: select
 #. Description
@@ -304,9 +304,9 @@ msgid ""
 "installation using the other options."
 msgstr ""
 "Ин рӯйхат абзорҳои дастрасро намоиш медиҳад. Агар шумо мутмаин набошед, ки "
-"кадоми он бояд интихоб карда шавад, шумо бояд пешфарзро интихоб кунед. Агар "
-"низоми шумо роҳандозӣ нашавад, метавонед насбкуниро тавассути имконоти дигар "
-"такрор кунед."
+"кадоми абзор бояд интихоб карда шавад, шумо бояд абзори пешфарзро интихоб "
+"кунед. Агар роҳандозии низоми шумо иҷро нашавад, метавонед насбкуниро "
+"тавассути имконоти дигар такрор кунед."
 
 #. Type: error
 #. Description
@@ -710,7 +710,7 @@ msgstr "Танзимкунии ${SUBST0}..."
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"
-msgstr "Санҷиши имзои барориш"
+msgstr "Санҷиши имзои барориш "
 
 #. Type: text
 #. Description
