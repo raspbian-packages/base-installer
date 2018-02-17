@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2010-09-28 22:48+0000\n"
-"PO-Revision-Date: 2018-02-03 14:48+0500\n"
+"PO-Revision-Date: 2018-02-08 14:24+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: tg\n"
@@ -42,8 +42,8 @@ msgid ""
 "of the existing files may be overwritten."
 msgstr ""
 "Низоми файлии таъинотӣ дорои файлҳо аз насбкунии қаблӣ мебошад. Ин файлҳо "
-"метавонанд сабабҳои мушкилиҳо бо раванди насбкунӣ гарданд, ва агар шумо "
-"идома диҳед, баъзе аз файлҳоимавҷудбуда метавонанд рӯйҳамнависӣ шаванд."
+"метавонанд сабабҳои мушкилиҳо бо раванди насбкунӣ гарданд ва агар шумо идома "
+"диҳед, баъзе аз файлҳои мавҷудбуда метавонанд рӯйҳамнависӣ шаванд."
 
 #. Type: error
 #. Description
@@ -61,7 +61,7 @@ msgid ""
 "target. The partitioner and formatter should have done this for you."
 msgstr ""
 "Пеш аз идома додани насбкунӣ, низоми файлии решагӣ бояд дар /target васл "
-"карда шавад. Василаи қисмбандӣ ва форматкунӣ бояд онро ба шумо иҷро кунад."
+"карда шавад. Василаи қисмбандӣ ва шаклбандӣ бояд онро ба шумо иҷро кунад."
 
 #. Type: error
 #. Description
@@ -80,8 +80,8 @@ msgid ""
 "install."
 msgstr ""
 "Насбкунӣ ба низоми файлии таъинотӣ бекор карда шуд. Пеш аз идомадиҳии "
-"насбкунӣ, шумо бояд ба қафо баргардед ва низоми файлии таъинотиро тоза ё "
-"формат кунед."
+"насбкунӣ, шумо бояд ба қафо гузаред ва низоми файлии таъинотиро тоза ё "
+"шаклбандӣ намоед."
 
 #. Type: text
 #. Description
@@ -169,7 +169,7 @@ msgid ""
 "installable CD-ROM was found and no valid mirror was configured."
 msgstr ""
 "Насбкунанда роҳи насб кардани низоми асосиро пайдо накард. Ягон CD-ROM-и "
-"насбшаванда ёфт нашуд, ва ягон оина танзим карда нашуд."
+"насбшаванда ёфт нашуд ва ягон оина танзим карда нашуд."
 
 #. Type: error
 #. Description
@@ -305,8 +305,8 @@ msgid ""
 msgstr ""
 "Ин рӯйхат абзорҳои дастрасро намоиш медиҳад. Агар шумо мутмаин набошед, ки "
 "кадоми абзор бояд интихоб карда шавад, шумо бояд абзори пешфарзро интихоб "
-"кунед. Агар роҳандозии низоми шумо иҷро нашавад, метавонед насбкуниро "
-"тавассути имконоти дигар такрор кунед."
+"намоед. Агар роҳандозии низоми шумо иҷро нашавад, метавонед насбкуниро "
+"тавассути имконоти дигар такрор намоед."
 
 #. Type: error
 #. Description
@@ -371,7 +371,7 @@ msgid ""
 "smaller targeted initrd there is a very small chance that not all needed "
 "drivers are included."
 msgstr ""
-"initrd-и умумӣ аз initrd-и ҳадафӣ калонтар мебошад, ва ҳатто метавонад он "
+"initrd-и умумӣ аз initrd-и ҳадафӣ калонтар мебошад ва ҳатто метавонад он "
 "қадар калон бошад, ки баъзе худроҳандозиҳо наметавонанд онро бор кунанд, "
 "аммо бартарии он дар он аст, ки он метавонад барои роҳандозии низоми ҳадафӣ "
 "дар тақрибан ҳамаи сахтафзор истифода шавад. Бо initrd-и хурдтари ҳадафӣ, "
@@ -427,7 +427,7 @@ msgid ""
 "make the system bootable from the hard drive."
 msgstr ""
 "Рӯйхат ҳастаҳои мавҷудро намоиш медиҳад. Лутфан, яке аз онҳоро интихоб "
-"кунед, то ин ки низом аз диски сахт роҳандозӣ шавад."
+"намоед, то ин ки низом аз диски сахт роҳандозӣ шавад."
 
 #. Type: boolean
 #. Description
@@ -452,8 +452,8 @@ msgid ""
 "kernel later. This is only recommended for experts, otherwise you will "
 "likely end up with a machine that doesn't boot."
 msgstr ""
-"Шумо метавонед кӯшиш кунед, ки бе ҳаста идома диҳед, ва ҳастаи худро баъдтар "
-"ба таври дастӣ насб кунед. Ин танҳо барои мутахассисон тавсия мешавад, ба "
+"Шумо метавонед кӯшиш намоед, ки бе ҳаста идома диҳед ва ҳастаи худро баъдтар "
+"ба таври дастӣ насб намоед. Ин танҳо барои мутахассисон тавсия мешавад, ба "
 "таври дигар дар натиҷа компютери шумо роҳандозӣ намешавад."
 
 #. Type: error
@@ -539,7 +539,7 @@ msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a bad "
 "CD, depending on your installation method."
 msgstr ""
-"${SUBST0} бозёбӣ намешавад. Вобаста аз тарзи насби сисӣема, эҳтимол аст, ки "
+"${SUBST0} бозёбӣ намешавад. Вобаста аз тарзи насби низом, эҳтимол аст, ки "
 "шабака мушкилӣ дорад ё диски CD вайрон аст."
 
 #. Type: error
@@ -552,7 +552,7 @@ msgid ""
 "If you are installing from CD-R or CD-RW, burning the CD at a lower speed "
 "may help."
 msgstr ""
-"Агар шумо аз диски CD-R ё CD-RW насб кунед, сабт кардани диски CD дар "
+"Агар шумо аз диски CD-R ё CD-RW насб намоед, сабт кардани диски CD дар "
 "суръати паст кумак мерасонад."
 
 #. Type: text
@@ -710,7 +710,7 @@ msgstr "Танзимкунии ${SUBST0}..."
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"
-msgstr "Санҷиши имзои барориш "
+msgstr "Санҷиши имзои барориш"
 
 #. Type: text
 #. Description
