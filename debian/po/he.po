@@ -28,14 +28,14 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2010-09-28 22:48+0000\n"
-"PO-Revision-Date: 2018-02-06 08:37+0000\n"
+"PO-Revision-Date: 2018-03-19 21:38+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Type: boolean
 #. Description
@@ -319,7 +319,7 @@ msgstr ""
 #. :sl3:
 #: ../bootstrap-base.templates:9001
 msgid "Unsupported initrd generator"
-msgstr "יוצר initrd לא נתמך"
+msgstr "מחולל ה־initrd לא נתמך"
 
 #. Type: error
 #. Description
@@ -328,28 +328,28 @@ msgstr "יוצר initrd לא נתמך"
 msgid ""
 "The package ${GENERATOR} that was selected to generate the initrd is not "
 "supported."
-msgstr "החבילה ${GENERATOR} שנבחרה ליצירת initrd אינה נתמכת."
+msgstr "החבילה ${GENERATOR} שנבחרה ליצירת ה־initrd אינה נתמכת."
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "generic: include all available drivers"
-msgstr "גנרי: כלול את כל מנהלי ההתקנים הזמינים"
+msgstr "גנרי: לכלול את כל מנהלי ההתקנים הזמינים"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "targeted: only include drivers needed for this system"
-msgstr "ייעודי: כלול רק את מנהלי ההתקנים הדרושים למערכת זו"
+msgstr "ייעודי: לכלול רק את מנהלי ההתקנים הדרושים למערכת זו"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../bootstrap-base.templates:10002
 msgid "Drivers to include in the initrd:"
-msgstr "מנהלי התקנים שייכללו ב-initrd:"
+msgstr "מנהלי התקנים שייכללו ב־initrd:"
 
 #. Type: select
 #. Description
@@ -360,7 +360,7 @@ msgid ""
 "file system. It therefore needs to contain all drivers and supporting "
 "programs required to do that."
 msgstr ""
-"המטרה העיקרית של initrd היא לאפשר לליבה לעגון את שורש מערכת הקבצים.  לכן "
+"המטרה העיקרית של initrd היא לאפשר לליבה לעגון את שורש מערכת הקבצים. לכן "
 "initrd צריך לכלול את כל מנהלי ההתקנים ויישומי עזר הדרושים לשם כך."
 
 #. Type: select
@@ -374,10 +374,10 @@ msgid ""
 "smaller targeted initrd there is a very small chance that not all needed "
 "drivers are included."
 msgstr ""
-"initrd גנרי הינו הרבה יותר גדול מ-initrd ייעודי, ועלול להיות גדול מדי בשביל "
-"מנהלי איתחול מסויימים שאז לא יוכלו לאתחל באמצעותו.  אבל יש לו היתרון שניתן "
-"להשתמש בו כדי לאתחל את מערכת היעד על כמעט כל חומרה. בשימוש ב-initrs ייעודי, "
-"יש סיכוי קטן מאוד שלא ייכללו כל מנהלי ההתקנים הדרושים."
+"initrd גנרי גדול משמעותית מאחד ייעודי, מה גם שהוא עשוי להיות כה גדול עד שחלק "
+"ממנהלי האתחול לא יצליחו לטעון אותו ועם זאת יש לו את היתרון שניתן להשתמש בו "
+"לאתחול מערכת היעד כמעט עם כל סוג חומרה. עם ה־initrd הקטן והייעודי קיים סיכוי "
+"קטן שלא כל מנהלי ההתקנים נכללים בו."
 
 #. Type: error
 #. Description
