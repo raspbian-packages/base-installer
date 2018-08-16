@@ -1,9 +1,22 @@
-base-installer (1.181+rpi1) buster-staging; urgency=medium
+base-installer (1.182+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 29 Mar 2018 19:27:13 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 16 Aug 2018 10:42:06 +0000
+
+base-installer (1.182) unstable; urgency=medium
+
+  * Team upload
+
+  [ Cyril Brulebois ]
+  * Update Vcs-{Browser,Git} to point to salsa (alioth's replacement).
+
+  [ Updated translations ]
+  * Swedish (sv.po) by Anders Jonsson
+  * Simplified Chinese (zh_CN.po) by Boyuan Yang
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 10 Aug 2018 22:28:14 +0200
 
 base-installer (1.181) unstable; urgency=medium
 
