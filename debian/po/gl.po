@@ -16,14 +16,15 @@
 # Marce Villarino <mvillarino@users.sourceforge.net>, 2009.
 # marce villarino <mvillarino@users.sourceforge.net>, 2009.
 # Marce Villarino <mvillarino@gmail.com>, 2009.
-# Jorge Barreiro <yortx.barry@gmail.com>, 2010, 2011, 2012.
+# Jorge Barreiro <xurxo@findomundo.es>, 2010, 2011, 2012, 2013, 2014, 2015, 2017.
+# mantinan <github@manty.net>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: gl\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2010-09-28 22:48+0000\n"
-"PO-Revision-Date: 2012-10-11 00:57+0200\n"
-"Last-Translator: Jorge Barreiro <yortx.barry@gmail.com>\n"
+"PO-Revision-Date: 2018-09-18 21:24+0000\n"
+"Last-Translator: mantinan <github@manty.net>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
@@ -235,7 +236,7 @@ msgstr "Non foi posíbel instalar o sistema base"
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "The base system installation into /target/ failed."
-msgstr "Non foi posíbel instalar o sistema base en /target/"
+msgstr "A instalación do sistema base en /target/ fallou."
 
 #. Type: error
 #. Description
