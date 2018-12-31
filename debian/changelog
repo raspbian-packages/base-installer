@@ -1,9 +1,20 @@
-base-installer (1.184+rpi1) buster-staging; urgency=medium
+base-installer (1.185+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Sun, 04 Nov 2018 12:21:55 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Mon, 31 Dec 2018 09:44:54 +0000
+
+base-installer (1.185) unstable; urgency=medium
+  * Team upload
+
+  * Remove trailing whitespaces from changelog file, to fix lintian tag.
+
+  [ Updated translations ]
+  * Greek (el.po) by Vangelis Skarmoutsos
+  * Finnish (fi.po) by Juhani Numminen
+
+ -- Holger Wansing <hwansing@mailbox.org>  Tue, 25 Dec 2018 22:17:12 +0100
 
 base-installer (1.184) unstable; urgency=medium
 
@@ -551,7 +562,7 @@ base-installer (1.122) unstable; urgency=low
   [ Joey Hess ]
   * Remove base-installer/kernel/linux/initramfs-generators
     and vestigial support for yaird.
-  
+
   [ Matt Kraai ]
   * Use an initrd on mipsel/loongson-2f systems. Closes: #640418
 
@@ -653,7 +664,7 @@ base-installer (1.117) unstable; urgency=low
   * Support AMD CPU family 18 (thanks, Hsin-Yi, Chen; LP: #760490).
 
   [ Hector Oron ]
-  * Add armhf architecture support 
+  * Add armhf architecture support
 
   [ Updated translations ]
   * Bulgarian (bg.po) by Damyan Ivanov
@@ -744,7 +755,7 @@ base-installer (1.111) unstable; urgency=low
 base-installer (1.110) unstable; urgency=low
 
   * Team upload.
-  
+
   [ Ben Hutchings ]
   * Improve i386 kernel flavour selection. Closes: #589579
     - Prefer 686-bigmem flavour if it is needed to access all RAM
@@ -758,7 +769,7 @@ base-installer (1.109) unstable; urgency=low
   [ Jeremie Koenig ]
   * Don't check /proc/mounts if it does not exist (ie. on Hurd) (Closes:
     Bug#588776).
-  
+
   [ Aurelien Jarno ]
   * Teach library.sh how to do a bind mount on Hurd and GNU/kFreeBSD.
 
