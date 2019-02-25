@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2010-09-28 22:48+0000\n"
-"PO-Revision-Date: 2018-03-19 21:38+0000\n"
+"PO-Revision-Date: 2019-01-18 15:20+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -509,7 +509,7 @@ msgstr "שגיאה בקבלת ${SUBST0}, קובץ החתימות של ה-Release
 #. SUBST0 is a gpg key ID
 #: ../bootstrap-base.templates:19001
 msgid "Release file signed by unknown key (key id ${SUBST0})"
-msgstr "קובץ ה-Release חתום ע\"י מפתח לא מוכר (מזהה מפתח ${SUBST0})"
+msgstr "קובץ ה־Release חתום במפתח לא מוכר (מזהה המפתח הוא ${SUBST0})"
 
 #. Type: error
 #. Description
@@ -870,4 +870,4 @@ msgstr "הליבה מותקנת…"
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "הליבה מותקנת - קבלה והתקנה של ${SUBST0}..."
+msgstr "הליבה מותקנת  - ${SUBST0} מתקבל ומותקן…"

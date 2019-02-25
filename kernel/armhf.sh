@@ -11,7 +11,7 @@ arch_get_kernel_flavour () {
 	    omap|mx5|vexpress)
 		echo "$SUBARCH armmp"
 		return 0 ;;
-	    generic)
+	    generic|efi)
 		case `arch_has_lpae` in
 		    y)
 			echo "armmp-lpae armmp"
