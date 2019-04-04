@@ -1,9 +1,32 @@
-base-installer (1.186+rpi1) buster-staging; urgency=medium
+base-installer (1.188+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Mon, 25 Feb 2019 12:49:13 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 04 Apr 2019 04:11:11 +0000
+
+base-installer (1.188) unstable; urgency=medium
+  * Team upload
+
+  [ Updated translations ]
+  * Ukrainian (uk.po) by Anton Gladky
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 28 Mar 2019 22:28:43 +0100
+
+base-installer (1.187) unstable; urgency=medium
+  * Team upload
+
+  [ Cyril Brulebois ]
+  * Drop all references to ixp4xx, support has been dropped.
+  * Drop all references to iop32x, support has been dropped.
+
+  [ Updated translations ]
+  * Arabic (ar.po) by Yaron Shahrabani
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Punjabi (pa.po) by Aman ALam
+  * Vietnamese (vi.po) by Trần Ngọc Quân
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 08 Mar 2019 19:02:56 +0100
 
 base-installer (1.186) unstable; urgency=medium
 

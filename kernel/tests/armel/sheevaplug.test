@@ -7,10 +7,8 @@ usable \
   linux-image-marvell \
   linux-image-4.4.2-1-marvell
 unusable \
-  linux-image-iop32x \
   linux-image-netwinder \
   linux-image-orion5x \
   linux-image-rpc \
   linux-image-s3c2410 \
-  linux-image-ixp4xx \
   linux-image-2.6.29-1-kirkwood-dbg

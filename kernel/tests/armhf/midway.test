@@ -11,12 +11,10 @@ usable \
   linux-image-armmp-lpae \
   linux-image-3.10-3-armmp-lpae
 unusable \
-  linux-image-iop32x \
   linux-image-netwinder \
   linux-image-orion5x \
   linux-image-rpc \
   linux-image-s3c2410 \
-  linux-image-ixp4xx \
   linux-image-kirkwood \
   linux-image-mx5 \
   linux-image-vexpress \
