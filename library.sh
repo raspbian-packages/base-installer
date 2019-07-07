@@ -660,10 +660,18 @@ EOF
 	# Advance progress bar to 30% of allocated space for install_kernel_linux
 	update_progress 30 100
 
+	# We really should install Recommends by default here (see #929667)
+	db_get base-installer/install-recommends
+	if [ "$RET" = true ]; then
+		KERNEL_INSTALL_OPTS=--with-recommends
+	else
+		KERNEL_INSTALL_OPTS=
+	fi
+
 	# Install the kernel
 	db_subst base-installer/section/install_kernel_package SUBST0 "$KERNEL"
 	db_progress INFO base-installer/section/install_kernel_package
-	log-output -t base-installer apt-install "$KERNEL" || kernel_install_failed=$?
+	log-output -t base-installer apt-install $KERNEL_INSTALL_OPTS "$KERNEL" || kernel_install_failed=$?
 
 	# Advance progress bar to 90% of allocated space for install_kernel_linux
 	update_progress 90 100

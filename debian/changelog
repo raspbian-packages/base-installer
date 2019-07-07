@@ -1,9 +1,23 @@
-base-installer (1.188+rpi1) buster-staging; urgency=medium
+base-installer (1.189+rpi1) buster-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 04 Apr 2019 04:11:11 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sun, 07 Jul 2019 14:44:29 +0000
+
+base-installer (1.189) unstable; urgency=high
+
+  * Team upload
+
+  [ Cyril Brulebois ]
+  * Remove Christian Perrier from Uploaders, with many thanks for all
+    his contributions over the years! (Closes: #927493)
+
+  [ Ben Hutchings ]
+  * Enable installation of Recommends while installing the kernel
+    (Closes: #929667)
+
+ -- Ben Hutchings <ben@decadent.org.uk>  Sun, 30 Jun 2019 16:53:44 +0100
 
 base-installer (1.188) unstable; urgency=medium
   * Team upload
