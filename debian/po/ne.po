@@ -26,7 +26,7 @@ msgstr ""
 "POT-Creation-Date: 2010-09-28 22:48+0000\n"
 "PO-Revision-Date: 2017-12-17 18:40+0000\n"
 "Last-Translator: Jeewal Kunwar <jeewalkunwar1@gmail.com>\n"
-"Language-Team: American English <kde-i18n-doc@kde.org>\n"
+"Language-Team: Nepali <info@mpp.org.np>\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -407,9 +407,6 @@ msgid ""
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" means \"no kernel\" ]"
 msgstr ""
-"कुनै पनि होइन[ कोष्ठ भित्र के छ त्यसलाई अनुवाद नगर्नुहोस् र तपाईँको भाषामा कुनै पनि कोष्ठ "
-"बिनै \"कुनैपनि होईन\" शव्दलाई अनुवाद मा मात्र राख्नुहोस् । यो \"कुनैपनि होईन\" ले \"कर्नेल "
-"होईन\" भन्ने अर्थ राख्दछ । ]"
 
 #. Type: select
 #. Description

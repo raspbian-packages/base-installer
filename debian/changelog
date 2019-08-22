@@ -1,9 +1,26 @@
-base-installer (1.189+rpi1) buster-staging; urgency=medium
+base-installer (1.190+rpi1) bullseye-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Sun, 07 Jul 2019 14:44:29 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 22 Aug 2019 16:02:52 +0000
+
+base-installer (1.190) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Karsten Merker ]
+  * Add kernel selection for riscv64.
+
+  [ Updated translations ]
+  * Croatian (hr.po) by gogogogi
+  * Bulgarian (bg.po)
+  * Irish (ga.po)
+  * Kannada (kn.po)
+  * Nepali (ne.po)
+  * Tibetan (bo.po)
+
+ -- Karsten Merker <merker@debian.org>  Thu, 15 Aug 2019 20:44:08 +0200
 
 base-installer (1.189) unstable; urgency=high
 
