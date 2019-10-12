@@ -9,7 +9,7 @@
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 #
 # Copyright (C) 2010 Free Software Foundation
-# Sveinn í Felli <sv1@fellsnet.is>, 2018.
+# Sveinn í Felli <sv1@fellsnet.is>, 2018, 2019.
 #
 # Translations from iso-codes:
 # Copyright (C) 2002,2003, 2010, 2011, 2012 Free Software Foundation, Inc.
@@ -24,8 +24,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
-"POT-Creation-Date: 2010-09-28 22:48+0000\n"
-"PO-Revision-Date: 2018-01-04 06:20+0000\n"
+"POT-Creation-Date: 2019-09-19 16:20+0000\n"
+"PO-Revision-Date: 2019-09-22 13:28+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
 "Language: is\n"
@@ -174,11 +174,11 @@ msgstr "Get ekki sett upp grunnkerfi"
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 msgid ""
-"The installer cannot figure out how to install the base system. No "
-"installable CD-ROM was found and no valid mirror was configured."
+"The installer cannot figure out how to install the base system. It found no "
+"installable image, and no valid mirror was configured."
 msgstr ""
 "Uppsetningarforritið getur ekki  fundið út hvernig á að setja upp "
-"grunnkerfið. Enginn uppsetjanlegur geisladiskur fannst og enginn réttmætur "
+"grunnkerfið, enginn uppsetjanlegur gagnamiðill fannst og enginn réttmætur "
 "spegill var settur upp."
 
 #. Type: error
@@ -541,11 +541,11 @@ msgstr "Ekki rétt útgáfu (Release) skrá: engin færsla fyrir ${SUBST0}."
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
 msgid ""
-"Couldn't retrieve ${SUBST0}. This may be due to a network problem or a bad "
-"CD, depending on your installation method."
+"Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
+"media, depending on your installation method."
 msgstr ""
 "Gat ekki náð í ${SUBST0}. Þetta gæti verið vegna sambandsleysis á neti eða "
-"galla í geisladiski, fer eftir uppsetningaraðferð."
+"galla í gagnamiðli, fer eftir uppsetningaraðferð."
 
 #. Type: error
 #. Description
@@ -712,6 +712,7 @@ msgstr "Stilli ${SUBST0}..."
 
 #. Type: text
 #. Description
+#. :sl1:
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"

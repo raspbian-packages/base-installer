@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
-"POT-Creation-Date: 2010-09-28 22:48+0000\n"
+"POT-Creation-Date: 2019-09-19 16:20+0000\n"
 "PO-Revision-Date: 2018-11-23 06:07+0000\n"
 "Last-Translator: Tennom <tankola@ymail.com, tennomyathog@gmail.com>\n"
 "Language-Team: bo <translation-team-bo@lists.sourceforge.net>\n"
@@ -156,9 +156,13 @@ msgstr "རྨང་གཞིའི་མ་ལག་སྒྲིག་འཇུ
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
+#, fuzzy
+#| msgid ""
+#| "The installer cannot figure out how to install the base system. No "
+#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
-"The installer cannot figure out how to install the base system. No "
-"installable CD-ROM was found and no valid mirror was configured."
+"The installer cannot figure out how to install the base system. It found no "
+"installable image, and no valid mirror was configured."
 msgstr ""
 "སྒྲིག་འཇུག་ཆས་ཀྱིས་རྨང་གཞིའི་མ་ལག་དེ་གང་འདྲ་བྱས་ནས་སྒྲིག་འཇུག་བྱེད་དགོས་མི་ཤེས་པ། སྒྲིག་འཇུག་རུང་བའི་CD-"
 "ROM དང་ཡང་ན་ཕན་ནུས་ཡོད་པའི་དྲ་ཚིགས་ཞིག་མ་རྙེད་པ"
@@ -506,9 +510,13 @@ msgstr "ཕན་མེད་ཡིན་པའི་འགྲེམ་སྤེ
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
+#, fuzzy
+#| msgid ""
+#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
+#| "bad CD, depending on your installation method."
 msgid ""
-"Couldn't retrieve ${SUBST0}. This may be due to a network problem or a bad "
-"CD, depending on your installation method."
+"Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
+"media, depending on your installation method."
 msgstr "${SUBST0} ཐོབ་མི་ཐུབ་པ། འདི་དྲ་བའི་སྐྱོན་ཞིག་ཡིན་པའམ་ཡང་ན་འོད་སྡེར་སྐྱོན་ཅན་ཞིག་ཡིན། "
 
 #. Type: error
@@ -676,6 +684,7 @@ msgstr "${SUBST0} སྒྲིག་འགོད་བཞིན་པ..."
 
 #. Type: text
 #. Description
+#. :sl1:
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"

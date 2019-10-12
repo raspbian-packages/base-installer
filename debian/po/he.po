@@ -27,8 +27,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
-"POT-Creation-Date: 2010-09-28 22:48+0000\n"
-"PO-Revision-Date: 2019-02-28 22:08+0000\n"
+"POT-Creation-Date: 2019-09-19 16:20+0000\n"
+"PO-Revision-Date: 2019-09-22 13:28+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -175,11 +175,11 @@ msgstr "לא ניתן להתקין את מערכת הבסיס"
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 msgid ""
-"The installer cannot figure out how to install the base system. No "
-"installable CD-ROM was found and no valid mirror was configured."
+"The installer cannot figure out how to install the base system. It found no "
+"installable image, and no valid mirror was configured."
 msgstr ""
-"תוכנית ההתקנה לא יכולה להבין כיצד להתקין את מערכת הבסיס. לא נמצא תקליטור "
-"התקנה ולא הוגדר אתר מראה תקין."
+"תכנית ההתקנה לא יכולה להבין כיצד להתקין את מערכת הבסיס. לא נמצאה דמות להתקנה "
+"ולא הוגדר אתר מראה תקין."
 
 #. Type: error
 #. Description
@@ -532,10 +532,10 @@ msgstr "הקובץ Release לא חוקי: אין רשומה עבור ${SUBST0}."
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
 msgid ""
-"Couldn't retrieve ${SUBST0}. This may be due to a network problem or a bad "
-"CD, depending on your installation method."
+"Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
+"media, depending on your installation method."
 msgstr ""
-"לא ניתן להביא את ${SUBST0}. יכול להיות בגלל בעיית רשת או תקליטור דפוק, תלוי "
+"לא ניתן להביא את ${SUBST0}. יכול להיות בגלל בעיית רשת או אמצעי פגום, תלוי "
 "בשיטת ההתקנה."
 
 #. Type: error
@@ -703,6 +703,7 @@ msgstr "מתבצעת הגדרה של ${SUBST0}…"
 
 #. Type: text
 #. Description
+#. :sl1:
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"

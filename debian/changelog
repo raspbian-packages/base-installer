@@ -1,9 +1,22 @@
-base-installer (1.190+rpi1) bullseye-staging; urgency=medium
+base-installer (1.191+rpi1) bullseye-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 22 Aug 2019 16:02:52 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sat, 12 Oct 2019 11:44:06 +0000
+
+base-installer (1.191) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Holger Wansing ]
+  * Rephrase templates, to rename "CD"/"CD-ROM" into "installation media"
+    (and add missing sublevel definition).
+
+  [ Aurelien Jarno ]
+  * Stop installing the apt-transport-https transitional package.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 06 Oct 2019 21:03:40 +0200
 
 base-installer (1.190) unstable; urgency=medium
 
