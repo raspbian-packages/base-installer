@@ -39,7 +39,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-19 16:20+0000\n"
+"POT-Creation-Date: 2019-11-02 20:56+0100\n"
 "PO-Revision-Date: 2019-09-28 14:12+0100\n"
 "Last-Translator: Holger Wansing <hwansing@mailbox.org>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -316,12 +316,14 @@ msgstr "Es ist der folgende Fehler aufgetreten:"
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
 msgstr "Werkzeug zum Erzeugen der Boot-initrd:"
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid ""
 "The list shows the available tools. If you are unsure which to select, you "

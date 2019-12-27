@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-19 16:20+0000\n"
+"POT-Creation-Date: 2019-11-02 20:56+0100\n"
 "PO-Revision-Date: 2019-02-13 15:09+0000\n"
 "Last-Translator: deepu2 <deepuhsdeepak@gmail.com>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
@@ -310,12 +310,14 @@ msgstr "ಈ ಕೆಳಗಿನ ದೋಷ ಸಂಭವಿಸಿದೆ:"
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
 msgstr "'ಬೂಟ್ ಇನಿಟ್ ಆರ್ ಡೀ' ಸೃಷ್ಟಿಸುವ ಉಪಕರಣ "
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid ""
 "The list shows the available tools. If you are unsure which to select, you "

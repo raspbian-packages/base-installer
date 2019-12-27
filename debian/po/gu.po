@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: d-i\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-19 16:20+0000\n"
+"POT-Creation-Date: 2019-11-02 20:56+0100\n"
 "PO-Revision-Date: 2008-08-07 11:42+0530\n"
 "Last-Translator: Kartik Mistry <kartik.mistry@gmail.com>\n"
 "Language-Team: Gujarati <team@utkarsh.org>\n"
@@ -290,12 +290,14 @@ msgstr "નીચે પ્રમાણેની ક્ષતિ ઉદભવી
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
 msgstr "બૂટ initrd બનાવવામાં ઉપયોગ થતાં સાધન:"
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid ""
 "The list shows the available tools. If you are unsure which to select, you "

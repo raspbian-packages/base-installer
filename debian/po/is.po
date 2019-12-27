@@ -24,7 +24,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Icelandic (Debian Installer)\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-19 16:20+0000\n"
+"POT-Creation-Date: 2019-11-02 20:56+0100\n"
 "PO-Revision-Date: 2019-09-22 13:28+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <translation-team-is@lists.sourceforge.net>\n"
@@ -300,12 +300,14 @@ msgstr "Eftirfarandi villa kom upp:"
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
 msgstr "Tól til að búa til initrd fyrir ræsingu:"
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid ""
 "The list shows the available tools. If you are unsure which to select, you "

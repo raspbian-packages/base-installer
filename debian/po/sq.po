@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-19 16:20+0000\n"
+"POT-Creation-Date: 2019-11-02 20:56+0100\n"
 "PO-Revision-Date: 2017-09-04 19:14+0200\n"
 "Last-Translator: Silva Arapi <silva.arapi@gmail.com>\n"
 "Language-Team: Albanian <debian-l10n-albanian@lists.debian.org>\n"
@@ -298,12 +298,14 @@ msgstr "Ndodhi gabimi i mëposhtëm:"
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
 msgstr "Vegla e përdorur për përftimin e initrd-së së nisjes:"
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid ""
 "The list shows the available tools. If you are unsure which to select, you "

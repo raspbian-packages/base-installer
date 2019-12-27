@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_ne\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
-"POT-Creation-Date: 2019-09-19 16:20+0000\n"
+"POT-Creation-Date: 2019-11-02 20:56+0100\n"
 "PO-Revision-Date: 2017-12-17 18:40+0000\n"
 "Last-Translator: Jeewal Kunwar <jeewalkunwar1@gmail.com>\n"
 "Language-Team: Nepali <info@mpp.org.np>\n"
@@ -298,12 +298,14 @@ msgstr "निम्न त्रुटि रहन गयो:"
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
 msgstr "boot initrd उत्पन्न गर्न प्रयोग गरिने उपकरण:"
 
 #. Type: select
 #. Description
+#. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid ""
 "The list shows the available tools. If you are unsure which to select, you "
