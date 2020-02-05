@@ -28,7 +28,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2019-09-22 13:28+0000\n"
+"PO-Revision-Date: 2020-01-25 21:22+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew (https://www.transifex.com/yaron/teams/79473/he/)\n"
 "Language: he\n"
@@ -502,7 +502,7 @@ msgstr "כישלון בהשגת הקובץ Release ${SUBST0}."
 #. SUBST0 is a Release.gpg file name
 #: ../bootstrap-base.templates:18001
 msgid "Failed getting Release signature file ${SUBST0}."
-msgstr "שגיאה בקבלת ${SUBST0}, קובץ החתימות של ה-Release."
+msgstr "שגיאה בקבלת ${SUBST0}, קובץ החתימות של ה־Release."
 
 #. Type: error
 #. Description
@@ -550,8 +550,8 @@ msgid ""
 "If you are installing from CD-R or CD-RW, burning the CD at a lower speed "
 "may help."
 msgstr ""
-"אם ההתקנה מבוצעת מ-CD-R או CD-RW, צריבה של ה-CD במהירות נמוכה יותר יכולה "
-"לעזור."
+"אם ההתקנה מתבצעת מתקליטור צרוב או תקליטור לצריבה רב פעמית, צריבה של התקליטור "
+"במהירות נמוכה יותר יכולה לעזור."
 
 #. Type: text
 #. Description

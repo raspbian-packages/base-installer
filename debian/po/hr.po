@@ -17,14 +17,15 @@
 #   Vlatko Kosturjak, 2001
 #   Tomislav Krznar <tomislav.krznar@gmail.com>, 2012, 2013, 2014, 2015.
 #   Valentin Vidic <Valentin.Vidic@CARNet.hr>, 2017
+#   Milo Ivir <mail@milotype.de>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Debian-installer 1st-stage master file HR\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2019-07-19 19:31+0000\n"
-"Last-Translator: gogogogi <trebelnik2@gmail.com>\n"
+"PO-Revision-Date: 2020-01-01 19:21+0000\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: Croatian <lokalizacija@linux.hr>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
@@ -173,16 +174,12 @@ msgstr "Nemoguća instalacija osnovnog sustava"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"Instalacijski program ne može instalirati osnovni sustav. Nije pronađen "
-"instalacijski CD-ROM, a nije podešen ni valjani zrcalni poslužitelj."
+"Instalacijski program ne može instalirati osnovni sustav. Nije pronađena "
+"instalirajuća slika i valjani zrcalni poslužitelj nije podešen."
 
 #. Type: error
 #. Description
@@ -545,16 +542,12 @@ msgstr "Nevaljana datoteka izdanja: nema upisa za ${SUBST0}."
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
 "Nemoguće je preuzeti ${SUBST0}. Ovo se može dogoditi zbog mrežnog problema "
-"ili zbog oštećenog CD-a, ovisno o vašem načinu instalacije."
+"ili zbog oštećenog medija, ovisno o vašem načinu instalacije."
 
 #. Type: error
 #. Description
