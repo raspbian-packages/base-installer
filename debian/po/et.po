@@ -8,7 +8,7 @@
 # This translation is released under the same licence as the debian-installer.
 #
 # Siim Põder <siim@p6drad-teel.net>, 2007.
-# Kristjan Räts <kristjanrats@gmail.com>, 2017.
+# Kristjan Räts <kristjanrats@gmail.com>, 2017, 2018, 2020.
 #
 # Thanks to following Ubuntu Translators for review and fixes:
 #     Laur Mõtus
@@ -32,7 +32,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2017-11-19 13:25+0000\n"
+"PO-Revision-Date: 2020-04-12 08:11+0000\n"
 "Last-Translator: Kristjan Räts <kristjanrats@gmail.com>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -179,16 +179,13 @@ msgstr "Alussüsteemi pole võimalik paigaldada"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
 "Paigaldaja ei suuda leida viisi alussüsteemi paigaldamiseks. Ei leitud ühtki "
-"paigaldamiskõlblikku laserketast ega seadistatud ühtki sobivat peeglit."
+"paigaldamiskõlblikku tõmmist ning mitte ühtegi kehtivat peeglit ei "
+"seadistatud."
 
 #. Type: error
 #. Description
@@ -544,16 +541,12 @@ msgstr "Kehv Release fail: ${SUBST0} jaoks pole sissekannet."
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
 "Ei suutnud ${SUBST0} hankida. Põhjus võib vastavalt paigaldusmeetodile olla "
-"kas võrguprobleem või vigane plaat."
+"kas võrgu probleem või vigane meedia."
 
 #. Type: error
 #. Description
