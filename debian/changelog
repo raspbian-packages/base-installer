@@ -1,9 +1,23 @@
-base-installer (1.194+rpi1) bullseye-staging; urgency=medium
+base-installer (1.195+rpi1) bullseye-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Sat, 16 May 2020 06:36:01 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Thu, 23 Jul 2020 20:37:37 +0000
+
+base-installer (1.195) unstable; urgency=medium
+
+  * Team upload
+
+  [ наб ]
+  * Pass "--extra-suites=unreleased" to debootstrap for ports architectures,
+    fixing, e.g., hurd installs from mini ISOs (Closes: Bug#964248).
+
+  [ Updated translations ]
+  * Icelandic (is.po) by Sveinn í Felli
+  * Norwegian Bokmal (nb.po) by Allan Nordhøy
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 12 Jul 2020 13:30:23 +0200
 
 base-installer (1.194) unstable; urgency=medium
 

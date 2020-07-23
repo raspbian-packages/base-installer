@@ -96,6 +96,9 @@ install_base_system () {
 	if [ "${EXCLUDES}" ]; then
 		exclude="--exclude=${EXCLUDES}"
 	fi
+	if is_ports_architecture "${ARCH}"; then
+		extra_suites="--extra-suites=unreleased"
+	fi
 	sigcheck="--no-check-gpg"
 	if [ "$PROTOCOL" = http ] || [ "$PROTOCOL" = ftp ]; then
 		if type gpgv >/dev/null; then
@@ -149,6 +152,7 @@ install_base_system () {
 			--debian-installer \
 			--resolve-deps \
 			${include} ${exclude} \
+			${extra_suites} \
 			${sigcheck} \
 			${DEBOOTSTRAP_VARIANT} \
 			${DISTRIBUTION} /target \
