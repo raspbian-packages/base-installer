@@ -1,9 +1,27 @@
-base-installer (1.196+rpi1) bullseye-staging; urgency=medium
+base-installer (1.197+rpi1) bullseye-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Tue, 25 Aug 2020 19:12:54 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Mon, 28 Sep 2020 07:52:50 +0000
+
+base-installer (1.197) unstable; urgency=medium
+
+  * Team upload
+
+  [ Ben Hutchings ]
+  * kernel/tests: Generalise variables for kernel flavour lists
+  * kernel/tests: Update Linux tests to try version 5.7
+  * kernel: Fix arch_get_kernel on various architectures to accept
+    Linux 5.x
+  * kernel: hppa: Stop preferring -smp metapackages on SMP
+
+  [ Updated translations ]
+  * French (fr.po) by Baptiste Jammet
+  * Spanish (es.po) by Javier Fernández-Sanguino
+  * Polish (pl.po) by Bartosz Feński
+
+ -- Holger Wansing <hwansing@mailbox.org>  Mon, 21 Sep 2020 22:16:41 +0200
 
 base-installer (1.196) unstable; urgency=medium
 

@@ -24,13 +24,13 @@
 #   Grégoire Colbert <gregus@linux-mandrake.com>, 2001.
 #   Tobias Quathamer <toddy@debian.org>, 2007, 2008.
 # Alban Vidal <alban.vidal@zordhak.fr>, 2018.
-# Baptiste Jammet <baptiste@mailoo.org>, 2019.
+# Baptiste Jammet <baptiste@mailoo.org>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: fr\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2019-10-15 11:09+0100\n"
+"PO-Revision-Date: 2020-08-17 10:18+0100\n"
 "Last-Translator: Baptiste Jammet <baptiste@mailoo.org>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -355,14 +355,14 @@ msgstr ""
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "generic: include all available drivers"
-msgstr "image générique : comporte tous les pilotes disponibles"
+msgstr "image générique : comporte tous les pilotes disponibles"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "targeted: only include drivers needed for this system"
-msgstr "image ciblée : seulement les pilotes nécessaires pour ce système"
+msgstr "image ciblée : seulement les pilotes nécessaires pour ce système"
 
 #. Type: select
 #. Description
@@ -551,7 +551,7 @@ msgstr "Fichier « Release » non valable : aucun composant n'est valable."
 #. SUBST0 is a filename
 #: ../bootstrap-base.templates:21001
 msgid "Invalid Release file: no entry for ${SUBST0}."
-msgstr "Fichier « Release » invalide : pas d'entrée pour ${SUBST0}."
+msgstr "Fichier « Release » non valable : pas d'entrée pour ${SUBST0}."
 
 #. Type: error
 #. Description
