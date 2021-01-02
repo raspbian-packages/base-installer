@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2020-10-23 16:26+0000\n"
+"PO-Revision-Date: 2020-11-15 18:28+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -493,7 +493,7 @@ msgid ""
 "An error was returned while trying to install the ${PACKAGE} package onto "
 "the target system."
 msgstr ""
-"Una error s'es produita pendent la temptativa d'installacion del paquet "
+"Una error s'es producha pendent la temptativa d'installacion del paquet "
 "${PACKAGE} cap al sistèma cibla."
 
 #. Type: error
@@ -525,7 +525,7 @@ msgstr "Lo fichièr Release es signat per una clau desconeguda (clau ${SUBST0})"
 #. :sl2:
 #: ../bootstrap-base.templates:20001
 msgid "Invalid Release file: no valid components."
-msgstr "Lo fichièr Release es pas valid : pas de component valid."
+msgstr "Lo fichièr Release es pas valid : cap de compausant pas valid."
 
 #. Type: error
 #. Description
@@ -773,7 +773,7 @@ msgstr "Resolucion de las dependéncias dels paquets necessaris..."
 #. SUBST1 is a mirror
 #: ../bootstrap-base.templates:49001
 msgid "Checking component ${SUBST0} on ${SUBST1}..."
-msgstr "Verificacion del component ${SUBST0} dins ${SUBST1}..."
+msgstr "Verificacion del compausant ${SUBST0} dins ${SUBST1}..."
 
 #. Type: text
 #. Description
