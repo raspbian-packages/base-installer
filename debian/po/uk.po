@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2019-03-20 22:31+0100\n"
+"PO-Revision-Date: 2021-01-02 22:03+0100\n"
 "Last-Translator: Anton Gladky <gladk@debian.org>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
@@ -57,7 +57,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:2001
 msgid "No file system mounted on /target"
-msgstr "Файлова система не змонтована у /target."
+msgstr "Файлова система не змонтована у /target"
 
 #. Type: error
 #. Description
@@ -76,7 +76,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:3001
 msgid "Not installing to unclean target"
-msgstr "Не встановлюємо на непорожній розділ."
+msgstr "Не встановлюємо на непорожній розділ"
 
 #. Type: error
 #. Description
@@ -174,9 +174,6 @@ msgstr "Неможливо встановити базову систему"
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 #, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
@@ -546,9 +543,6 @@ msgstr "Невірний файл Release: відсутній запис для 
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
 #, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
