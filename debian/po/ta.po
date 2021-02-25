@@ -7,22 +7,31 @@
 # Tamil messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
 # This file is distributed under the same license as debian-installer.
+# Jeyanthinath MuthuRam <jeyanthinath10@gmail.com>, 2020.
+# Vasudevan Tirumurti <agnihot3@gmail.com>, 2021.
 #
+#
+# Translations from iso-codes:
 # drtvasudevan <agnihot3@gmail.com>, 2006.
 # Damodharan Rajalingam <rdamodharan@gmail.com>, 2006.
-# Dr.T.Vasudevan <agnihot3@gmail.com>, 2007, 2008.
+# Dr.T.Vasudevan <drtvasudevan@gmail.com>, 2007, 2008, 2010.
+# Dr,T,Vasudevan <agnihot3@gmail.com>, 2010.
+#   Dr.T.Vasudevan <drtvasudevan@gmail.com>, 2007, 2008, 2011, 2012, 2015.
+#   Dwayne Bailey <dwayne@translate.org.za>, 2009.
+# I. Felix <ifelix25@gmail.com>, 2009, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: ta\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2008-09-04 16:51+0530\n"
-"Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
-"Language-Team: Tamil <Ubuntu-l10n-tam@lists.ubuntu.com>\n"
+"PO-Revision-Date: 2021-02-09 18:59+0000\n"
+"Last-Translator: Vasudevan Tirumurti <agnihot3@gmail.com>\n"
+"Language-Team: Tamil <<gnome-tamil-translation@googlegroups.com>>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -92,7 +101,7 @@ msgstr "அடிப்படை அமைப்பை நிறுவ தயா
 #. :sl1:
 #: ../base-installer.templates:5001 ../bootstrap-base.templates:30001
 msgid "Installing the base system"
-msgstr "அடிப்படை கணினி அமைப்பை நிறுவுகிறது."
+msgstr "அடிப்படை கணினி அமைப்பை நிறுவுகிறது"
 
 #. Type: text
 #. Description
@@ -153,7 +162,7 @@ msgstr "அடிப்படை அமைப்பு நிறுவவும�
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 msgid "Cannot install base system"
-msgstr "அடிப்படை அமைப்பை நிறுவ இயலாது."
+msgstr "அடிப்படை அமைப்பை நிறுவ இயலாது"
 
 #. Type: error
 #. Description
@@ -161,16 +170,12 @@ msgstr "அடிப்படை அமைப்பை நிறுவ இயல
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"அடிப்படை அமைப்பை நிறுவுவது எப்படி என தெரியவில்லை. நிறுவல் குறுந் தட்டு ஏதும் "
-"காணவில்லை. செல்லுபடியாகும் பிரதிபலிப்பான் ஏதும் அமைக்கப் படவில்லை."
+"அடிப்படை அமைப்பை நிறுவுவது எப்படி என தெரியவில்லை. நிறுவல் பிம்பம் ஏதும் காணவில்லை. "
+"செல்லுபடியாகும் பிரதிபலிப்பான் ஏதும் அமைக்கப் படவில்லை."
 
 #. Type: error
 #. Description
@@ -273,14 +278,14 @@ msgstr "அடிப்படை அமைப்பு நிறுவல் ப
 msgid ""
 "The debootstrap program exited with an error (return value ${EXITCODE})."
 msgstr ""
-"டீபூட்ஸ்ட்ராப் (debootstrap) நிரல் பிழையுடன் வெளியேறியது (return value ${EXITCODE})"
+"டீபூட்ஸ்ட்ராப் (debootstrap) நிரல் பிழையுடன் வெளியேறியது (return value ${EXITCODE})."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:6001
 msgid "The debootstrap program exited abnormally."
-msgstr "டீபூட்ஸ்ட்ராப் (debootstrap) நிரல் அசாதாரணமாக வெளியேறியது"
+msgstr "டீபூட்ஸ்ட்ராப் (debootstrap) நிரல் அசாதாரணமாக வெளியேறியது."
 
 #. Type: error
 #. Description
@@ -314,7 +319,7 @@ msgstr ""
 #. :sl3:
 #: ../bootstrap-base.templates:9001
 msgid "Unsupported initrd generator"
-msgstr "ஆதரவில்லாத இனிட்ஆர்டி (initrd) உருவாக்கும் கருவி."
+msgstr "ஆதரவில்லாத இனிட்ஆர்டி (initrd) உருவாக்கும் கருவி"
 
 #. Type: error
 #. Description
@@ -339,14 +344,14 @@ msgstr "பாரம்பரிய: கிடைக்கும் எல்ல
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "targeted: only include drivers needed for this system"
-msgstr "இலக்குக்குரிய: இந்த கணினிக்கு  தேவையான இயக்கிகள் மட்டும் உள்ளது"
+msgstr "இலக்குக்குரிய: இந்த கணினிக்கு தேவையான இயக்கிகள் மட்டும் உள்ளன"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../bootstrap-base.templates:10002
 msgid "Drivers to include in the initrd:"
-msgstr "இனிட்ரெட் இல் சேர்க்க வேண்டிய இயக்கிகள்: "
+msgstr "இனிட்ரெட் இல் சேர்க்க வேண்டிய இயக்கிகள்:"
 
 #. Type: select
 #. Description
@@ -465,7 +470,7 @@ msgstr "கருவை நிறுவ இயலவில்லை"
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "The installer cannot find a suitable kernel package to install."
-msgstr "நிறுவியால் சரியான கருவை நிறுவ இயலவில்லை"
+msgstr "நிறுவியால் தகுந்த கருவை நிறுவ இயலவில்லை."
 
 #. Type: error
 #. Description
@@ -498,7 +503,7 @@ msgstr "${SUBST0} வெளியீடு கோப்பை பெற இய�
 #. SUBST0 is a Release.gpg file name
 #: ../bootstrap-base.templates:18001
 msgid "Failed getting Release signature file ${SUBST0}."
-msgstr "${SUBST0} என்ற வெளியீட்டு கையெழுத்து கோப்பை பெறுவது தோல்வியுற்றது "
+msgstr "${SUBST0} என்ற வெளியீட்டு கையெழுத்து கோப்பை பெறுவது தோல்வியுற்றது."
 
 #. Type: error
 #. Description
@@ -506,7 +511,7 @@ msgstr "${SUBST0} என்ற வெளியீட்டு கையெழு
 #. SUBST0 is a gpg key ID
 #: ../bootstrap-base.templates:19001
 msgid "Release file signed by unknown key (key id ${SUBST0})"
-msgstr "வெளியீடு கோப்பு கையெழுத்து தெரியாத விசை (விசை அடையாளம்${SUBST0}) உடையது."
+msgstr "வெளியீடு கோப்பு கையெழுத்து தெரியாத விசை (விசை அடையாளம்${SUBST0}) உடையது"
 
 #. Type: error
 #. Description
@@ -529,16 +534,12 @@ msgstr "செல்லாது வெளியீடு கோப்பு ${S
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
 "${SUBST0} ஐ மீட்க இயலவில்லை. உங்கள் நிறுவல் முறையை பொறுத்து இது வலைப் பின்னல் "
-"பிரச்சினையால் இருக்கலாம். அல்லது மோசமான குறுந் தட்டால் இருக்கலாம். "
+"பிரச்சினையால் இருக்கலாம். அல்லது மோசமான ஊடகத்தால் இருக்கலாம்."
 
 #. Type: error
 #. Description
@@ -559,7 +560,7 @@ msgstr ""
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:23001
 msgid "Retrieving Release file"
-msgstr "வெளியீட்டு கோப்பை மீட்கிறது."
+msgstr "வெளியீட்டு கோப்பை மீட்கிறது"
 
 #. Type: text
 #. Description
@@ -567,7 +568,7 @@ msgstr "வெளியீட்டு கோப்பை மீட்கிற�
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:24001
 msgid "Retrieving Release file signature"
-msgstr "வெளியீட்டு கோப்பின் கையெழுத்தை மீட்கிறது."
+msgstr "வெளியீட்டு கோப்பின் கையெழுத்தை மீட்கிறது"
 
 #. Type: text
 #. Description
@@ -575,7 +576,7 @@ msgstr "வெளியீட்டு கோப்பின் கையெழ�
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:25001
 msgid "Finding package sizes"
-msgstr "தொகுப்புகளின் அளவை கண்டு பிடிக்கிறது."
+msgstr "தொகுப்புகளின் அளவை கண்டு பிடிக்கிறது"
 
 #. Type: text
 #. Description
@@ -583,7 +584,7 @@ msgstr "தொகுப்புகளின் அளவை கண்டு ப
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:26001
 msgid "Retrieving Packages files"
-msgstr "தொகுப்பு கோப்புகளை மீட்கிறது."
+msgstr "தொகுப்பு கோப்புகளை மீட்கிறது"
 
 #. Type: text
 #. Description
@@ -591,7 +592,7 @@ msgstr "தொகுப்பு கோப்புகளை மீட்கி�
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:27001
 msgid "Retrieving Packages file"
-msgstr "தொகுப்பு கோப்பை மீட்கிறது."
+msgstr "தொகுப்பு கோப்பை மீட்கிறது"
 
 #. Type: text
 #. Description
@@ -599,7 +600,7 @@ msgstr "தொகுப்பு கோப்பை மீட்கிறது.
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:28001
 msgid "Retrieving packages"
-msgstr "தொகுப்புகளை மீட்கிறது."
+msgstr "தொகுப்புகளை மீட்கிறது"
 
 #. Type: text
 #. Description
@@ -607,7 +608,7 @@ msgstr "தொகுப்புகளை மீட்கிறது."
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:29001
 msgid "Extracting packages"
-msgstr "தொகுப்புகளை பிரித்தெடுக்கிறது."
+msgstr "தொகுப்புகளை பிரித்தெடுக்கிறது"
 
 #. Type: text
 #. Description
@@ -618,7 +619,7 @@ msgstr "தொகுப்புகளை பிரித்தெடுக்�
 #. be installed on the base system because of dependency resolution
 #: ../bootstrap-base.templates:31001
 msgid "Installing core packages"
-msgstr "மையப் தொகுப்புகளை நிறுவுகிறது."
+msgstr "மையப் தொகுப்புகளை நிறுவுகிறது"
 
 #. Type: text
 #. Description
@@ -629,7 +630,7 @@ msgstr "மையப் தொகுப்புகளை நிறுவுக�
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:32001
 msgid "Unpacking required packages"
-msgstr "தேவையான தொகுப்புகளை பிரிக்கிறது."
+msgstr "தேவையான தொகுப்புகளை பிரிக்கிறது"
 
 #. Type: text
 #. Description
@@ -645,7 +646,7 @@ msgstr "தேவையான தொகுப்புகளை வடிவம�
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #: ../bootstrap-base.templates:34001
 msgid "Unpacking the base system"
-msgstr "அடிப்படை கணினி அமைப்பை பிரிக்கிறது."
+msgstr "அடிப்படை கணினி அமைப்பை பிரிக்கிறது"
 
 #. Type: text
 #. Description
@@ -654,7 +655,7 @@ msgstr "அடிப்படை கணினி அமைப்பை பிர
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #: ../bootstrap-base.templates:35001
 msgid "Configuring the base system"
-msgstr "அடிப்படை கணினி அமைப்பை வடிவமைக்கிறது."
+msgstr "அடிப்படை கணினி அமைப்பை வடிவமைக்கிறது"
 
 #. Type: text
 #. Description
@@ -709,7 +710,7 @@ msgstr "${SUBST0} ஐ வடிவமைக்கிறது...."
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"
-msgstr "வெளியீட்டு கோப்பின் கையெழுத்தை சரி பார்க்கிறது."
+msgstr "வெளியீட்டு கோப்பின் கையெழுத்தை சரி பார்க்கிறது"
 
 #. Type: text
 #. Description
@@ -812,7 +813,7 @@ msgstr "அடிப்படை தொகுப்புகளை நிறு�
 #. :sl1:
 #: ../bootstrap-base.templates:54001
 msgid "Unpacking the base system..."
-msgstr "அடிப்படை அமைப்பை அவிழ்க்கிறது"
+msgstr "அடிப்படை அமைப்பை அவிழ்க்கிறது..."
 
 #. Type: text
 #. Description
@@ -850,7 +851,7 @@ msgstr "கவனம்: ${INFO}"
 #. :sl2:
 #: ../bootstrap-base.templates:58001
 msgid "Retrying failed download of ${SUBST0}"
-msgstr "தோல்வியுற்ற ${SUBST0} இன் தரவிறக்கத்தை மீண்டும் முயற்சிக்கிறது."
+msgstr "தோல்வியுற்ற ${SUBST0} இன் தரவிறக்கத்தை மீண்டும் முயற்சிக்கிறது"
 
 #. Type: text
 #. Description
