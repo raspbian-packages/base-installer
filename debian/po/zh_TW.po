@@ -5,7 +5,7 @@
 #
 # Traditional Chinese messages for debian-installer.
 # Copyright (C) 2003 Software in the Public Interest, Inc.
-# Louies <louies0623@gmail.com>, 2019.
+# Louies <louies0623@gmail.com>, 2019, 2021.
 # Walter Cheuk <wwycheuk@gmail.com>, 2019.
 # This file is distributed under the same license as debian-installer.
 #
@@ -27,14 +27,15 @@
 #   JOE MAN <trmetal@yahoo.com.hk>, 2001.
 #   Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2005.
 #   Yao Wei (魏銘廷) <mwei@lxde.org>, 2012.
+#   Walter Cheuk <wwycheuk@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2019-09-26 08:54+0000\n"
-"Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
+"PO-Revision-Date: 2021-02-16 09:50+0000\n"
+"Last-Translator: louies0623 <louies0623@gmail.com>\n"
 "Language-Team: Debian-user in Chinese [Big5] <debian-chinese-big5@lists."
 "debian.org>\n"
 "Language: zh_TW\n"
@@ -104,7 +105,7 @@ msgstr ""
 #. :sl1:
 #: ../base-installer.templates:4001
 msgid "Preparing to install the base system..."
-msgstr "正在準備安裝基本系統……"
+msgstr "正在準備安裝基本系統…"
 
 #. Type: text
 #. Description
@@ -118,35 +119,35 @@ msgstr "安裝基本系統"
 #. :sl1:
 #: ../base-installer.templates:6001
 msgid "Running ${SCRIPT}..."
-msgstr "正在執行 ${SCRIPT}……"
+msgstr "正在執行 ${SCRIPT}…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "正在設定基本系統……"
+msgstr "正在設定基本系統…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:8001 ../bootstrap-base.templates:59001
 msgid "Configuring APT sources..."
-msgstr "正在設定 APT 來源……"
+msgstr "正在設定 APT 來源…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:9001
 msgid "Updating the list of available packages..."
-msgstr "正在更新可用的套件列表……"
+msgstr "正在更新可用的套件列表…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:10001
 msgid "Installing extra packages..."
-msgstr "正在安裝額外的套件……"
+msgstr "正在安裝額外的套件…"
 
 #. Type: text
 #. Description
@@ -154,7 +155,7 @@ msgstr "正在安裝額外的套件……"
 #. :sl1:
 #: ../base-installer.templates:11001
 msgid "Installing extra packages - retrieving and installing ${SUBST0}..."
-msgstr "安裝額外的套件 - 正在接收並安裝 ${SUBST0}……"
+msgstr "安裝額外的套件 - 正在接收並安裝 ${SUBST0}…"
 
 #. Type: text
 #. Description
@@ -662,7 +663,7 @@ msgstr "設定基本系統"
 #. :sl1:
 #: ../bootstrap-base.templates:36001
 msgid "${SECTION}: ${INFO}..."
-msgstr "${SECTION}: ${INFO}……"
+msgstr "${SECTION}: ${INFO}…"
 
 #. Type: text
 #. Description
@@ -670,7 +671,7 @@ msgstr "${SECTION}: ${INFO}……"
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:37001
 msgid "Validating ${SUBST0}..."
-msgstr "正在比對 ${SUBST0}……"
+msgstr "正在比對 ${SUBST0}…"
 
 #. Type: text
 #. Description
@@ -678,7 +679,7 @@ msgstr "正在比對 ${SUBST0}……"
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:38001
 msgid "Retrieving ${SUBST0}..."
-msgstr "正在接收 ${SUBST0}……"
+msgstr "正在接收 ${SUBST0}…"
 
 #. Type: text
 #. Description
@@ -686,7 +687,7 @@ msgstr "正在接收 ${SUBST0}……"
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:39001
 msgid "Extracting ${SUBST0}..."
-msgstr "正在解開 ${SUBST0}……"
+msgstr "正在解開 ${SUBST0}…"
 
 #. Type: text
 #. Description
@@ -694,7 +695,7 @@ msgstr "正在解開 ${SUBST0}……"
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:40001
 msgid "Unpacking ${SUBST0}..."
-msgstr "正在解開 ${SUBST0}……"
+msgstr "正在解開 ${SUBST0}…"
 
 #. Type: text
 #. Description
@@ -702,7 +703,7 @@ msgstr "正在解開 ${SUBST0}……"
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:41001
 msgid "Configuring ${SUBST0}..."
-msgstr "正在設定 ${SUBST0}……"
+msgstr "正在設定 ${SUBST0}…"
 
 #. Type: text
 #. Description
@@ -726,7 +727,7 @@ msgstr "有效的 Release 簽名 (鍵值 ${SUBST0})"
 #. :sl1:
 #: ../bootstrap-base.templates:44001
 msgid "Resolving dependencies of base packages..."
-msgstr "正在解析基本套件的相依性……"
+msgstr "正在解析基本套件的相依性…"
 
 #. Type: text
 #. Description
@@ -757,7 +758,7 @@ msgstr "所找到的基本套件已包含於必要套件之中: ${SUBST0}"
 #. :sl1:
 #: ../bootstrap-base.templates:48001
 msgid "Resolving dependencies of required packages..."
-msgstr "正在解析必要套件的相依性……"
+msgstr "正在解析必要套件的相依性…"
 
 #. Type: text
 #. Description
@@ -766,7 +767,7 @@ msgstr "正在解析必要套件的相依性……"
 #. SUBST1 is a mirror
 #: ../bootstrap-base.templates:49001
 msgid "Checking component ${SUBST0} on ${SUBST1}..."
-msgstr "正在檢驗 ${SUBST1} 上的 ${SUBST0} 元件……"
+msgstr "正在檢驗 ${SUBST1} 上的 ${SUBST0} 元件…"
 
 #. Type: text
 #. Description
@@ -777,7 +778,7 @@ msgstr "正在檢驗 ${SUBST1} 上的 ${SUBST0} 元件……"
 #. be installed on the base system because of dependency resolution
 #: ../bootstrap-base.templates:50001
 msgid "Installing core packages..."
-msgstr "正在安裝核心套件……"
+msgstr "正在安裝核心套件…"
 
 #. Type: text
 #. Description
@@ -788,7 +789,7 @@ msgstr "正在安裝核心套件……"
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:51001
 msgid "Unpacking required packages..."
-msgstr "正在解開必要的套件……"
+msgstr "正在解開必要的套件…"
 
 #. Type: text
 #. Description
@@ -799,28 +800,28 @@ msgstr "正在解開必要的套件……"
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:52001
 msgid "Configuring required packages..."
-msgstr "正在設定必要的套件……"
+msgstr "正在設定必要的套件…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:53001
 msgid "Installing base packages..."
-msgstr "正在安裝基本套件……"
+msgstr "正在安裝基本套件…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:54001
 msgid "Unpacking the base system..."
-msgstr "正在解開基本系統……"
+msgstr "正在解開基本系統…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:55001
 msgid "Configuring the base system..."
-msgstr "正在設定基本系統……"
+msgstr "正在設定基本系統…"
 
 #. Type: text
 #. Description
@@ -858,14 +859,14 @@ msgstr "再次試著下載失敗的 ${SUBST0}"
 #. :sl1:
 #: ../bootstrap-base.templates:60001
 msgid "Selecting the kernel to install..."
-msgstr "正在選擇要用來安裝的 Kernel……"
+msgstr "正在選擇要用來安裝的 Kernel…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:61001
 msgid "Installing the kernel..."
-msgstr "正在安裝 Kernel……"
+msgstr "正在安裝 Kernel…"
 
 #. Type: text
 #. Description
@@ -873,4 +874,4 @@ msgstr "正在安裝 Kernel……"
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "安裝 Kernel - 正在接收並安裝 ${SUBST0}……"
+msgstr "安裝 Kernel - 正在接收並安裝 ${SUBST0}…"
