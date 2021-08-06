@@ -1,9 +1,36 @@
-base-installer (1.203+rpi1) bullseye-staging; urgency=medium
+base-installer (1.206+rpi1) bullseye-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 10 Jun 2021 19:59:22 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 06 Aug 2021 23:59:11 +0000
+
+base-installer (1.206) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Finnish (fi.po) by Kimmo Kujansuu
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 23 Jul 2021 18:54:13 +0200
+
+base-installer (1.205) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Lithuanian (lt.po) by Gediminas Murauskas
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 08 Jul 2021 09:30:56 +0200
+
+base-installer (1.204) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Romanian (ro.po) by Christian Eichert
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 23 Jun 2021 21:02:04 +0200
 
 base-installer (1.203) unstable; urgency=medium
 
