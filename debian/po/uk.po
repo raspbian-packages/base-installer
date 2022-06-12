@@ -17,20 +17,22 @@
 # Maxim V. Dziumanenko <dziumanenko@gmail.com>, 2010.
 # Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011, 2012, 2013.
 # Anton Gladky <gladk@debian.org>, 2011-2016
+# Taras Panchenko <top39@ukr.net>, 2021.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2021-01-02 22:03+0100\n"
-"Last-Translator: Anton Gladky <gladk@debian.org>\n"
+"PO-Revision-Date: 2021-12-03 23:44+0000\n"
+"Last-Translator: Taras Panchenko <top39@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #. Type: boolean
 #. Description
@@ -173,14 +175,13 @@ msgstr "Неможливо встановити базову систему"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"Встановлювач не може визначити, яким чином встановлювати базову систему. Не "
-"знайдено CD-ROM, з якого можна провести встановлення, та не було вибрано "
-"вірне дзеркало."
+"Встановлювач не може визначити, яким чином встановлювати базову систему. Він "
+"не знайшов образ, з якого можна виконати встановлення, або не було "
+"налаштовано дійсне дзеркало."
 
 #. Type: error
 #. Description
@@ -542,13 +543,12 @@ msgstr "Невірний файл Release: відсутній запис для 
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
 "Неможливо отримати ${SUBST0}. Це може бути викликано проблемою з мережею або "
-"поганим компакт-диском, залежно від методу встановлення."
+"поганим носієм, залежно від методу встановлення."
 
 #. Type: error
 #. Description

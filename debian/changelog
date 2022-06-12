@@ -1,9 +1,32 @@
-base-installer (1.206+rpi1) bullseye-staging; urgency=medium
+base-installer (1.207+rpi1) bookworm-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Fri, 06 Aug 2021 23:59:11 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sun, 12 Jun 2022 12:09:31 +0000
+
+base-installer (1.207) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Welsh (cy.po) by Ceiri Wyn Tudur
+  * Danish (da.po) by Joe Hansen
+  * Dutch (nl.po) by Frans Spiesschaert
+  * Norwegian Nynorsk (nn.po) by aujawindar
+  * Polish (pl.po) by Matthaiks
+  * Ukrainian (uk.po) by Taras Panchenko
+  * Simplified Chinese (zh_CN.po) by Wenbin Lv
+
+  [ Debian Janitor ]
+  * Add missing ${misc:Depends} to Depends for bootstrap-base.
+  * Bump debhelper dependency to >= 9, since that's what is used in
+    debian/compat.
+  * Use ?= for assignments to architecture variables.
+  * Bump debhelper from deprecated 9 to 13.
+  * Set debhelper-compat version in Build-Depends.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 27 May 2022 00:07:56 +0200
 
 base-installer (1.206) unstable; urgency=medium
 

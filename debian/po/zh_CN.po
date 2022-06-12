@@ -28,16 +28,18 @@
 #   Mai Hao Hui <mhh@126.com>, 2001 (translations from galeon)
 # YunQiang Su <wzssyqa@gmail.com>, 2010, 2011, 2012, 2013.
 # Yangfl <mmyangfl@gmail.com>, 2017.
-# Boyuan Yang <073plan@gmail.com>, 2018, 2019.
+# Boyuan Yang <073plan@gmail.com>, 2018, 2019, 2020.
 # 玉堂白鹤 <yjwork@qq.com>, 2020.
+# TTT DEAL <ikmn2jlt@linshiyouxiang.net>, 2021.
+# Wenbin Lv <wenbin816@gmail.com>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2020-01-18 06:21+0000\n"
-"Last-Translator: 玉堂白鹤 <yjwork@qq.com>\n"
+"PO-Revision-Date: 2022-04-17 17:12+0000\n"
+"Last-Translator: Wenbin Lv <wenbin816@gmail.com>\n"
 "Language-Team: <debian-l10n-chinese@lists.debian.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -61,8 +63,8 @@ msgid ""
 "could cause problems with the installation process, and if you proceed, some "
 "of the existing files may be overwritten."
 msgstr ""
-"目标文件系统中尚包含有以前安装所残留的文件。这些文件可能会在安装过程中导致一"
-"些问题。如果您执行安装的话，一些已存在的文件可能会被覆盖。"
+"目标文件系统中包含有以前的安装所残留的文件。这些文件可能会在安装过程中导致一"
+"些问题，并且如果您继续安装的话，一些已存在的文件可能会被覆盖。"
 
 #. Type: error
 #. Description
@@ -80,7 +82,7 @@ msgid ""
 "target. The partitioner and formatter should have done this for you."
 msgstr ""
 "要开始进行安装，在 /target 上必须挂载一个根文件系统。磁盘分区程序和格式化程序"
-"应该已经帮您完成了这些。"
+"应该已经帮您完成了这些工作。"
 
 #. Type: error
 #. Description
@@ -98,7 +100,7 @@ msgid ""
 "back and erase or format the target file system before proceeding with the "
 "install."
 msgstr ""
-"在目标文件系统上的安装进程已被取消，您应当返回上一步，并删除或格式化目标文件"
+"在目标文件系统上的安装进程已被取消。您应当返回上一步，并删除或格式化目标文件"
 "系统，然后再开始重新安装。"
 
 #. Type: text
@@ -141,7 +143,7 @@ msgstr "正在配置 APT 源..."
 #. :sl1:
 #: ../base-installer.templates:9001
 msgid "Updating the list of available packages..."
-msgstr "更新可用软件包列表..."
+msgstr "正在更新可用软件包列表..."
 
 #. Type: text
 #. Description
@@ -156,7 +158,7 @@ msgstr "正在安装额外的软件包..."
 #. :sl1:
 #: ../base-installer.templates:11001
 msgid "Installing extra packages - retrieving and installing ${SUBST0}..."
-msgstr "安装额外软件包 - 正在接收并安装 ${SUBST0}..."
+msgstr "正在安装额外的软件包 - 正在接收并安装 ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -279,7 +281,7 @@ msgstr "请检查 /var/log/syslog 或查看第四虚拟控制台以获得详细�
 #. :sl2:
 #: ../bootstrap-base.templates:5001 ../bootstrap-base.templates:6001
 msgid "Base system installation error"
-msgstr "基本系统安装出错"
+msgstr "安装基本系统出错"
 
 #. Type: error
 #. Description
@@ -308,7 +310,7 @@ msgstr "产生了下列错误："
 #. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
-msgstr "用于生成启动 initrd 的工具："
+msgstr "用于生成启动时的 initrd 的工具："
 
 #. Type: select
 #. Description
@@ -319,15 +321,15 @@ msgid ""
 "should select the default. If your system fails to boot, you can retry the "
 "installation using the other options."
 msgstr ""
-"表格里列出了可供选择的工具。如果您不确定应该选择哪个，请使用默认选项。如果您"
-"的系统启动失败，您可以重试安装并选择其他的选项。"
+"列表中列出了可供选择的工具。如果您不确定应该选择哪个，请使用默认选项。如果您"
+"的系统启动失败，您可以重新安装并选择其他的选项。"
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../bootstrap-base.templates:9001
 msgid "Unsupported initrd generator"
-msgstr "无法支持的 initrd 生成工具"
+msgstr "不受支持的 initrd 生成程序"
 
 #. Type: error
 #. Description
@@ -336,21 +338,21 @@ msgstr "无法支持的 initrd 生成工具"
 msgid ""
 "The package ${GENERATOR} that was selected to generate the initrd is not "
 "supported."
-msgstr "选择用来生成 initrd 的工具软件包 ${GENERATOR} 不被支持。"
+msgstr "所选的用于生成 initrd 的软件包 ${GENERATOR} 不受支持。"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "generic: include all available drivers"
-msgstr "通用：包含所有可用驱动程序"
+msgstr "通用：包含所有可用的驱动程序"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "targeted: only include drivers needed for this system"
-msgstr "目标：只包含此系统需要的驱动程序"
+msgstr "定向：只包含此系统需要的驱动程序"
 
 #. Type: select
 #. Description
@@ -368,7 +370,7 @@ msgid ""
 "file system. It therefore needs to contain all drivers and supporting "
 "programs required to do that."
 msgstr ""
-"Initrd 的主要功能是使内核可以挂载根文件系统。因此，它需要包含用来完成该功能的"
+"initrd 的主要功能是使内核可以挂载根文件系统。因此，它需要包含用来完成该功能的"
 "所有的驱动程序和支持程序。"
 
 #. Type: select
@@ -382,9 +384,9 @@ msgid ""
 "smaller targeted initrd there is a very small chance that not all needed "
 "drivers are included."
 msgstr ""
-"一个通用的 initrd 会比目标版本大的多以致某些启动加载程序可能会因为它过大而无"
-"法加载，但它的优势在于可以用来启动几乎任何硬件上的目标系统。使用较小的目标 "
-"initrd 可能会有很小的可能性没有包含所有必需的驱动。"
+"通用 initrd 会比定向 initrd 大得多，某些启动加载程序甚至可能因为它过大而无法"
+"加载它，但它的优势在于可以用来启动几乎任何硬件上的目标系统。较小的定向 "
+"initrd 则有极低的可能性缺少一些必需的驱动。"
 
 #. Type: error
 #. Description
@@ -407,7 +409,7 @@ msgstr "向目标系统中安装内核时发生错误。"
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Kernel package: '${KERNEL}'."
-msgstr "内核软件包：“${KERNEL}”。"
+msgstr "内核软件包：\"${KERNEL}\"。"
 
 #. Type: select
 #. Choices
@@ -440,14 +442,14 @@ msgstr "这里列出了可供选择的内核。请选择其中之一，以使系
 #. :sl2:
 #: ../bootstrap-base.templates:14001
 msgid "Continue without installing a kernel?"
-msgstr "不安装内核而继续吗？"
+msgstr "不安装内核并继续吗？"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:14001
 msgid "No installable kernel was found in the defined APT sources."
-msgstr "在指定的 APT 源没有找到可以安装的内核。"
+msgstr "在指定的 APT 源里没有找到可以安装的内核。"
 
 #. Type: boolean
 #. Description
@@ -459,7 +461,7 @@ msgid ""
 "likely end up with a machine that doesn't boot."
 msgstr ""
 "您可以尝试不安装内核并继续，然后再手动安装您自己的内核。这一方法只推荐专家使"
-"用，否则您将很可能最终得到计算机无法启动的结果。"
+"用，否则安装结束后您的计算机将可能无法启动。"
 
 #. Type: error
 #. Description
@@ -473,7 +475,7 @@ msgstr "无法安装内核"
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "The installer cannot find a suitable kernel package to install."
-msgstr "安装程序无法找到一个合适的内核软件包来安装。"
+msgstr "安装程序无法找到合适的内核软件包进行安装。"
 
 #. Type: error
 #. Description
@@ -489,7 +491,7 @@ msgstr "无法安装 ${PACKAGE}"
 msgid ""
 "An error was returned while trying to install the ${PACKAGE} package onto "
 "the target system."
-msgstr "向目标系统中安装 ${PACKAGE} 软件包时出现一个错误。"
+msgstr "向目标系统中安装 ${PACKAGE} 软件包时发生错误。"
 
 #. Type: error
 #. Description
@@ -540,7 +542,7 @@ msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
-"无法获取 ${SUBST0}。根据您所使用的安装方式，造成此问题的原因可能是网络故障或"
+"无法接收 ${SUBST0}。根据您所使用的安装方式，造成此问题的原因可能是网络故障或"
 "介质受损。"
 
 #. Type: error
@@ -553,8 +555,8 @@ msgid ""
 "If you are installing from CD-R or CD-RW, burning the CD at a lower speed "
 "may help."
 msgstr ""
-"如果您是用 CD-R 或 CD-RW 进行安装，请尝试使用较低的速度来刻录光盘，这可能会对"
-"您有所帮助。"
+"如果您是用 CD-R 或 CD-RW 进行安装，使用更低的速度来刻录光盘有可能会解决此问"
+"题。"
 
 #. Type: text
 #. Description
@@ -632,14 +634,14 @@ msgstr "正在安装核心软件包"
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:32001
 msgid "Unpacking required packages"
-msgstr "正在解包必需的软件包"
+msgstr "正在解包必需软件包"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:33001
 msgid "Configuring required packages"
-msgstr "正在配置必需的软件包"
+msgstr "正在配置必需软件包"
 
 #. Type: text
 #. Description
@@ -721,7 +723,7 @@ msgstr "正在检查 Release 签名"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "有效的 Release 签名 (键值 ${SUBST0})"
+msgstr "有效的 Release 签名 (密钥 id ${SUBST0})"
 
 #. Type: text
 #. Description
@@ -736,7 +738,7 @@ msgstr "正在解决基本软件包的依赖关系..."
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:45001
 msgid "Found additional base dependencies: ${SUBST0}"
-msgstr "找到额外的基本软件包依赖关系：${SUBST0}"
+msgstr "找到额外的基本软件包的依赖关系：${SUBST0}"
 
 #. Type: text
 #. Description
@@ -744,7 +746,7 @@ msgstr "找到额外的基本软件包依赖关系：${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:46001
 msgid "Found additional required dependencies: ${SUBST0}"
-msgstr "找到额外的必需软件包依赖关系：${SUBST0}"
+msgstr "找到额外的必需软件包的依赖关系：${SUBST0}"
 
 #. Type: text
 #. Description
@@ -752,14 +754,14 @@ msgstr "找到额外的必需软件包依赖关系：${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:47001
 msgid "Found packages in base already in required: ${SUBST0}"
-msgstr "找到已存在于必需包中的基本软件包：${SUBST0}"
+msgstr "找到已存在于必需软件包中的基本软件包：${SUBST0}"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:48001
 msgid "Resolving dependencies of required packages..."
-msgstr "正在解决必需软件包依赖关系..."
+msgstr "正在解决必需软件包的依赖关系..."
 
 #. Type: text
 #. Description
@@ -768,7 +770,7 @@ msgstr "正在解决必需软件包依赖关系..."
 #. SUBST1 is a mirror
 #: ../bootstrap-base.templates:49001
 msgid "Checking component ${SUBST0} on ${SUBST1}..."
-msgstr "正在检查 ${SUBST1} 上的 ${SUBST0} 组件..."
+msgstr "正在检查 ${SUBST1} 上的 ${SUBST0} 部分..."
 
 #. Type: text
 #. Description

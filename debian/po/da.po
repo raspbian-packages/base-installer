@@ -6,7 +6,8 @@
 # translation of debian-installer_packages_po_sublevel1_da.po to
 # Danish messages for debian-installer.
 # This file is distributed under the same license as debian-installer.
-# Joe Hansen <joedalton2@yahoo.dk>, 2011, 2012, 2013, 2014, 2015.
+# Michael Millet <mikevlet@protonmail.com>, 2021.
+# Joe Hansen <joedalton2@yahoo.dk>, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2021.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2010.
 # Mads Bille Lundby <lundbymads@gmail.com, 2009.
 # Henrik Christian Grove <debian@3001.dk>, 2008.
@@ -39,14 +40,14 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_da\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2015-08-16 20:20+0200\n"
+"PO-Revision-Date: 2021-12-28 22:11+0000\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: <dansk@dansk-gruppen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -186,17 +187,13 @@ msgstr "Kan ikke installere basissystemet"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"Installationsprogrammet kan ikke finde ud af hvordan det skal installere "
-"basissystemet. Der blev ikke fundet nogen installerbar cd, og der blev ikke "
-"angivet noget gyldigt arkivspejl."
+"Installationsprogrammet kan ikke finde ud af, hvordan det skal installere "
+"basissystemet. Der blev ikke fundet et installerbart aftryk, og intet spejl "
+"var konfigureret."
 
 #. Type: error
 #. Description
@@ -560,16 +557,12 @@ msgstr "Ugyldig Release-fil; ingen forekomst af ${SUBST0}."
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
-"Kunne ikke hente ${SUBST0}. Dette kan skyldes et netværksproblem eller en "
-"dårlig cd, alt afhængig af din installationsmetode."
+"Kunne ikke hente ${SUBST0}. Dette kan skyldes et netværksproblem eller et "
+"ugyldigt medie, alt afhængig af din installationsmetode."
 
 #. Type: error
 #. Description
