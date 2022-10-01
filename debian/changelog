@@ -1,9 +1,19 @@
-base-installer (1.208+rpi1) bookworm-staging; urgency=medium
+base-installer (1.209+rpi1) bookworm-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Sun, 28 Aug 2022 04:36:21 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sat, 01 Oct 2022 12:29:06 +0000
+
+base-installer (1.209) unstable; urgency=high
+
+  [ Ansgar ]
+  * pkgdetails.c: GETDEPS: strip multi-arch qualifier (Closes: #1020426).
+    This is required to deal with the perl:any dependency of the usrmerge
+    package, pulled via init-system-helpers:
+    https://lists.debian.org/debian-devel-announce/2022/09/msg00001.html
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 28 Sep 2022 03:00:52 +0200
 
 base-installer (1.208) unstable; urgency=medium
 
