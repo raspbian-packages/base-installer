@@ -5,21 +5,27 @@
 #
 # Amharic translation for debian-installer
 # This file is distributed under the same license as the debian-installer package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
+# tegegne tefera <tefera@mekuria.com>, 2006.
+#
+#
+# Translations from iso-codes:
+#   Alastair McKinstry <mckinstry@debian.org>, 2004.
+#   Data taken from ICU-2.8; contributed by:
+#   - Daniel Yacob <yacob@geez.org>, Ge'ez Frontier Foundation
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2008-03-30 19:56+0100\n"
-"Last-Translator: tegegne tefera <tefera@mekuria.com>\n"
-"Language-Team: Amharic\n"
-"Language: \n"
+"PO-Revision-Date: 2022-12-11 11:40+0000\n"
+"Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
+"Language-Team: Amharic <linux-ethiopia@googlegroups.com>\n"
+"Language: am\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: n>1\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 
 #. Type: boolean
 #. Description
@@ -82,7 +88,7 @@ msgstr ""
 #. :sl1:
 #: ../base-installer.templates:4001
 msgid "Preparing to install the base system..."
-msgstr "መሠረታዊ ስርዓቱን ለመትከል በመዘጋጀት ላይ..."
+msgstr "መሠረታዊ ስርዓቱን ለመትከል በመዘጋጀት ላይ…"
 
 #. Type: text
 #. Description
@@ -96,35 +102,35 @@ msgstr "መሠረታዊ ሥርዓቱን በመትከል ላይ"
 #. :sl1:
 #: ../base-installer.templates:6001
 msgid "Running ${SCRIPT}..."
-msgstr "${SCRIPT} በማስክከድ ላይ..."
+msgstr "${SCRIPT} በማስክከድ ላይ…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "መሰረታዊ ስርዓትን በመትከል ላይ..."
+msgstr "መሰረታዊ ስርዓትን በመትከል ላይ…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:8001 ../bootstrap-base.templates:59001
 msgid "Configuring APT sources..."
-msgstr "የAPT ምንጮችን አዘጋጅ..."
+msgstr "የAPT ምንጮችን አዘጋጅ…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:9001
 msgid "Updating the list of available packages..."
-msgstr "ያሉ ጥቅሎችን ዝርዝር በማሻሻል ላይ..."
+msgstr "ያሉ ጥቅሎችን ዝርዝር በማሻሻል ላይ…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:10001
 msgid "Installing extra packages..."
-msgstr "ተጨማሪ ጥቅሎችን በመትከል ላይ..."
+msgstr "ተጨማሪ ጥቅሎችን በመትከል ላይ…"
 
 #. Type: text
 #. Description
@@ -132,7 +138,7 @@ msgstr "ተጨማሪ ጥቅሎችን በመትከል ላይ..."
 #. :sl1:
 #: ../base-installer.templates:11001
 msgid "Installing extra packages - retrieving and installing ${SUBST0}..."
-msgstr "ተጨማሪ ጥቅሎችን በመትከል ላይ- ${SUBST0}ን በማምጣትና በመትከል ላይ..."
+msgstr "ተጨማሪ ጥቅሎችን በመትከል ላይ- ${SUBST0}ን በማምጣትና በመትከል ላይ…"
 
 #. Type: text
 #. Description
@@ -159,9 +165,6 @@ msgstr "መሠረታዊ ስርዓትን መትከል አልተቻለም"
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 #, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
@@ -511,9 +514,6 @@ msgstr "የማይሰራ የመልቀቂያ ፋይል፦ ለ${SUBST0} ምንም �
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
 #, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
@@ -640,7 +640,7 @@ msgstr "መሰረታዊ ስርዓቱን በመፍታት ላይ"
 #. :sl1:
 #: ../bootstrap-base.templates:36001
 msgid "${SECTION}: ${INFO}..."
-msgstr "${SECTION}: ${INFO}..."
+msgstr "${SECTION}: ${INFO}…"
 
 #. Type: text
 #. Description
@@ -648,7 +648,7 @@ msgstr "${SECTION}: ${INFO}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:37001
 msgid "Validating ${SUBST0}..."
-msgstr "${SUBST0}ን በማረጋገጥ ላይ..."
+msgstr "${SUBST0}ን በማረጋገጥ ላይ…"
 
 #. Type: text
 #. Description
@@ -656,7 +656,7 @@ msgstr "${SUBST0}ን በማረጋገጥ ላይ..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:38001
 msgid "Retrieving ${SUBST0}..."
-msgstr "${SUBST0} በማምጣት ላይ..."
+msgstr "${SUBST0} በማምጣት ላይ…"
 
 #. Type: text
 #. Description
@@ -664,7 +664,7 @@ msgstr "${SUBST0} በማምጣት ላይ..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:39001
 msgid "Extracting ${SUBST0}..."
-msgstr "${SUBST0} በመፍታት ላይ..."
+msgstr "${SUBST0} በመፍታት ላይ…"
 
 #. Type: text
 #. Description
@@ -672,7 +672,7 @@ msgstr "${SUBST0} በመፍታት ላይ..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:40001
 msgid "Unpacking ${SUBST0}..."
-msgstr "${SUBST0} በመፍታት ላይ..."
+msgstr "${SUBST0} በመፍታት ላይ…"
 
 #. Type: text
 #. Description
@@ -680,7 +680,7 @@ msgstr "${SUBST0} በመፍታት ላይ..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:41001
 msgid "Configuring ${SUBST0}..."
-msgstr "${SUBST0} በማስተካከል ላይ..."
+msgstr "${SUBST0} በማስተካከል ላይ…"
 
 #. Type: text
 #. Description
@@ -688,7 +688,7 @@ msgstr "${SUBST0} በማስተካከል ላይ..."
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"
-msgstr "የመልቀቂያ ፋይል ፊርማን በማረጋገጥ ላይ..."
+msgstr "የመልቀቂያ ፋይል ፊርማን በማረጋገጥ ላይ…"
 
 #. Type: text
 #. Description
@@ -704,7 +704,7 @@ msgstr "የሚሰራ Release signature (key id ${SUBST0})"
 #. :sl1:
 #: ../bootstrap-base.templates:44001
 msgid "Resolving dependencies of base packages..."
-msgstr "የመሠረታዊ ጥቅሉን ተደጋጋፊዎች በማውጣጣት ላይ..."
+msgstr "የመሠረታዊ ጥቅሉን ተደጋጋፊዎች በማውጣጣት ላይ…"
 
 #. Type: text
 #. Description
@@ -735,7 +735,7 @@ msgstr "አስፈላጊ የተባለው ውስጥ ያሉ ጥቅሎች መሰረ�
 #. :sl1:
 #: ../bootstrap-base.templates:48001
 msgid "Resolving dependencies of required packages..."
-msgstr "የመሠረታዊ ጥቅሉን ተደጋጋፊዎች በማውጣጣት ላይ..."
+msgstr "የመሠረታዊ ጥቅሉን ተደጋጋፊዎች በማውጣጣት ላይ…"
 
 #. Type: text
 #. Description
@@ -744,7 +744,7 @@ msgstr "የመሠረታዊ ጥቅሉን ተደጋጋፊዎች በማውጣጣት
 #. SUBST1 is a mirror
 #: ../bootstrap-base.templates:49001
 msgid "Checking component ${SUBST0} on ${SUBST1}..."
-msgstr "በ${SUBST1} ላይ ያለውን አካል ${SUBST0} በመፈተን ላይ ..."
+msgstr "በ${SUBST1} ላይ ያለውን አካል ${SUBST0} በመፈተን ላይ …"
 
 #. Type: text
 #. Description
@@ -766,7 +766,7 @@ msgstr "መሰረታዊ ጥቅሎችን በመትከል ላይ"
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:51001
 msgid "Unpacking required packages..."
-msgstr "አስፈላጊ ጥቅሎችን በመፍታት ላይ..."
+msgstr "አስፈላጊ ጥቅሎችን በመፍታት ላይ…"
 
 #. Type: text
 #. Description
@@ -777,28 +777,28 @@ msgstr "አስፈላጊ ጥቅሎችን በመፍታት ላይ..."
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:52001
 msgid "Configuring required packages..."
-msgstr "አስፈላጊ ጥቅሎችን በማስተካከል ላይ..."
+msgstr "አስፈላጊ ጥቅሎችን በማስተካከል ላይ…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:53001
 msgid "Installing base packages..."
-msgstr "መሰረታዊ ጥቅሎችን በመትከል ላይ..."
+msgstr "መሰረታዊ ጥቅሎችን በመትከል ላይ…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:54001
 msgid "Unpacking the base system..."
-msgstr "መሰረታዊ ጥቅሎችን በመፍታት ላይ..."
+msgstr "መሰረታዊ ጥቅሎችን በመፍታት ላይ…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:55001
 msgid "Configuring the base system..."
-msgstr "መሠረታዊ ሥርዓቱን በማስተካከል ላይ..."
+msgstr "መሠረታዊ ሥርዓቱን በማስተካከል ላይ…"
 
 #. Type: text
 #. Description
@@ -836,14 +836,14 @@ msgstr "ባልታወቀ ምክንያት የተቋረጠውን ${SUBST0}ን ለ�
 #. :sl1:
 #: ../bootstrap-base.templates:60001
 msgid "Selecting the kernel to install..."
-msgstr "የሚተከል ከርነል በመምረጥ ላይ..."
+msgstr "የሚተከል ከርነል በመምረጥ ላይ…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:61001
 msgid "Installing the kernel..."
-msgstr "የከርነል በመትከል ላይ..."
+msgstr "የከርነል በመትከል ላይ…"
 
 #. Type: text
 #. Description
@@ -851,4 +851,4 @@ msgstr "የከርነል በመትከል ላይ..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "ከርነሉ በመትከል ላይ - ${SUBST0}ን አምጥቶ በመትከል ላይ..."
+msgstr "ከርነሉ በመትከል ላይ - ${SUBST0}ን አምጥቶ በመትከል ላይ…"

@@ -8,7 +8,7 @@
 # This file is distributed under the same license as debian-installer.
 #
 # Talgat Daniyarov
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008-2017
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2008-2022
 # Dauren Sarsenov <daur88@inbox.ru>, 2008, 2009
 #
 # Translations from iso-codes:
@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2018-12-02 20:16+0500\n"
+"PO-Revision-Date: 2022-12-04 17:19+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh\n"
 "Language: kk\n"
@@ -94,7 +94,7 @@ msgstr ""
 #. :sl1:
 #: ../base-installer.templates:4001
 msgid "Preparing to install the base system..."
-msgstr "Базалық жүйені орнатуға дайындық..."
+msgstr "Базалық жүйені орнатуға дайындалу..."
 
 #. Type: text
 #. Description
@@ -129,7 +129,7 @@ msgstr "АРТ қайнар көздерін баптау..."
 #. :sl1:
 #: ../base-installer.templates:9001
 msgid "Updating the list of available packages..."
-msgstr "Қолжетерлік дестелердің тізімін жаңарту..."
+msgstr "Қолжетімді дестелер тізімін жаңарту..."
 
 #. Type: text
 #. Description
@@ -170,16 +170,12 @@ msgstr "Базалық жүйені орнату мүмкін болмады"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"Орнатушы базалық жүйені қалай орнатарын білмеді. Орнатуға жарамды CD-ROM да, "
-"айна да табылмады."
+"Орнатушы базалық жүйені қалай орнатарын білмеді. Орнатуға жарамды бейне "
+"табылмады, бапталған желілік айна да жоқ."
 
 #. Type: error
 #. Description
@@ -301,7 +297,7 @@ msgstr "Келесі қате орын алды:"
 #. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
-msgstr "жүктелу initrd жасайтын сайман:"
+msgstr "Жүктелу initrd жасайтын құрал:"
 
 #. Type: select
 #. Description
@@ -330,7 +326,7 @@ msgstr "Жарамсыз initrd генераторы"
 msgid ""
 "The package ${GENERATOR} that was selected to generate the initrd is not "
 "supported."
-msgstr "initrd генераторы ретінде таңдалған ${GENERATOR} қолдануға жарамайды."
+msgstr "initrd генераторы ретінде таңдалған ${GENERATOR} дестесіне қолдау жоқ."
 
 #. Type: select
 #. Choices
@@ -535,16 +531,12 @@ msgstr "Release файлы қате: ${SUBST0} жазбасы жоқ."
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
-"${SUBST0} алғанда қате кетті. Себебі желілік қиындықтардан немесе жаман "
-"компакт-дискіден болуы мүмкін."
+"${SUBST0} алғанда қате кетті. Себебі орнату тәсіліне байланысты, ол желілік "
+"қиындықтардан немесе жарамсыз тасушыдан болуы мүмкін."
 
 #. Type: error
 #. Description
