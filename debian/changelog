@@ -1,9 +1,16 @@
-base-installer (1.210+rpi1) bookworm-staging; urgency=medium
+base-installer (1.211+rpi1) bookworm-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Sat, 07 Jan 2023 13:30:49 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 17 Feb 2023 13:04:56 +0000
+
+base-installer (1.211) unstable; urgency=medium
+
+  [ Updated translations ]
+  * Macedonian (mk.po) by Kristijan Fremen Velkovski
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 15 Feb 2023 16:47:54 +0100
 
 base-installer (1.210) unstable; urgency=medium
 

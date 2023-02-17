@@ -9,6 +9,7 @@
 #
 # Georgi Stanojevski, <glisha@gmail.com>, 2004, 2005, 2006.
 # Georgi Stanojevski <georgis@unet.com.mk>, 2005, 2006.
+# Kristijan Fremen Velkovski <me@krisfremen.com>, 2023.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2002
@@ -24,8 +25,8 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_mk\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2012-04-11 15:54+0200\n"
-"Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
+"PO-Revision-Date: 2023-02-02 11:37+0000\n"
+"Last-Translator: Kristijan Fremen Velkovski <me@krisfremen.com>\n"
 "Language-Team: Macedonian <>\n"
 "Language: mk\n"
 "MIME-Version: 1.0\n"
@@ -172,16 +173,13 @@ msgstr "Не успеав да го инсталирам основниот си
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
 "Инсталерот не може да се снајде како да го инсталира основниот систем. Не "
-"најдов CD-ROM со инсталација и не е конфигуриран валиден алтернативен сервер."
+"најде слика за инсталација и не е конфигурирано валидно алтернативно "
+"огледало."
 
 #. Type: error
 #. Description
@@ -544,9 +542,6 @@ msgstr "Невалидна датотека со објави, нема став
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
 #, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
