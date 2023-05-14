@@ -1,9 +1,20 @@
-base-installer (1.211+rpi1) bookworm-staging; urgency=medium
+base-installer (1.212+rpi1) bookworm-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Fri, 17 Feb 2023 13:04:56 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sun, 14 May 2023 16:29:25 +0000
+
+base-installer (1.212) unstable; urgency=medium
+
+  [ Ben Hutchings ]
+  * Manually install zstd, which initramfs-tools prefers over gzip, even
+    if it only recommends it (same approach as busybox).
+
+  [ Updated translations ]
+  * Georgian (ka.po) by Temuri Doghonadze
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 12 Apr 2023 06:59:36 +0200
 
 base-installer (1.211) unstable; urgency=medium
 

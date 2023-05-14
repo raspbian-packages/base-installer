@@ -542,10 +542,14 @@ EOF
 	if [ "$do_initrd" = yes ]; then
 		rd_generator=initramfs-tools
 
-		# initramfs-tools needs busybox pre-installed (and only
-		# recommends it)
+		# initramfs-tools may need busybox, and prefers to use
+		# zstd over gzip, but only recommends them
 		if ! log-output -t base-installer apt-install busybox; then
 			db_subst base-installer/kernel/failed-package-install PACKAGE busybox
+			exit_error base-installer/kernel/failed-package-install
+		fi
+		if ! log-output -t base-installer apt-install zstd; then
+			db_subst base-installer/kernel/failed-package-install PACKAGE zstd
 			exit_error base-installer/kernel/failed-package-install
 		fi
 
