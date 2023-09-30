@@ -1,9 +1,41 @@
-base-installer (1.213+rpi1) bookworm-staging; urgency=medium
+base-installer (1.216+rpi1) trixie-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Thu, 01 Jun 2023 21:23:36 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sat, 30 Sep 2023 06:04:37 +0000
+
+base-installer (1.216) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Gujarati (gu.po) by Kartik Mistry
+  * Malayalam (ml.po) by Anish Sheela
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 23 Sep 2023 20:39:41 +0200
+
+base-installer (1.215) unstable; urgency=medium
+
+  * Team upload
+
+  [ Aurelien Jarno ]
+  * library.sh: remove riscv64 from ports architectures.
+
+ -- Aurelien Jarno <aurel32@debian.org>  Tue, 05 Sep 2023 22:40:33 +0200
+
+base-installer (1.214) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Norwegian Bokmal (nb.po) by Petter Reinholdtsen
+  * Polish (pl.po) by Matthaiks
+  * Romanian (ro.po) by NicolaeFericitu
+  * Turkish (tr.po) by Fatih Altun
+  * Ukrainian (uk.po) by Serhii Horichenko
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 24 Aug 2023 07:11:18 +0200
 
 base-installer (1.213) unstable; urgency=medium
 

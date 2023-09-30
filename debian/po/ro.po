@@ -39,8 +39,8 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2021-06-17 12:33+0000\n"
-"Last-Translator: Christian Eichert <c@zp1.net>\n"
+"PO-Revision-Date: 2023-06-19 12:51+0000\n"
+"Last-Translator: NicolaeFericitu <cni@disroot.org>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -134,7 +134,7 @@ msgstr "Se rulează ${SCRIPT}..."
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "Se pregătește sistemul de bază..."
+msgstr "Se configurează sistemul de bază..."
 
 #. Type: text
 #. Description
@@ -164,8 +164,7 @@ msgstr "Se instalează pachetele suplimentare..."
 #: ../base-installer.templates:11001
 msgid "Installing extra packages - retrieving and installing ${SUBST0}..."
 msgstr ""
-"Se instalează pachetele suplimentare - se descarcă și se instalează "
-"${SUBST0}..."
+"Se instalează pachete suplimentare - se preia și se instalează ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -174,7 +173,7 @@ msgstr ""
 #. :sl1:
 #: ../bootstrap-base.templates:1001
 msgid "Install the base system"
-msgstr "Instalare a sistemului de bază"
+msgstr "Instalarea sistemului de bază"
 
 #. Type: error
 #. Description
@@ -589,7 +588,7 @@ msgstr ""
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:23001
 msgid "Retrieving Release file"
-msgstr "Se descarcă fișierul Release"
+msgstr "Se preia fișierul de lansare"
 
 #. Type: text
 #. Description
@@ -597,7 +596,7 @@ msgstr "Se descarcă fișierul Release"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:24001
 msgid "Retrieving Release file signature"
-msgstr "Se descarcă semnătura fișierului Release"
+msgstr "Se preia semnătura fișierului de lansare"
 
 #. Type: text
 #. Description
@@ -605,7 +604,7 @@ msgstr "Se descarcă semnătura fișierului Release"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:25001
 msgid "Finding package sizes"
-msgstr "Se caută dimensiunile pachetelor"
+msgstr "Găsirea dimensiunilor pachetelor"
 
 #. Type: text
 #. Description
@@ -613,7 +612,7 @@ msgstr "Se caută dimensiunile pachetelor"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:26001
 msgid "Retrieving Packages files"
-msgstr "Se descarcă fișierele Packages"
+msgstr "Se preiau fișierele pachete"
 
 #. Type: text
 #. Description
@@ -621,7 +620,7 @@ msgstr "Se descarcă fișierele Packages"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:27001
 msgid "Retrieving Packages file"
-msgstr "Se descarcă fișierul Packages"
+msgstr "Se preia fișierul pachete"
 
 #. Type: text
 #. Description
@@ -629,7 +628,7 @@ msgstr "Se descarcă fișierul Packages"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:28001
 msgid "Retrieving packages"
-msgstr "Se descarcă pachetele"
+msgstr "Se preiau pachetele"
 
 #. Type: text
 #. Description
@@ -648,7 +647,7 @@ msgstr "Se extrag pachetele"
 #. be installed on the base system because of dependency resolution
 #: ../bootstrap-base.templates:31001
 msgid "Installing core packages"
-msgstr "Se instalează pachetele esențiale"
+msgstr "Instalarea pachetelor esențiale"
 
 #. Type: text
 #. Description
@@ -707,7 +706,7 @@ msgstr "Se validează ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:38001
 msgid "Retrieving ${SUBST0}..."
-msgstr "Se descarcă ${SUBST0}..."
+msgstr "Se preia ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -739,7 +738,7 @@ msgstr "Se configurează ${SUBST0}..."
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"
-msgstr "Se verifică semnătura Release"
+msgstr "Se verifică semnătura de lansare"
 
 #. Type: text
 #. Description
@@ -748,7 +747,7 @@ msgstr "Se verifică semnătura Release"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "Semnătură Release validă (identificator cheie ${SUBST0})"
+msgstr "Semnătură de lansare validă (ID cheie ${SUBST0})"
 
 #. Type: text
 #. Description
@@ -771,7 +770,7 @@ msgstr "Au fost găsite dependențe de bază suplimentare: ${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:46001
 msgid "Found additional required dependencies: ${SUBST0}"
-msgstr "Au fost găsite alte dependențe necesare: ${SUBST0}"
+msgstr "S-au găsit dependențe suplimentare necesare: ${SUBST0}"
 
 #. Type: text
 #. Description
@@ -902,4 +901,4 @@ msgstr "Se instalează nucleul..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "Se instalează nucleul - se descarcă și se instalează ${SUBST0}..."
+msgstr "Se instalează nucleul - se preia și se instalează ${SUBST0}..."

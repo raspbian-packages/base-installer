@@ -18,14 +18,16 @@
 # Yuri Chornoivan <yurchor@ukr.net>, 2010, 2011, 2012, 2013.
 # Anton Gladky <gladk@debian.org>, 2011-2016
 # Taras Panchenko <top39@ukr.net>, 2021.
+# Denys Nykula <vegan@libre.net.ua>, 2022.
+# Yatsenko Alexandr <yatsenko.alexandr@gmail.com>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: uk\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2021-12-03 23:44+0000\n"
-"Last-Translator: Taras Panchenko <top39@ukr.net>\n"
+"PO-Revision-Date: 2023-07-22 18:08+0000\n"
+"Last-Translator: Serhii Horichenko <m@sgg.im>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
@@ -119,7 +121,7 @@ msgstr "Запуск ${SCRIPT}..."
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "Налаштування базової системи..."
+msgstr "Встановлення базової системи..."
 
 #. Type: text
 #. Description

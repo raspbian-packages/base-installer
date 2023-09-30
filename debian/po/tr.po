@@ -24,21 +24,21 @@
 # Tobias Quathamer <toddy@debian.org>, 2007.
 # Translations taken from ICU SVN on 2007-09-09
 # Ömer Fadıl USTA <omer_fad@hotmail.com>, 1999.
-# Fatih Altun <fatih.altun@pardus.org.tr>, 2021.
+# Fatih Altun <fatih.altun@pardus.org.tr>, 2021-2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2021-07-08 13:18+0300\n"
+"PO-Revision-Date: 2023-07-05 19:50+0000\n"
 "Last-Translator: Fatih Altun <fatih.altun@pardus.org.tr>\n"
 "Language-Team: Debian L10N Turkish\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -184,7 +184,7 @@ msgid ""
 "installable image, and no valid mirror was configured."
 msgstr ""
 "Kurulum programı, temel sistemin nasıl kurulacağını bulamıyor. Yüklenebilir "
-"bir medya bulamadı ve geçerli bir yansıtma yapılandırılmadı. "
+"bir medya bulamadı ve geçerli bir yansıtma yapılandırılmadı."
 
 #. Type: error
 #. Description

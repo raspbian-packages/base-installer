@@ -29,14 +29,15 @@
 # Marcin Owsiany <porridge@debian.org>, 2011.
 # Michał Kułach <michal.kulach@gmail.com>, 2012, 2013, 2014, 2015, 2016, 2017, 2018.
 # Bartosz Feński <fenio@debian.org>, 2020.
-# Matthaiks <kitynska@gmail.com>, 2021.
+# Matthaiks <kitynska@gmail.com>, 2021, 2022.
+# Łukasz Dulny <BartekChom@poczta.onet.pl>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2021-12-03 23:44+0000\n"
+"PO-Revision-Date: 2023-06-29 21:52+0000\n"
 "Last-Translator: Matthaiks <kitynska@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
 "Language: pl\n"
@@ -117,7 +118,7 @@ msgstr "Przygotowanie do instalacji systemu podstawowego..."
 #. :sl1:
 #: ../base-installer.templates:5001 ../bootstrap-base.templates:30001
 msgid "Installing the base system"
-msgstr "Instalacja systemu podstawowego"
+msgstr "Instalowanie systemu podstawowego"
 
 #. Type: text
 #. Description
@@ -885,7 +886,7 @@ msgstr "Wybieranie jądra do instalacji..."
 #. :sl1:
 #: ../bootstrap-base.templates:61001
 msgid "Installing the kernel..."
-msgstr "Instalacja jądra..."
+msgstr "Instalowanie jądra..."
 
 #. Type: text
 #. Description
@@ -893,4 +894,4 @@ msgstr "Instalacja jądra..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "Instalacja jądra - pobieranie i instalacja ${SUBST0}..."
+msgstr "Instalowanie jądra - pobieranie i instalacja ${SUBST0}..."
