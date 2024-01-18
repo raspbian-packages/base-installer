@@ -14,19 +14,20 @@
 # Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2010.
 # localuser <sampadanakhare@gmail.com>, 2015.
 # Nayan Nakhare <nayannakhare@rediffmail.com>, 2018.
+# Prachi Joshi <josprachi@yahoo.com>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2018-10-07 18:30+0000\n"
-"Last-Translator: Nayan Nakhare <nayannakhare@rediffmail.com>\n"
+"PO-Revision-Date: 2023-12-10 18:08+0000\n"
+"Last-Translator: omwani <omwani03+gitlab@gmail.com>\n"
 "Language-Team: CDAC_DI\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -45,7 +46,7 @@ msgid ""
 "of the existing files may be overwritten."
 msgstr ""
 "लक्ष्य फाइल प्रणालीवर आधीच्या अधिष्ठापनेतील फायली अस्तित्वात आहेत. या फाइल्स अधिष्ठापन "
-"प्रक्रियेत अडथळा आणू शकतात, आणि  पुढे चालू ठेवल्यास, काही सद्य फायली पुनर्लिखीत होतील."
+"प्रक्रियेत अडथळा आणू शकतात, आणि पुढे चालू ठेवल्यास, काही सद्य फायली पुनर्लिखीत होतील."
 
 #. Type: error
 #. Description
@@ -166,16 +167,12 @@ msgstr "पाया प्रणाली अधिष्ठापित कर
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"पाया प्रणाली कशी अधिष्ठापित करावी ते अधिष्ठापक ठरवू शकत नाही. कोणतीही "
-"अधिष्ठापनयोग्य सीडी रॉम सापडली नाही आणि कोणताही वैध दर्पण संरचित केलेला नाही."
+"बेस सिस्टम कसे स्थापित करावे हे इंस्टॉलर शोधू शकत नाही. यात कोणतीही स्थापित करण्यायोग्य "
+"प्रतिमा आढळली नाही आणि कोणताही वैध मिरर कॉन्फिगर केलेला नाही."
 
 #. Type: error
 #. Description
@@ -531,16 +528,12 @@ msgstr "आवृती फाइल अवैध: ${SUBST0} ची नोंद
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
-"${SUBST0} मिळवता आली नाही. हे तुमच्या अधिष्ठापन पद्धतीनुसार, एकतर नेटवर्क दोषामुळे "
-"किंवा सदोष सीडी मुळे असेल."
+"${SUBST0} पुनर्प्राप्त करू शकलो नाही. हे नेटवर्क समस्या किंवा खराब मीडियामुळे असू शकते, "
+"तुमच्या इंस्टॉलेशन पद्धतीवर अवलंबून."
 
 #. Type: error
 #. Description

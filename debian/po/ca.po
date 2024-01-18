@@ -9,6 +9,8 @@
 # Jordi Mallach <jordi@debian.org>, 2002-2008, 2010, 2012, 2015, 2017-2018.
 # Guillem Jover <guillem@debian.org>, 2005, 2007.
 # d <dmanye@gmail.com>, 2021.
+# Maite Guix <maite.guix@gmail.com>, 2022.
+# Innocent De Marchi <tangram.peces@gmail.com>, 2017.
 #
 # Translations from iso-codes:
 # Alastair McKinstry <mckinstry@computer.org>, 2001.
@@ -19,10 +21,10 @@
 # Traductor: Jordi Ferré <jordiferre@catalonia.altranet.fr>
 msgid ""
 msgstr ""
-"Project-Id-Version: debian-installer buster\n"
+"Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2021-02-12 18:39+0000\n"
+"PO-Revision-Date: 2023-10-16 04:19+0000\n"
 "Last-Translator: d <dmanye@gmail.com>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
 "Language: ca\n"
@@ -116,7 +118,7 @@ msgstr "S'està executant ${SCRIPT}..."
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "S'està configurant el sistema base..."
+msgstr "S'està establint el sistema base..."
 
 #. Type: text
 #. Description
