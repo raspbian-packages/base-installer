@@ -24,8 +24,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2023-10-16 04:19+0000\n"
-"Last-Translator: d <dmanye@gmail.com>\n"
+"PO-Revision-Date: 2024-03-24 21:01+0000\n"
+"Last-Translator: victor dargallo <victordargallo@disroot.org>\n"
 "Language-Team: Catalan <debian-l10n-catalan@lists.debian.org>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -97,7 +97,7 @@ msgstr ""
 #. :sl1:
 #: ../base-installer.templates:4001
 msgid "Preparing to install the base system..."
-msgstr "S'està preparant per a instal·lar el sistema base..."
+msgstr "S'està preparant per instal·lar el sistema base..."
 
 #. Type: text
 #. Description
@@ -732,7 +732,9 @@ msgstr "S'està comprovant la signatura del fitxer Release"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "La signatura del fitxer Release és vàlida (id de la clau ${SUBST0})"
+msgstr ""
+"La signatura del fitxer Release és vàlida (identificador de la clau "
+"${SUBST0})"
 
 #. Type: text
 #. Description
@@ -840,7 +842,7 @@ msgstr "S'està configurant el sistema base..."
 #. :sl1:
 #: ../bootstrap-base.templates:56001
 msgid "Base system installed successfully."
-msgstr "El sistema base s'ha instal·lat amb èxit."
+msgstr "El sistema base s'ha instal·lat correctament."
 
 #. Type: error
 #. Description
