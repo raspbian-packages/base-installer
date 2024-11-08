@@ -18,7 +18,8 @@
 # * Setyo Nugroho (setyo@gmx.net), 2004.
 # * Arief S Fitrianto <arief@gurame.fisika.ui.ac.id>, 2008-2011.
 # * Al Qalit <qal.smith@gmail.com>, 2018.
-# * Andika Triwidada <andika@gmail.com>, 2018, 2019.
+# * Andika Triwidada <andika@gmail.com>, 2018, 2019, 2020, 2021.
+# * Fahmi Ali <fahmi.ali1945@gmail.com>, 2020.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2002.
@@ -34,7 +35,7 @@ msgstr ""
 "Project-Id-Version: debian-installer (level1)\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2019-09-24 14:28+0000\n"
+"PO-Revision-Date: 2024-10-16 15:16+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Debian Indonesia Translators <debian-l10n-indonesian@lists."
 "debian.org>\n"
@@ -107,7 +108,7 @@ msgstr ""
 #. :sl1:
 #: ../base-installer.templates:4001
 msgid "Preparing to install the base system..."
-msgstr "Bersiap-siap memasang sistem dasar..."
+msgstr "Bersiap memasang sistem dasar..."
 
 #. Type: text
 #. Description
@@ -128,21 +129,21 @@ msgstr "Menjalankan ${SCRIPT}..."
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "Mengonfigurasi sistem dasar..."
+msgstr "Menyiapkan sistem dasar..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:8001 ../bootstrap-base.templates:59001
 msgid "Configuring APT sources..."
-msgstr "Mengatur sumber-sumber APT...."
+msgstr "Mengonfigurasi sumber-sumber APT..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:9001
 msgid "Updating the list of available packages..."
-msgstr "Memperbaharui daftar paket-paket yang tersedia..."
+msgstr "Memperbarui daftar paket yang tersedia..."
 
 #. Type: text
 #. Description
@@ -166,7 +167,7 @@ msgstr "Memasang paket-paket ekstra - mengambil dan memasang ${SUBST0}..."
 #. :sl1:
 #: ../bootstrap-base.templates:1001
 msgid "Install the base system"
-msgstr "Memasang sistem dasar"
+msgstr "Pasang sistem dasar"
 
 #. Type: error
 #. Description
@@ -311,7 +312,7 @@ msgstr "Kesalahan berikut ini terjadi:"
 #. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
-msgstr "Program untuk membuat initrd:"
+msgstr "Program untuk membuat initrd boot:"
 
 #. Type: select
 #. Description
@@ -331,7 +332,7 @@ msgstr ""
 #. :sl3:
 #: ../bootstrap-base.templates:9001
 msgid "Unsupported initrd generator"
-msgstr "Generator initrd tak didukung"
+msgstr "Generator initrd yang tak didukung"
 
 #. Type: error
 #. Description
@@ -347,14 +348,14 @@ msgstr "Paket ${GENERATOR} yang dipilih untuk membuat initrd tak didukung."
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "generic: include all available drivers"
-msgstr "generik: gunakan semua driver yang ada"
+msgstr "generik: sertakan semua driver yang ada"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "targeted: only include drivers needed for this system"
-msgstr "target: hanya driver yang dibutuhkan saja"
+msgstr "tertarget: hanya sertakan driver yang dibutuhkan saja"
 
 #. Type: select
 #. Description
@@ -574,7 +575,7 @@ msgstr ""
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:23001
 msgid "Retrieving Release file"
-msgstr "Mengunduh berkas Release"
+msgstr "Mengambil berkas Release"
 
 #. Type: text
 #. Description
@@ -582,7 +583,7 @@ msgstr "Mengunduh berkas Release"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:24001
 msgid "Retrieving Release file signature"
-msgstr "Mengunduh tanda tangan berkas Release"
+msgstr "Mengambil tanda tangan berkas Release"
 
 #. Type: text
 #. Description
@@ -598,7 +599,7 @@ msgstr "Mencari ukuran paket"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:26001
 msgid "Retrieving Packages files"
-msgstr "Mengunduh berkas Packages"
+msgstr "Mengambil berkas-berkas Packages"
 
 #. Type: text
 #. Description
@@ -606,7 +607,7 @@ msgstr "Mengunduh berkas Packages"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:27001
 msgid "Retrieving Packages file"
-msgstr "Mengunduh berkas Packages"
+msgstr "Mengambil berkas Packages"
 
 #. Type: text
 #. Description
@@ -614,7 +615,7 @@ msgstr "Mengunduh berkas Packages"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:28001
 msgid "Retrieving packages"
-msgstr "Mengunduh paket-paket"
+msgstr "Mengambil paket-paket"
 
 #. Type: text
 #. Description
@@ -622,7 +623,7 @@ msgstr "Mengunduh paket-paket"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:29001
 msgid "Extracting packages"
-msgstr "Membuka paket-paket"
+msgstr "Mengekstrak paket-paket"
 
 #. Type: text
 #. Description
@@ -644,14 +645,14 @@ msgstr "Memasang paket-paket inti"
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:32001
 msgid "Unpacking required packages"
-msgstr "Membuka paket-paket yang diperlukan"
+msgstr "Membongkar kemasan paket yang diperlukan"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:33001
 msgid "Configuring required packages"
-msgstr "Mempersiapkan paket-paket wajib"
+msgstr "Mengonfigurasi paket yang diperlukan"
 
 #. Type: text
 #. Description
@@ -660,7 +661,7 @@ msgstr "Mempersiapkan paket-paket wajib"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #: ../bootstrap-base.templates:34001
 msgid "Unpacking the base system"
-msgstr "Memasang sistem dasar"
+msgstr "Membongkar kemasan sistem dasar"
 
 #. Type: text
 #. Description
@@ -669,7 +670,7 @@ msgstr "Memasang sistem dasar"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #: ../bootstrap-base.templates:35001
 msgid "Configuring the base system"
-msgstr "Mempersiapkan sistem dasar"
+msgstr "Mengonfigurasi sistem dasar"
 
 #. Type: text
 #. Description
@@ -684,7 +685,7 @@ msgstr "${SECTION}: ${INFO}...."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:37001
 msgid "Validating ${SUBST0}..."
-msgstr "Memeriksa keabsahan ${SUBST0}..."
+msgstr "Memvalidasi ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -692,7 +693,7 @@ msgstr "Memeriksa keabsahan ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:38001
 msgid "Retrieving ${SUBST0}..."
-msgstr "Mengunduh ${SUBST0}..."
+msgstr "Mengambil ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -700,7 +701,7 @@ msgstr "Mengunduh ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:39001
 msgid "Extracting ${SUBST0}..."
-msgstr "Membuka ${SUBST0}..."
+msgstr "Mengekstrak ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -708,7 +709,7 @@ msgstr "Membuka ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:40001
 msgid "Unpacking ${SUBST0}..."
-msgstr "Membuka ${SUBST0}..."
+msgstr "Membongkar kemasan ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -716,7 +717,7 @@ msgstr "Membuka ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:41001
 msgid "Configuring ${SUBST0}..."
-msgstr "Mempersiapkan ${SUBST0}..."
+msgstr "Mengonfigurasi ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -733,14 +734,14 @@ msgstr "Memeriksa tanda tangan Release"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "Berkas Release sah: (id kunci ${SUBST0})"
+msgstr "Tanda tangan Release valid: (id kunci ${SUBST0})"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:44001
 msgid "Resolving dependencies of base packages..."
-msgstr "Sedang mencari ketergantungan paket-paket dasar..."
+msgstr "Menguraikan ketergantungan paket dasar..."
 
 #. Type: text
 #. Description
@@ -748,7 +749,7 @@ msgstr "Sedang mencari ketergantungan paket-paket dasar..."
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:45001
 msgid "Found additional base dependencies: ${SUBST0}"
-msgstr "Ditemukan ketergantungan tambahan: ${SUBST0}"
+msgstr "Ditemukan tambahan ketergantungan dasar: ${SUBST0}"
 
 #. Type: text
 #. Description
@@ -756,7 +757,7 @@ msgstr "Ditemukan ketergantungan tambahan: ${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:46001
 msgid "Found additional required dependencies: ${SUBST0}"
-msgstr "Ditemukan ketergantungan tambahan wajib: ${SUBST0}"
+msgstr "Ditemukan tambahan ketergantungan yang diperlukan: ${SUBST0}"
 
 #. Type: text
 #. Description
@@ -764,14 +765,15 @@ msgstr "Ditemukan ketergantungan tambahan wajib: ${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:47001
 msgid "Found packages in base already in required: ${SUBST0}"
-msgstr "Paket dasar telah ada pada daftar wajib: ${SUBST0}"
+msgstr ""
+"Ditemukan paket dalam dasar yang telah ada pada yang diperlukan: ${SUBST0}"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:48001
 msgid "Resolving dependencies of required packages..."
-msgstr "Sedang mencari ketergantungan paket-paket yang diwajibkan..."
+msgstr "Menguraikan ketergantungan paket yang diperlukan..."
 
 #. Type: text
 #. Description
@@ -802,7 +804,7 @@ msgstr "Memasang paket-paket inti..."
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:51001
 msgid "Unpacking required packages..."
-msgstr "Membuka paket-paket yang diwajibkan..."
+msgstr "Membongkar kemsan paket yang diperlukan..."
 
 #. Type: text
 #. Description
@@ -813,7 +815,7 @@ msgstr "Membuka paket-paket yang diwajibkan..."
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:52001
 msgid "Configuring required packages..."
-msgstr "Mengonfigurasi paket-paket wajib...."
+msgstr "Mengonfigurasi paket-paket yang diperlukan..."
 
 #. Type: text
 #. Description
@@ -827,14 +829,14 @@ msgstr "Memasang paket-paket dasar..."
 #. :sl1:
 #: ../bootstrap-base.templates:54001
 msgid "Unpacking the base system..."
-msgstr "Membuka dan memasang sistem dasar..."
+msgstr "Membongkar kemasan sistem dasar..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:55001
 msgid "Configuring the base system..."
-msgstr "Mengatur sistem dasar..."
+msgstr "Mengonfigurasi sistem dasar..."
 
 #. Type: text
 #. Description
@@ -879,7 +881,7 @@ msgstr "Memilih kernel untuk dipasang..."
 #. :sl1:
 #: ../bootstrap-base.templates:61001
 msgid "Installing the kernel..."
-msgstr "Memasang kernel...."
+msgstr "Memasang kernel..."
 
 #. Type: text
 #. Description

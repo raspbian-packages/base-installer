@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: debian-installer.2006071\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2023-04-09 20:53+0000\n"
+"PO-Revision-Date: 2024-09-21 07:40+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian\n"
 "Language: ka\n"
@@ -39,7 +39,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:1001
 msgid "Proceed with installation to unclean target?"
-msgstr "დანაყოფი არ არის ცარიელი. განვაგრძოთ დაყენება?"
+msgstr "დანაყოფი სუფთა არაა. გავაგრძელო დაყენება?"
 
 #. Type: boolean
 #. Description
@@ -50,16 +50,16 @@ msgid ""
 "could cause problems with the installation process, and if you proceed, some "
 "of the existing files may be overwritten."
 msgstr ""
-"მითითებული დანაყოფი შეიცავს წინა ინსტალაციის დატოვებულ მონაცემებს. მათ "
-"შეიძლება პრობლემები შეუქმნან ახალ ინსტალაციას და თუ გააგრძელებთ, ზოგი ფაილი "
-"შეიძლება შეცვლილ იქნას ინსტალერის მიერ."
+"სამიზნე ფაილური სისტემა შეიცავს ფაილების დაყენების წინა მცდელობიდან. ამ "
+"ფაილებმა, შეიძლება, დაყენების მიმდინარეობისას პრობლემები გამოიწვიოს და თუ "
+"გააგრძელებთ, ზოგიერთ არსებულ ფაილს, შეიძლება, ზედ გადაეწეროს."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../base-installer.templates:2001
 msgid "No file system mounted on /target"
-msgstr "/target-ზე არ არის დამონტაჟებული ფაილური სისტემა"
+msgstr "/target-ზე არ არის მიმაგრებული ფაილური სისტემა"
 
 #. Type: error
 #. Description
@@ -69,8 +69,8 @@ msgid ""
 "Before the installation can proceed, a root file system must be mounted on /"
 "target. The partitioner and formatter should have done this for you."
 msgstr ""
-"სანამ ინსტალაცია გაგრძელდებოდეს, /target-ზე უნდა დამონტაჟდეს ფაილური "
-"სისტემა. ამას თვითონ გააკეთებენ უტილიტები partitioner და formatter."
+"სანამ დაყენებას დაიწყებთ, /target-ზე საწყისი ფაილური სისტემა უნდა მიამაგროთ. "
+"ეს თქვენთვის დაყოფის და დაფორმატების პროგრამებს უნდა გაეკეთებინათ."
 
 #. Type: error
 #. Description
@@ -88,57 +88,57 @@ msgid ""
 "back and erase or format the target file system before proceeding with the "
 "install."
 msgstr ""
-"ინსტალაცია შეწყვეტილია. სანამ თავიდან დაიწყებდეთ, გაასუფთავეთ ან დააფორმატეთ "
-"სისტემისათვის გამიზნული ფაილური სისტემა."
+"სამიზნე ფაილურ სისტემაზე დაყენება გაუქმდა. დაბრუნდით უკან და წაშალეთ ან "
+"დააფორმატეთ სამიზნე ფაილური სისტემა, სანამ დაყენებას გააგრძელეთ."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:4001
 msgid "Preparing to install the base system..."
-msgstr "ძირითადი სისტემის ინსტალაცია მზადდება..."
+msgstr "მომზადება საბაზისო სისტემის დასაყენებლად..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:5001 ../bootstrap-base.templates:30001
 msgid "Installing the base system"
-msgstr "ძირითადი სისტემის ინსტალაცია"
+msgstr "მიმდინარეობს საბაზისო სისტემის დაყენება"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:6001
 msgid "Running ${SCRIPT}..."
-msgstr "${SCRIPT}-ის გაშვება..."
+msgstr "${SCRIPT}-ის შესრულება..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "ძირითადი სისტემის დაყენება..."
+msgstr "საბაზისო სისტემის მორგება..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:8001 ../bootstrap-base.templates:59001
 msgid "Configuring APT sources..."
-msgstr "APT წყაროების კონფიგურაცია..."
+msgstr "APT-ის წყაროების მორგება..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:9001
 msgid "Updating the list of available packages..."
-msgstr "ხელმისაწვდომ პაკეტთა სიის განახლება..."
+msgstr "ხელმისაწვდომი პაკეტების სიის განახლება..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:10001
 msgid "Installing extra packages..."
-msgstr "დამატებითი პაკეტების ინსტალაცია..."
+msgstr "დამატებითი პაკეტების დაყენება..."
 
 #. Type: text
 #. Description
@@ -146,7 +146,7 @@ msgstr "დამატებითი პაკეტების ინსტ�
 #. :sl1:
 #: ../base-installer.templates:11001
 msgid "Installing extra packages - retrieving and installing ${SUBST0}..."
-msgstr "დამატებითი პაკეტების ინსტალაცია - ${SUBST0}-ს მიღება და დაყენება..."
+msgstr "დამატებითი პაკეტების დაყენება - ${SUBST0}-ის მიღება და დაყენება..."
 
 #. Type: text
 #. Description
@@ -155,7 +155,7 @@ msgstr "დამატებითი პაკეტების ინსტ�
 #. :sl1:
 #: ../bootstrap-base.templates:1001
 msgid "Install the base system"
-msgstr "ძირითადი სისტემის ინსტალაცია"
+msgstr "საბაზისო სისტემის დაყენება"
 
 #. Type: error
 #. Description
@@ -164,7 +164,7 @@ msgstr "ძირითადი სისტემის ინსტალა�
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 msgid "Cannot install base system"
-msgstr "ძირითადი სისტემის ინსტალაცია ვერ ხერხდება"
+msgstr "ძირითადი სისტემის დაყენება შეუძლებელია"
 
 #. Type: error
 #. Description
@@ -176,8 +176,8 @@ msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"ინსტალერი ვერ ახერხებს ძირითადი სისტემის დაყენებას. არ არის ნაპოვნი არც "
-"საინსტალაციო CD ROM და არც კონფიგურირებული სერვერ-სარკეები."
+"დაყენების პროგრამამ ვერ გაარკვია, როგორ დააყენოს საბაზისო სისტემა. "
+"დაყენებადი დისკის ფაილის ფაილი აღმოჩენილი არაა და არც სწორი სარკეა მორგებული."
 
 #. Type: error
 #. Description
@@ -228,14 +228,14 @@ msgstr "გამოშვების კოდური სახელის 
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "Failed to install the base system"
-msgstr "ძირითადი სისტემის ინსტალაცია ვერ განხორციელდა"
+msgstr "საბაზისო სისტემის დაყენება ჩავარდა"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "The base system installation into /target/ failed."
-msgstr "ძირითადი სისტემის ინსტალაცია /target/-ზე ვერ განხორციელდა."
+msgstr "საბაზისო სისტემის დაყენება /target/-ზე ჩავარდა."
 
 #. Type: error
 #. Description
@@ -259,7 +259,7 @@ msgstr "ძირითადი სისტემის ინსტალა�
 #: ../bootstrap-base.templates:6001 ../bootstrap-base.templates:7001
 #: ../bootstrap-base.templates:11001 ../bootstrap-base.templates:16001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
-msgstr "დაწვრილებით იხილეთ /var/log/syslog ან ვირტუალური კონსოლი 4."
+msgstr "დეტალებისთვის იხილეთ /var/log/syslog ან ვირტუალური კონსოლი 4."
 
 #. Type: error
 #. Description
@@ -269,7 +269,7 @@ msgstr "დაწვრილებით იხილეთ /var/log/syslog ა
 #. :sl2:
 #: ../bootstrap-base.templates:5001 ../bootstrap-base.templates:6001
 msgid "Base system installation error"
-msgstr "ძირითადი სისტემის ინსტალაციის შეცდომა"
+msgstr "საბაზისო სისტემის დაყენების შეცდომა"
 
 #. Type: error
 #. Description
@@ -278,7 +278,7 @@ msgstr "ძირითადი სისტემის ინსტალა�
 msgid ""
 "The debootstrap program exited with an error (return value ${EXITCODE})."
 msgstr ""
-"debootstrap პროგრამა შეცდომის გამო დაიხურა (დაბრუნებული მნიშვნელობა "
+"Debootstrap პროგრამა შეცდომის გამო დაიხურა (დაბრუნებული მნიშვნელობა "
 "${EXITCODE})."
 
 #. Type: error
@@ -286,21 +286,21 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:6001
 msgid "The debootstrap program exited abnormally."
-msgstr "debootstrap პროგრამა მოულოდნელად დასრულდა."
+msgstr "Debootstrap პროგრამა მოულოდნელად დასრულდა."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:7001
 msgid "The following error occurred:"
-msgstr "დაშვებულია შეცდომა:"
+msgstr "აღმოჩენილია შემდეგი შეცდომა:"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
-msgstr "ჩატვირთვის initrd-ს შექმნის უტილიტა:"
+msgstr "ჩატვირთვის initrd-ს შექმნის პროგრამა:"
 
 #. Type: select
 #. Description
@@ -311,15 +311,15 @@ msgid ""
 "should select the default. If your system fails to boot, you can retry the "
 "installation using the other options."
 msgstr ""
-"აირჩიეთ უტილიტა სიიდან. თუ არ იცით რომელი აირჩიოთ, დატოვეთ ნაგულისხმევი. თუ "
-"სისტემა ვერ ჩაიტვირთა, გაიმეორეთ ინსტალაცია სხვა პარამეტრით."
+"აირჩიეთ პროგრამა სიიდან. თუ არ იცით, რომელი აირჩიოთ, დატოვეთ ნაგულისხმევი. "
+"თუ სისტემა ვერ ჩაიტვირთა, გაიმეორეთ დაყენება სხვა პარამეტრით."
 
 #. Type: error
 #. Description
 #. :sl3:
 #: ../bootstrap-base.templates:9001
 msgid "Unsupported initrd generator"
-msgstr "initrd გენერატორს მხარდაჭერა არ გააჩნია"
+msgstr "მხარდაუჭერელი initrd-ის გენერატორი"
 
 #. Type: error
 #. Description
@@ -328,14 +328,14 @@ msgstr "initrd გენერატორს მხარდაჭერა ა
 msgid ""
 "The package ${GENERATOR} that was selected to generate the initrd is not "
 "supported."
-msgstr "initrd-ს შესაქმნელად არჩეული პაკეტი ${GENERATOR} არ არის მხარდაჭერილი."
+msgstr "initrd-ს შესაქმნელად არჩეული პაკეტი ${GENERATOR} მხარდაჭერილი არაა."
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "generic: include all available drivers"
-msgstr "სტანდარტული: ყველა ხელმისაწვდომი დრაივერი"
+msgstr "სტანდარტული: ყველა ხელმისაწვდომი დრაივერის ჩასმა"
 
 #. Type: select
 #. Choices
@@ -349,7 +349,7 @@ msgstr "მიმართული: მხოლოდ ის დრაივ�
 #. :sl3:
 #: ../bootstrap-base.templates:10002
 msgid "Drivers to include in the initrd:"
-msgstr "initrd-ში შესასვლელი დრაივერები:"
+msgstr "initrd-ში ჩასასმელი დრაივერები:"
 
 #. Type: select
 #. Description
@@ -360,8 +360,8 @@ msgid ""
 "file system. It therefore needs to contain all drivers and supporting "
 "programs required to do that."
 msgstr ""
-"initrd-ს ძირითადი ფუნქციააა საშუალება მისცეს კერნელს ჩაამონტაჟოს ძირეული "
-"(root) ფაილური სისტემა. შესაბამისად, მას ამისათვის საჭირო ყველა დრაივერი და "
+"initrd-ის ძირითადი ფუნქციაა საშუალება მისცეს ბირთვს, მიამაგროს ძირითადი "
+"ფაილური სისტემა. შესაბამისად, მას ამისათვის საჭირო ყველა დრაივერი და "
 "დამხმარე პროგრამა ჭირდება."
 
 #. Type: select
@@ -378,7 +378,7 @@ msgstr ""
 "სტანდარტული initrd მიმართულზე ბევრად დიდია და შესაძლოა იმდენად დიდი იყოს, "
 "რომ ზოგიერთმა ჩამტვირთველმა შესაძლოა მისი ჩატვირთვა ვერ შეძლოს. თუმცა მისი "
 "უპირატესობაა, რომ სამიზნე სისტემის ჩატვირთვა თითქმის ნებისმიერი "
-"კონფიგურაციის მქონე მოწყობილობაზე შეუძლია. უფრი მცირე, მიმართული initrd-ს "
+"კონფიგურაციის მქონე მოწყობილობაზე შეუძლია. უფრო მცირე, მიმართული initrd-ს "
 "შემთხვევაში არსებობს მცირე რისკი იმისა, რომ იგი არ შეიცავდეს ყველა საჭირო "
 "დრაივერს."
 
@@ -387,7 +387,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Unable to install the selected kernel"
-msgstr "არჩეული ბირთვის ინსტალაცია შეუძლებელია"
+msgstr "არჩეული ბირთვის დაყენება შეუძლებელია"
 
 #. Type: error
 #. Description
@@ -396,7 +396,7 @@ msgstr "არჩეული ბირთვის ინსტალაცი�
 msgid ""
 "An error was returned while trying to install the kernel into the target "
 "system."
-msgstr "შეცდომა ბირთვის ინსტალაციისას."
+msgstr "აღმოჩენილია შეცდომა სამიზნე სისტემაზე ბირთვის დაყენებისას."
 
 #. Type: error
 #. Description
@@ -430,23 +430,22 @@ msgid ""
 "The list shows the available kernels. Please choose one of them in order to "
 "make the system bootable from the hard drive."
 msgstr ""
-"აირჩიეთ სიიდან დასაშვები ბირთვი, რათა სისტემამ შეძლოს დისკიდან ჩატვირთვა."
+"ეს სია ხელმისაწვდომი ბირთვების სიას გაჩვენებთ. აირჩიეთ ერთ-ერთი, რომ სისტემა "
+"მყარი დისკიდან ჩატვირთვადი გახდეს."
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:14001
 msgid "Continue without installing a kernel?"
-msgstr "გავაგრძელოთ ბირთვის ინსტალაციის გარეშე?"
+msgstr "გავაგრძელო ბირთვის დაყენების გარეშე?"
 
 #. Type: boolean
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:14001
 msgid "No installable kernel was found in the defined APT sources."
-msgstr ""
-"მითითებულ APT-წყაროებში ვერ მოინახა ბირთვი, რომლის დაყენება შესაძლებელი "
-"იქნებოდა."
+msgstr "მითითებულ APT-ის წყაროებში დაყენებადი ბირთვის აღმოჩენილი არაა."
 
 #. Type: boolean
 #. Description
@@ -457,30 +456,30 @@ msgid ""
 "kernel later. This is only recommended for experts, otherwise you will "
 "likely end up with a machine that doesn't boot."
 msgstr ""
-"შეგიძლიათ გააგრძელოთ ბირთვის გარეშე, და მოგვიანებით დააყენოთ ხელით საკუთარი "
-"ბირთვი. ეს რეკომენდებულია მხოლოდ მაღალი კვალიფიკაციის სპეციალისტებისათვის - "
-"არასწორი მოქმედების შემთხვევაში სისტემა შეიძლება აღარ ჩაიტვირთოს."
+"შეგიძლიათ გააგრძელოთ ბირთვის გარეშე და მოგვიანებით დააყენოთ ხელით საკუთარი "
+"ბირთვი. ეს რეკომენდებულია ,მხოლოდ, მაღალი კვალიფიკაციის სპეციალისტებისათვის "
+"- არასწორი მოქმედების შემთხვევაში სისტემა, შეიძლება, აღარ ჩაიტვირთოს."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "Cannot install kernel"
-msgstr "ბირთვის ინსტალაცია ვერ ხერხდება"
+msgstr "ბირთვის დაყენება შეუძლებელია"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "The installer cannot find a suitable kernel package to install."
-msgstr "ინსტალერმა ვერ იპოვა შესაბამისი ბირთვის პაკეტი."
+msgstr "დაყენების პროგრამამ დასაყენებლად შესაფერისი ბირთვის პაკეტი ვერ იპოვა."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:16001
 msgid "Unable to install ${PACKAGE}"
-msgstr "${PACKAGE}-ის ინსტალაცია ვერ ხერხდება"
+msgstr "დაყენება შეუძლებელია: ${PACKAGE}"
 
 #. Type: error
 #. Description
@@ -489,7 +488,7 @@ msgstr "${PACKAGE}-ის ინსტალაცია ვერ ხერხ�
 msgid ""
 "An error was returned while trying to install the ${PACKAGE} package onto "
 "the target system."
-msgstr "შეცდომა ${PACKAGE} პაკეტის ინსტალირებისას მიმღებ სისტემაში."
+msgstr "შეცდომა პაკეტის ${PACKAGE} სამიზნე სისტემაზე დაყენების მცდელობისას."
 
 #. Type: error
 #. Description
@@ -497,7 +496,7 @@ msgstr "შეცდომა ${PACKAGE} პაკეტის ინსტა�
 #. SUBST0 is a Release file name.
 #: ../bootstrap-base.templates:17001
 msgid "Failed getting Release file ${SUBST0}."
-msgstr "Release-ფაილის ${SUBST0} მიღება ვერ მოხერხდა."
+msgstr "რელიზის ფაილის ${SUBST0} მიღება ვერ მოხერხდა."
 
 #. Type: error
 #. Description
@@ -505,7 +504,7 @@ msgstr "Release-ფაილის ${SUBST0} მიღება ვერ მო
 #. SUBST0 is a Release.gpg file name
 #: ../bootstrap-base.templates:18001
 msgid "Failed getting Release signature file ${SUBST0}."
-msgstr "Release ფაილისთვის ${SUBST0} ხელმოწერის მიღება ვერ მოხერხდა."
+msgstr "რელიზის ფაილისთვის ${SUBST0} ხელმოწერის მიღება ჩავარდა."
 
 #. Type: error
 #. Description
@@ -513,14 +512,14 @@ msgstr "Release ფაილისთვის ${SUBST0} ხელმოწე�
 #. SUBST0 is a gpg key ID
 #: ../bootstrap-base.templates:19001
 msgid "Release file signed by unknown key (key id ${SUBST0})"
-msgstr "Release-ფაილი ხელმოწერილია უცნობი გასაღებით (${SUBST0})"
+msgstr "რელიზის ფაილი ხელმოწერილია უცნობი გასაღებით (${SUBST0})"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:20001
 msgid "Invalid Release file: no valid components."
-msgstr "არასწორი Release-ფაილი: დაუშვებელი კომპონენტები."
+msgstr "არასწორი რელიზის ფაილი: სწორი კომპონენტების გარეშე."
 
 #. Type: error
 #. Description
@@ -528,7 +527,7 @@ msgstr "არასწორი Release-ფაილი: დაუშვებ�
 #. SUBST0 is a filename
 #: ../bootstrap-base.templates:21001
 msgid "Invalid Release file: no entry for ${SUBST0}."
-msgstr "არასწორი Release-ფაილი: არ არის ${SUBST0}-ს აღწერა."
+msgstr "არასწორი რელიზის ფაილი: ${SUBST0}-სთვის ჩანაწერი არაა."
 
 #. Type: error
 #. Description
@@ -540,7 +539,7 @@ msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
-"ვერ ხერხდება ${SUBST0}-ს მიღება. ეს შეიძლება იყოს ქსელის ან CD-ს მიზეზით - "
+"ვერ ხერხდება ${SUBST0}-ის მიღება. ეს შეიძლება იყოს ქსელის ან CD-ს მიზეზით - "
 "იმის მიხედვით თუ საიდან აყენებთ სისტემას."
 
 #. Type: error
@@ -553,8 +552,8 @@ msgid ""
 "If you are installing from CD-R or CD-RW, burning the CD at a lower speed "
 "may help."
 msgstr ""
-"თუ თქვენ CD-R ან CD-RW-დან აყენებთ, სცადეთ უფრო დაბალ სიჩქარეზე ჩაწერილი "
-"დისკი."
+"თუ თქვენ CD-R ან CD-RW-დან აყენებთ, სცადეთ, დისკის უფრო დაბალ სიჩქარეზე "
+"ჩაწეროთ."
 
 #. Type: text
 #. Description
@@ -562,7 +561,7 @@ msgstr ""
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:23001
 msgid "Retrieving Release file"
-msgstr "Release ფაილის მიღება"
+msgstr "რელიზის ფაილის მიღება"
 
 #. Type: text
 #. Description
@@ -570,7 +569,7 @@ msgstr "Release ფაილის მიღება"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:24001
 msgid "Retrieving Release file signature"
-msgstr "Release ფაილის ხელმოწერის მიღება"
+msgstr "რელიზის ფაილის ხელმოწერის მიღება"
 
 #. Type: text
 #. Description
@@ -578,7 +577,7 @@ msgstr "Release ფაილის ხელმოწერის მიღე�
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:25001
 msgid "Finding package sizes"
-msgstr "პაკეტების ზომების განსაზღვრა"
+msgstr "პაკეტის ზომების ძებნა"
 
 #. Type: text
 #. Description
@@ -586,7 +585,7 @@ msgstr "პაკეტების ზომების განსაზღ�
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:26001
 msgid "Retrieving Packages files"
-msgstr "Packages ფაილების მიღება"
+msgstr "პაკეტის ფაილების მიღება"
 
 #. Type: text
 #. Description
@@ -594,7 +593,7 @@ msgstr "Packages ფაილების მიღება"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:27001
 msgid "Retrieving Packages file"
-msgstr "Packages ფაილის მიღება"
+msgstr "პაკეტის ფაილის მიღება"
 
 #. Type: text
 #. Description
@@ -610,7 +609,7 @@ msgstr "პაკეტების მიღება"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:29001
 msgid "Extracting packages"
-msgstr "პაკეტების განარქივება"
+msgstr "პაკეტების გაშლა"
 
 #. Type: text
 #. Description
@@ -621,7 +620,7 @@ msgstr "პაკეტების განარქივება"
 #. be installed on the base system because of dependency resolution
 #: ../bootstrap-base.templates:31001
 msgid "Installing core packages"
-msgstr "core-პაკეტების ინსტალაცია"
+msgstr "ძირითადი პაკეტების დაყენება"
 
 #. Type: text
 #. Description
@@ -632,14 +631,14 @@ msgstr "core-პაკეტების ინსტალაცია"
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:32001
 msgid "Unpacking required packages"
-msgstr "საჭირო პაკეტების გაშლა"
+msgstr "აუცილებელი პაკეტების გაშლა"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:33001
 msgid "Configuring required packages"
-msgstr "საჭირო პაკეტების კონფიგურაცია"
+msgstr "აუცილებელი პაკეტების მორგება"
 
 #. Type: text
 #. Description
@@ -648,7 +647,7 @@ msgstr "საჭირო პაკეტების კონფიგურ�
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #: ../bootstrap-base.templates:34001
 msgid "Unpacking the base system"
-msgstr "ძირითადი სისტემის გაშლა"
+msgstr "საბაზისო სისტემის გაშლა"
 
 #. Type: text
 #. Description
@@ -657,7 +656,7 @@ msgstr "ძირითადი სისტემის გაშლა"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #: ../bootstrap-base.templates:35001
 msgid "Configuring the base system"
-msgstr "ძირითადი სისტემის კონფიგურაცია"
+msgstr "საბაზისო სისტემის მორგება"
 
 #. Type: text
 #. Description
@@ -672,7 +671,7 @@ msgstr "${SECTION}: ${INFO}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:37001
 msgid "Validating ${SUBST0}..."
-msgstr "${SUBST0}-ს დამოწმება..."
+msgstr "${SUBST0}-ის დამოწმება..."
 
 #. Type: text
 #. Description
@@ -688,7 +687,7 @@ msgstr "${SUBST0}-ს მიღება..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:39001
 msgid "Extracting ${SUBST0}..."
-msgstr "${SUBST0}-ს ამოღება..."
+msgstr "${SUBST0}-ის გაშლა..."
 
 #. Type: text
 #. Description
@@ -696,7 +695,7 @@ msgstr "${SUBST0}-ს ამოღება..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:40001
 msgid "Unpacking ${SUBST0}..."
-msgstr "${SUBST0}-ს განარქივება..."
+msgstr "${SUBST0}-ის პაკეტის გაშლა..."
 
 #. Type: text
 #. Description
@@ -704,7 +703,7 @@ msgstr "${SUBST0}-ს განარქივება..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:41001
 msgid "Configuring ${SUBST0}..."
-msgstr "${SUBST0}-ს კონფიგურაცია..."
+msgstr "${SUBST0}-ის მორგება..."
 
 #. Type: text
 #. Description
@@ -712,7 +711,7 @@ msgstr "${SUBST0}-ს კონფიგურაცია..."
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"
-msgstr "Release-ის ხელმოწერის შემოწმება"
+msgstr "რელიზის ხელმოწერის შემოწმება"
 
 #. Type: text
 #. Description
@@ -721,14 +720,14 @@ msgstr "Release-ის ხელმოწერის შემოწმებ�
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "Release-ფაილის ხელმოწერა სწორია (id ${SUBST0})"
+msgstr "რელიზის ხელმოწერა სწორია (გასაღების id ${SUBST0})"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:44001
 msgid "Resolving dependencies of base packages..."
-msgstr "ბაზურ პაკეტთა ურთიერთდამოკიდებულების დამუშავება..."
+msgstr "საბაზისო პაკეტები დამოკიდებულებების ამოხსნა..."
 
 #. Type: text
 #. Description
@@ -744,7 +743,7 @@ msgstr "ნაპოვნია დამატებითი ძირით�
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:46001
 msgid "Found additional required dependencies: ${SUBST0}"
-msgstr "ნაპოვნია დამატებითი საჭირო დამოკიდებულებები: ${SUBST0}"
+msgstr "ნაპოვნია დამატებითი აუცილებელი დამოკიდებულებები: ${SUBST0}"
 
 #. Type: text
 #. Description
@@ -760,7 +759,7 @@ msgstr ""
 #. :sl1:
 #: ../bootstrap-base.templates:48001
 msgid "Resolving dependencies of required packages..."
-msgstr "საჭირო (required) პაკეტთა ურთიერთდამოკიდებულების დამუშავება..."
+msgstr "აუცილებელი პაკეტის დამოკიდებულებების ამოხსნა..."
 
 #. Type: text
 #. Description
@@ -780,7 +779,7 @@ msgstr "${SUBST0} კომპონენტის შემოწმება 
 #. be installed on the base system because of dependency resolution
 #: ../bootstrap-base.templates:50001
 msgid "Installing core packages..."
-msgstr "ძირითადი პაკეტების ინსტალაცია..."
+msgstr "ძირითადი პაკეტების დაყენება..."
 
 #. Type: text
 #. Description
@@ -791,7 +790,7 @@ msgstr "ძირითადი პაკეტების ინსტალ�
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:51001
 msgid "Unpacking required packages..."
-msgstr "მოთხოვნილი პაკეტების გაშლა..."
+msgstr "აუცილებელი პაკეტების გაშლა..."
 
 #. Type: text
 #. Description
@@ -802,14 +801,14 @@ msgstr "მოთხოვნილი პაკეტების გაშლ�
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:52001
 msgid "Configuring required packages..."
-msgstr "მოთხოვნილი პაკეტების კონფიგურაცია..."
+msgstr "აუცილებელი პაკეტების მორგება..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:53001
 msgid "Installing base packages..."
-msgstr "ძირითადი პაკეტების ინსტალაცია..."
+msgstr "საბაზისო პაკეტების დაყენება..."
 
 #. Type: text
 #. Description
@@ -823,14 +822,14 @@ msgstr "ძირითადი სისტემის გაშლა..."
 #. :sl1:
 #: ../bootstrap-base.templates:55001
 msgid "Configuring the base system..."
-msgstr "ძირითადი სისტემის კონფიგურაცია..."
+msgstr "ძირითადი სისტემის მორგება..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:56001
 msgid "Base system installed successfully."
-msgstr "ძირითადი სისტემის დაყენება წარმატებით დასრულდა."
+msgstr "საბაზისო სისტემის დაყენება წარმატებით დასრულდა."
 
 #. Type: error
 #. Description
@@ -854,21 +853,21 @@ msgstr "გაფრთხილება: ${INFO}"
 #. :sl2:
 #: ../bootstrap-base.templates:58001
 msgid "Retrying failed download of ${SUBST0}"
-msgstr "${SUBST0}-ს ხელახალი ჩამოტვირთვა წარუმატებელი მცდელობის შემდეგ"
+msgstr "${SUBST0}-ის თავიდან გადმოწერის მცდელობა ჩავარდნის შემდეგ"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:60001
 msgid "Selecting the kernel to install..."
-msgstr "საინსტალაციო ბირთვის არჩევა..."
+msgstr "აირჩიეთ დასაყენებელი ბირთვი..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:61001
 msgid "Installing the kernel..."
-msgstr "ბირთვის ინსტალაცია..."
+msgstr "ბირთვის დაყენება..."
 
 #. Type: text
 #. Description
@@ -876,4 +875,4 @@ msgstr "ბირთვის ინსტალაცია..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "ბირთვის ინსტალაცია - ${SUBST0}-ს მიღება და დაყენება..."
+msgstr "ბირთვის ინსტალაცია - ${SUBST0}-ის მიღება და დაყენება..."

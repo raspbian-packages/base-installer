@@ -21,7 +21,7 @@
 #   Kalman Kemenczy <kkemenczy@gmail.com>, 2010.
 #   Andras TIMAR <timar@gnome.hu>, 2000-2001.
 # SZERVÁC Attila <sas@321.hu>, 2012.
-# Dr. Nagy Elemér Károly <eknagy@omikk.bme.hu>, 2012.
+# Dr. Nagy Elemér Károly <eknagy@omikk.bme.hu>, 2012, 2018.
 # Judit Gyimesi <judit.gyimesi.x@gmail.com>, 2013.
 #
 msgid ""
@@ -29,8 +29,8 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2017-11-26 20:32+0000\n"
-"Last-Translator: Dr. Nagy Elemér Károly <eknagy@omikk.bme.hu>\n"
+"PO-Revision-Date: 2024-10-05 07:15+0000\n"
+"Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
 "Language: hu\n"
@@ -47,7 +47,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:1001
 msgid "Proceed with installation to unclean target?"
-msgstr "Biztosan kitisztítatlan helyre folytatja a telepítést?"
+msgstr "Nem tiszta (letörletlen) helyre folytatod a telepítést?"
 
 # Type: boolean
 # Description
@@ -61,8 +61,8 @@ msgid ""
 "could cause problems with the installation process, and if you proceed, some "
 "of the existing files may be overwritten."
 msgstr ""
-"A cél fájlrendszer korábbi telepítésből származó fájlokat tartalmaz. Ezek "
-"gondokat okozhatnak a telepítő folyamatban, és amennyiben folytatja, néhány "
+"A célfájlrendszer korábbi telepítésből származó fájlokat tartalmaz. Ezek "
+"gondot okozhatnak a telepítés során, és - amennyiben folytatod - néhány régi "
 "fájl felülíródhat."
 
 # Type: error
@@ -73,7 +73,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:2001
 msgid "No file system mounted on /target"
-msgstr "Nincs a /target-be csatolt fájlrendszer"
+msgstr "Nincs fájlrendszer csatolva a /célrendszerhez"
 
 # Type: error
 # Description
@@ -86,9 +86,9 @@ msgid ""
 "Before the installation can proceed, a root file system must be mounted on /"
 "target. The partitioner and formatter should have done this for you."
 msgstr ""
-"A telepítés folytatása előtt a /target-be egy gyökér fájlrendszert kell "
-"csatolni. Ezt a particionáló és formázó részeknek már meg kellett volna "
-"tenniük, valamiért azonban nem történt meg."
+"A telepítés folytatása előtt a /célrendszerhez egy gyökér fájlrendszert kell "
+"csatolni. A particionálónak és a formázónak ezt már el kellett volna "
+"végeznie, valamiért azonban nem történt meg."
 
 # Type: error
 # Description
@@ -98,7 +98,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:3001
 msgid "Not installing to unclean target"
-msgstr "Kitisztítatlan célhelyre nem telepítek"
+msgstr "Kitisztítatlan célfájlrendszerre nem telepítek"
 
 # Type: error
 # Description
@@ -112,8 +112,8 @@ msgid ""
 "back and erase or format the target file system before proceeding with the "
 "install."
 msgstr ""
-"A célfájlrendszer telepítése megszakadt. Lépjen vissza és törölje vagy "
-"formázza a célfájlrendszert mielőtt folytatja telepítést."
+"A célfájlrendszerbe telepítés megszakadt. Lépj vissza, és töröld vagy "
+"formázd a célfájlrendszert, mielőtt folytatod a telepítést."
 
 #. Type: text
 #. Description
@@ -193,7 +193,7 @@ msgstr "Alaprendszer telepítése"
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 msgid "Cannot install base system"
-msgstr "Az alaprendszer telepítése meghiúsult"
+msgstr "Nem telepíthető az alaprendszer"
 
 # Type: error
 # Description
@@ -206,16 +206,12 @@ msgstr "Az alaprendszer telepítése meghiúsult"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"A telepítő nem tudta telepíteni az alaprendszert. Se telepíthető CD-ROM, se "
-"érvényes, beállított tükör nincs."
+"A telepítő nem tudja telepíteni az alaprendszert. Nem található telepíthető "
+"lemezkép, se beállított, érvényes tükör."
 
 # Type: error
 # Description
@@ -312,111 +308,8 @@ msgstr "Az alaprendszer telepítése meghiúsult"
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "The base system installation into /target/ failed."
-msgstr "Az alaprendszer /target/-be telepítése meghiúsult."
+msgstr "Az alaprendszer telepítése a célfájlrendszerbe (/target/) meghiúsult."
 
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl2:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: boolean
-# Description
-# :sl2:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl2:
-# Type: error
-# Description
-# :sl2:
-# Type: error
-# Description
-# :sl2:
-# Type: error
-# Description
-# :sl2:
-# Type: error
-# Description
-# :sl2:
-# Type: error
-# Description
-# :sl2:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl4:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl4:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl4:
-# Type: error
-# Description
-# :sl4:
-# Type: error
-# Description
-# :sl4:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl4:
-# Type: error
-# Description
-# :sl4:
-# Type: error
-# Description
-# :sl4:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl3:
-# #-#-#-#-#  templates.pot (partman-zfs)  #-#-#-#-#
-# Type: error
-# Description
-# :sl4:
-# Type: error
-# Description
-# :sl4:
-# Type: error
-# Description
-# :sl4:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl3:
-# Type: error
-# Description
-# :sl3:
-# Type: error
-# Description
-# :sl3:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl3:
-# Type: error
-# Description
-# :sl3:
-# Type: error
-# Description
-# :sl3:
-# Type: error
-# Description
-# :sl3:
-# Type: error
-# Description
-# :sl3:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl3:
-# #-#-#-#-#  templates.pot (PACKAGE VERSION)  #-#-#-#-#
-# Type: error
-# Description
-# :sl3:
 #. Type: error
 #. Description
 #. :sl2:
@@ -440,7 +333,7 @@ msgstr "Az alaprendszer /target/-be telepítése meghiúsult."
 #: ../bootstrap-base.templates:11001 ../bootstrap-base.templates:16001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Részletek a /var/log/syslog-ban vagy a 4. virtuális konzolon találhatók."
+"Részletek a /var/log/syslog fájlban vagy a 4. virtuális konzolon találhatók."
 
 # Type: error
 # Description
@@ -584,7 +477,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Unable to install the selected kernel"
-msgstr "A kijelölt rendszermag telepítése elakadt"
+msgstr "Nem sikerült telepíteni a kiválasztott rendszermagot"
 
 # Type: error
 # Description
@@ -596,7 +489,7 @@ msgstr "A kijelölt rendszermag telepítése elakadt"
 msgid ""
 "An error was returned while trying to install the kernel into the target "
 "system."
-msgstr "A rendszermag célrendszerbe telepítése során hiba jelentkezett."
+msgstr "A rendszermag célrendszerbe telepítése során hiba történt."
 
 # Type: error
 # Description
@@ -606,7 +499,7 @@ msgstr "A rendszermag célrendszerbe telepítése során hiba jelentkezett."
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Kernel package: '${KERNEL}'."
-msgstr "Rendszermag-csomag: '${KERNEL}'."
+msgstr "Rendszermagcsomag: '${KERNEL}'."
 
 # Type: select
 # Choices
@@ -642,8 +535,8 @@ msgid ""
 "The list shows the available kernels. Please choose one of them in order to "
 "make the system bootable from the hard drive."
 msgstr ""
-"E lista az elérhető rendszermagokat mutatja. Válasszon egyet, hogy a "
-"rendszer a merevlemezről indítható legyen."
+"A lista az elérhető rendszermagokat mutatja. Válassz egyet, hogy a rendszer "
+"a merevlemezről indítható legyen."
 
 # Type: boolean
 # Description
@@ -653,7 +546,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:14001
 msgid "Continue without installing a kernel?"
-msgstr "Rendszermag telepítés nélkül folytatja?"
+msgstr "Rendszermag telepítése nélkül folytatod?"
 
 # Type: boolean
 # Description
@@ -663,7 +556,7 @@ msgstr "Rendszermag telepítés nélkül folytatja?"
 #. :sl2:
 #: ../bootstrap-base.templates:14001
 msgid "No installable kernel was found in the defined APT sources."
-msgstr "A megadott APT-forrásokban nincs fellelhető telepíthető rendszermag."
+msgstr "Nem található telepíthető rendszermag a megadott APT-forrásokban."
 
 # Type: boolean
 # Description
@@ -677,9 +570,9 @@ msgid ""
 "kernel later. This is only recommended for experts, otherwise you will "
 "likely end up with a machine that doesn't boot."
 msgstr ""
-"Megpróbálhatja rendszermag nélküli folytatni és a saját rendszermagját "
-"később kézzel telepíteni. Ez csak szakértőknek ajánlott, különben "
-"valószínűleg nem induló gépet fog eredményezni."
+"Megpróbálhatod rendszermag nélküli folytatni és később kézzel telepíteni a "
+"saját rendszermagodat. Ez csak szakértőknek ajánlott, különben valószínűleg "
+"egy olyan gépet fogsz kapni, amit nem lehet elindítani."
 
 # Type: error
 # Description
@@ -689,7 +582,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "Cannot install kernel"
-msgstr "A rendszermag telepítése meghiúsult"
+msgstr "Nem lehet telepíteni a rendszermagot"
 
 # Type: error
 # Description
@@ -699,7 +592,7 @@ msgstr "A rendszermag telepítése meghiúsult"
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "The installer cannot find a suitable kernel package to install."
-msgstr "A telepítő nem lel telepíthető rendszermag csomagot."
+msgstr "A telepítő nem talál telepíthető rendszermagcsomagot."
 
 # Type: error
 # Description
@@ -709,7 +602,7 @@ msgstr "A telepítő nem lel telepíthető rendszermag csomagot."
 #. :sl2:
 #: ../bootstrap-base.templates:16001
 msgid "Unable to install ${PACKAGE}"
-msgstr "Sikertelen telepítés: ${PACKAGE}"
+msgstr "Nem lehet telepíteni: ${PACKAGE}"
 
 # Type: error
 # Description
@@ -721,7 +614,7 @@ msgstr "Sikertelen telepítés: ${PACKAGE}"
 msgid ""
 "An error was returned while trying to install the ${PACKAGE} package onto "
 "the target system."
-msgstr "A(z) ${PACKAGE} csomag telepítése közben hiba történt."
+msgstr "A következő csomag telepítése közben hiba történt: ${PACKAGE}."
 
 # Type: error
 # Description
@@ -733,7 +626,7 @@ msgstr "A(z) ${PACKAGE} csomag telepítése közben hiba történt."
 #. SUBST0 is a Release file name.
 #: ../bootstrap-base.templates:17001
 msgid "Failed getting Release file ${SUBST0}."
-msgstr "${SUBST0} Release fájl letöltése sikertelen."
+msgstr "Nem sikerült lekérni a kiadási fájlt: ${SUBST0}."
 
 # Type: error
 # Description
@@ -745,7 +638,7 @@ msgstr "${SUBST0} Release fájl letöltése sikertelen."
 #. SUBST0 is a Release.gpg file name
 #: ../bootstrap-base.templates:18001
 msgid "Failed getting Release signature file ${SUBST0}."
-msgstr "${SUBST0} Release aláírás fájl letöltése sikertelen."
+msgstr "Nem sikerült lekérni a kiadási aláírásfájlt: ${SUBST0}."
 
 # Type: error
 # Description
@@ -758,7 +651,7 @@ msgstr "${SUBST0} Release aláírás fájl letöltése sikertelen."
 #: ../bootstrap-base.templates:19001
 msgid "Release file signed by unknown key (key id ${SUBST0})"
 msgstr ""
-"A Release fájl ismeretlen kulccsal lett aláírva (kulcs azonosító: ${SUBST0})"
+"A kiadási fájl ismeretlen kulccsal lett aláírva (kulcs azonosító: ${SUBST0})"
 
 # Type: error
 # Description
@@ -768,7 +661,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:20001
 msgid "Invalid Release file: no valid components."
-msgstr "Érvénytelen Release fájl: nincs érvényes összetevő."
+msgstr "Érvénytelen kiadási fájl: nincs érvényes összetevő."
 
 # Type: error
 # Description
@@ -780,7 +673,7 @@ msgstr "Érvénytelen Release fájl: nincs érvényes összetevő."
 #. SUBST0 is a filename
 #: ../bootstrap-base.templates:21001
 msgid "Invalid Release file: no entry for ${SUBST0}."
-msgstr "Érvénytelen Release fájl, nincs ${SUBST0} bejegyzése."
+msgstr "Érvénytelen kiadási fájl, nincs bejegyzés a következőhöz: ${SUBST0}."
 
 # Type: error
 # Description
@@ -793,16 +686,12 @@ msgstr "Érvénytelen Release fájl, nincs ${SUBST0} bejegyzése."
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
-"${SUBST0} letöltése sikertelen. Ez lehet hálózati hiba vagy rossz CD, a "
-"telepítés módjától függően."
+"${SUBST0} elérése sikertelen volt. Ez lehet hálózati hiba vagy adathordozó "
+"hiba, a telepítési módtól függően."
 
 # Type: error
 # Description
@@ -818,7 +707,8 @@ msgstr ""
 msgid ""
 "If you are installing from CD-R or CD-RW, burning the CD at a lower speed "
 "may help."
-msgstr "Ha CD-R-ről vagy CR-RW-ről telepít, a lassabb írás segíthet."
+msgstr ""
+"Ha CD-R-ről vagy CR-RW-ről szeretnél telepíteni, a lassabb CD írás segíthet."
 
 #. Type: text
 #. Description
@@ -1129,7 +1019,7 @@ msgstr "Figyelem: ${INFO}"
 #. :sl2:
 #: ../bootstrap-base.templates:58001
 msgid "Retrying failed download of ${SUBST0}"
-msgstr "Az alábbi hibás letöltés újrapróbálása: ${SUBST0}"
+msgstr "A következő hibás letöltés újrapróbálása: ${SUBST0}"
 
 #. Type: text
 #. Description
