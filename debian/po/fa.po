@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: fa sublevel1\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2022-12-11 11:40+0000\n"
+"PO-Revision-Date: 2025-01-05 13:44+0000\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Debian-l10n-persian <debian-l10n-persian@lists.debian.org>\n"
 "Language: fa\n"
@@ -111,14 +111,14 @@ msgstr "نصب کردن سامانهٔ پایه"
 #. :sl1:
 #: ../base-installer.templates:6001
 msgid "Running ${SCRIPT}..."
-msgstr "در حال اجرای ${SCRIPT}..."
+msgstr "اجرا کردن ‪${SCRIPT}‬…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "برپاسازی سامانهٔ پایه…"
+msgstr "برپایی سامانهٔ پایه…"
 
 #. Type: text
 #. Description
@@ -132,14 +132,14 @@ msgstr "پیکربندی منابع APT..."
 #. :sl1:
 #: ../base-installer.templates:9001
 msgid "Updating the list of available packages..."
-msgstr "بروزرسانی لیست بسته‌های موجود..."
+msgstr "به‌روز کردن سیاههٔ بسته‌های موجود…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:10001
 msgid "Installing extra packages..."
-msgstr "در حال نصب بسته‌های اضافی..."
+msgstr "نصب کردن بسته‌های اضافی…"
 
 #. Type: text
 #. Description
@@ -147,7 +147,7 @@ msgstr "در حال نصب بسته‌های اضافی..."
 #. :sl1:
 #: ../base-installer.templates:11001
 msgid "Installing extra packages - retrieving and installing ${SUBST0}..."
-msgstr "نصب بسته‌های اضافی - دریافت و نصب ${SUBST0}..."
+msgstr "نصب کردن بسته‌های اضافی - دریافت و نصب ${SUBST0}..."
 
 #. Type: text
 #. Description
@@ -156,7 +156,7 @@ msgstr "نصب بسته‌های اضافی - دریافت و نصب ${SUBST0}..
 #. :sl1:
 #: ../bootstrap-base.templates:1001
 msgid "Install the base system"
-msgstr "نصب سامانه پایه"
+msgstr "نصب سامانهٔ پایه"
 
 #. Type: error
 #. Description
@@ -165,7 +165,7 @@ msgstr "نصب سامانه پایه"
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 msgid "Cannot install base system"
-msgstr "نصب سیستم پایه شکست خورد."
+msgstr "نمی‌توان سامانهٔ پایه را نصب کرد"
 
 #. Type: error
 #. Description
@@ -173,13 +173,12 @@ msgstr "نصب سیستم پایه شکست خورد."
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"نصاب نمی‌تواند متوجه شود چگونه سیستم پایه را نصب کند. هیچ CD-ROM قابل نصبی "
-"یافت نشد و هیچ آینهٔ دریافت معتبری پیکر‌بندی نشد."
+"نصب کننده نمی‌تواند بفهمد که چگونه سامانهٔ پایه را نصب کند. هیچ تصویر قابل "
+"نصبی نیافت و هیچ آینهٔ معتبری پیکربندی نشده."
 
 #. Type: error
 #. Description
@@ -230,7 +229,7 @@ msgstr "... اسم‌رمز برای انتشار شکست خورد."
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "Failed to install the base system"
-msgstr "نصب سیستم پایه شکست خورد."
+msgstr "شکست در نصب سامانهٔ پایه"
 
 #. Type: error
 #. Description
@@ -280,14 +279,14 @@ msgstr "خطا در سیستم پایهٔ نصب"
 msgid ""
 "The debootstrap program exited with an error (return value ${EXITCODE})."
 msgstr ""
-"برنامهٔ debootstrap با یک خطا خاتمه یافت (مقدار برگردانده شده ${EXITCODE} )"
+"برنامهٔ debootstrap با یک خطا خاتمه یافت (مقدار برگردانده شده ${EXITCODE})."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:6001
 msgid "The debootstrap program exited abnormally."
-msgstr "برنامهٔ debootstrap به طور غیرعادی پایان یافت!"
+msgstr "برنامهٔ debootstrap به طور غیرعادی پایان یافت."
 
 #. Type: error
 #. Description
@@ -388,7 +387,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Unable to install the selected kernel"
-msgstr "نمی‌توان هستهٔ انتخاب شده را نصب کرد."
+msgstr "ناتوان در نصب کرنل گزیده"
 
 #. Type: error
 #. Description
@@ -514,7 +513,7 @@ msgstr "دریافت پروندهٔ امضای انتشار ${SUBST0} شکست �
 #. SUBST0 is a gpg key ID
 #: ../bootstrap-base.templates:19001
 msgid "Release file signed by unknown key (key id ${SUBST0})"
-msgstr "پروندهٔ انتشار نامعتبر است. هیچ ورودی برای ${SUBST0} وجود ندارد."
+msgstr "پروندهٔ انتشار با کلیدی نامعتبر امضا شده (شناسهٔ کلید ${SUBST0})"
 
 #. Type: error
 #. Description
@@ -537,13 +536,12 @@ msgstr "پروندهٔ انتشار نامعتبر است. هیچ ورودی ب�
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
-"بازیابی ${SUBST0} ناممکن بود. ممکن است به علت مشکل شبکه یا CD بد باشد، بسته "
-"به روش نصب شما."
+"نتوانست ${SUBST0} را دریافت کند. بسته به روش نصبتان ممکن است به دلیل مشکلی "
+"در شبکه یا خرابی رسانه باشد."
 
 #. Type: error
 #. Description
@@ -564,7 +562,7 @@ msgstr ""
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:23001
 msgid "Retrieving Release file"
-msgstr "گرفتن پروندهٔ Release"
+msgstr "گرفتن پروندهٔ انتشار"
 
 #. Type: text
 #. Description
@@ -572,7 +570,7 @@ msgstr "گرفتن پروندهٔ Release"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:24001
 msgid "Retrieving Release file signature"
-msgstr "گرفتن امضای پروندهٔ Release"
+msgstr "گرفتن امضای پروندهٔ انتشار"
 
 #. Type: text
 #. Description
@@ -588,7 +586,7 @@ msgstr "یافتن اندازهٔ بسته‌ها"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:26001
 msgid "Retrieving Packages files"
-msgstr "گرفتن پرونده‌های Packages"
+msgstr "گرفتن پرونده‌های بسته‌ها"
 
 #. Type: text
 #. Description
@@ -596,7 +594,7 @@ msgstr "گرفتن پرونده‌های Packages"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:27001
 msgid "Retrieving Packages file"
-msgstr "گرفتن پروندهٔ Packages"
+msgstr "گرفتن پروندهٔ بسته‌ها"
 
 #. Type: text
 #. Description
@@ -612,7 +610,7 @@ msgstr "گرفتن بسته‌ها"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:29001
 msgid "Extracting packages"
-msgstr "بسته‌گشایی بسته‌ها"
+msgstr "استخراج بسته‌ها"
 
 #. Type: text
 #. Description
@@ -714,7 +712,7 @@ msgstr "پیکربندی ${SUBST0}…"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"
-msgstr "بررسی امضای Release"
+msgstr "بررسی امضای انتشار"
 
 #. Type: text
 #. Description
@@ -723,14 +721,14 @@ msgstr "بررسی امضای Release"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "امضای معتبر Release (key id ${SUBST0})"
+msgstr "امضای انتشار معتبر (شناسهٔ کلید ${SUBST0})"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:44001
 msgid "Resolving dependencies of base packages..."
-msgstr "بررسی و یافتن وابستگی‌های بسته های پایه ..."
+msgstr "تحلیل وابستگی‌های بسته‌های پایه…"
 
 #. Type: text
 #. Description
@@ -754,14 +752,14 @@ msgstr "وابستگی‌های مورد نیاز دیگری یافت شد: ${SU
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:47001
 msgid "Found packages in base already in required: ${SUBST0}"
-msgstr "بسته‌های یافته در پایه که از پیش در نیازندی‌ها هستند: ${SUBST0}"
+msgstr "بسته‌های یافته در پایه که از پیش در نیازمندی‌ها هستند: ${SUBST0}"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:48001
 msgid "Resolving dependencies of required packages..."
-msgstr "بررسی و یافتن وابستگی‌های بسته های مورد نیاز ..."
+msgstr "تحلیل وابستگی‌های بسته‌های مورد نیاز…"
 
 #. Type: text
 #. Description
@@ -770,7 +768,7 @@ msgstr "بررسی و یافتن وابستگی‌های بسته های مور�
 #. SUBST1 is a mirror
 #: ../bootstrap-base.templates:49001
 msgid "Checking component ${SUBST0} on ${SUBST1}..."
-msgstr "بررسی مؤلفه ${SUBST0} در ${SUBST1} ..."
+msgstr "بررسی مؤلفه ${SUBST0} در ${SUBST1}…"
 
 #. Type: text
 #. Description
@@ -792,7 +790,7 @@ msgstr "نصب بسته‌های پایه…"
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:51001
 msgid "Unpacking required packages..."
-msgstr "بسه‌گشایی بسته‌های مورد نیاز…"
+msgstr "گشودن بسته‌های لازم…"
 
 #. Type: text
 #. Description
@@ -803,14 +801,14 @@ msgstr "بسه‌گشایی بسته‌های مورد نیاز…"
 #. packages from the core packages depends on them
 #: ../bootstrap-base.templates:52001
 msgid "Configuring required packages..."
-msgstr "پیکربندی بسته‌های مورد نیاز…"
+msgstr "پیکربندی بسته‌های لازم…"
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:53001
 msgid "Installing base packages..."
-msgstr "نصب بسته‌های پایه…"
+msgstr "نصب کردن بسته‌های پایه‌ای…"
 
 #. Type: text
 #. Description
@@ -869,7 +867,7 @@ msgstr "گزینش کرنل برای نصب…"
 #. :sl1:
 #: ../bootstrap-base.templates:61001
 msgid "Installing the kernel..."
-msgstr "نصب کرنل…"
+msgstr "نصب کردن کرنل…"
 
 #. Type: text
 #. Description
@@ -877,4 +875,4 @@ msgstr "نصب کرنل…"
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "نصب کرنل - دریافت و نصب ${SUBST0}…"
+msgstr "نصب کردن کرنل - دریافت و نصب ${SUBST0}…"

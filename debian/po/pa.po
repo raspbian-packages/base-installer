@@ -27,8 +27,8 @@ msgstr ""
 "Project-Id-Version: pa\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2021-01-18 23:32+0000\n"
-"Last-Translator: Aman Alam <alam.yellow@gmail.com>\n"
+"PO-Revision-Date: 2024-11-19 09:29+0000\n"
+"Last-Translator: Aman Alam <aalam@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
@@ -434,7 +434,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:14001
 msgid "Continue without installing a kernel?"
-msgstr "ਕਰਨਲ ਇੰਸਟਾਲੇਸ਼ਨ ਨਾਲ ਜਾਰੀ ਰਹੋ?"
+msgstr "ਕਰਨਲ ਇੰਸਟਾਲੇਸ਼ਨ ਕੀਤੇ ਬਿਨਾਂ ਜਾਰੀ ਰੱਖਣਾ ਹੈ?"
 
 #. Type: boolean
 #. Description
@@ -452,7 +452,7 @@ msgid ""
 "kernel later. This is only recommended for experts, otherwise you will "
 "likely end up with a machine that doesn't boot."
 msgstr ""
-"ਤੁਸੀਂ ਕਰਨਲ ਤੋਂ ਬਿਨਾਂ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ, ਅਤੇ ਬਾਅਦ ਵਿੱਚ ਆਪਣਾ ਕਰਨਲ ਦਸਤੀ ਇੰਸਟਾਲ ਕਰ ਸਕਦੇ ਹੋ। "
+"ਤੁਸੀਂ ਕਰਨਲ ਤੋਂ ਬਿਨਾਂ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰ ਸਕਦੇ ਹੋ, ਅਤੇ ਬਾਅਦ ਵਿੱਚ ਆਪਣਾ ਕਰਨਲ ਖੁਦ ਇੰਸਟਾਲ ਕਰ ਸਕਦੇ ਹੋ। "
 "ਇਹ ਸਿਰਫ ਮਾਹਿਰਾਂ ਲਈ ਸਿਫਾਰਸ਼ ਕੀਤਾ ਹੈ, ਨਹੀਂ ਤਾਂ ਤੁਹਾਡੇ ਕੋਲ ਮਸ਼ੀਨ ਮੁਕੰਮਲ ਹੋਵੇਗੀ ਜੋ ਬੂਟ ਨਹੀਂ ਹੋ "
 "ਸਕਦੀ।"
 
@@ -475,7 +475,7 @@ msgstr "ਇੰਸਟਾਲਰ ਨੂੰ ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਸ�
 #. :sl2:
 #: ../bootstrap-base.templates:16001
 msgid "Unable to install ${PACKAGE}"
-msgstr "${PACKAGE} ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਅਸਮਰਥ"
+msgstr "${PACKAGE} ਇੰਸਟਾਲ ਕਰਨ ਲਈ ਅਸਮਰੱਥ"
 
 #. Type: error
 #. Description
@@ -523,7 +523,7 @@ msgstr "ਗਲਤ ਜਾਰੀ ਫਾਇਲ: ਕੋਈ ਯੋਗ ਸੰਖੇਪ
 #. SUBST0 is a filename
 #: ../bootstrap-base.templates:21001
 msgid "Invalid Release file: no entry for ${SUBST0}."
-msgstr "ਗਲਤ ਜਾਰੀ ਫਾਇਲ: ${SUBST0} ਲਈ ਕੋਈ ਇੰਦਰਾਜ ਨਹੀਂ।"
+msgstr "ਗਲਤ ਜਾਰੀ ਫਾਇਲ: ${SUBST0} ਲਈ ਕੋਈ ਐਂਟਰੀ ਨਹੀਂ।"
 
 #. Type: error
 #. Description

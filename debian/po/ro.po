@@ -39,8 +39,8 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2023-06-19 12:51+0000\n"
-"Last-Translator: NicolaeFericitu <cni@disroot.org>\n"
+"PO-Revision-Date: 2024-12-04 12:00+0000\n"
+"Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
 "MIME-Version: 1.0\n"
@@ -84,9 +84,9 @@ msgid ""
 "Before the installation can proceed, a root file system must be mounted on /"
 "target. The partitioner and formatter should have done this for you."
 msgstr ""
-"Înainte de a continua, un sistem de fișiere rădăcină trebuie montat la /"
-"target. Programul de partiționare și de formatare ar fi trebuit să realizeze "
-"deja acest lucru pentru dumneavoastră."
+"Înainte ca instalarea să poată continua, trebuie montat un sistem de fișiere "
+"rădăcină la /target. Programul de partiționare și de formatare ar fi trebuit "
+"să efectueze acest lucru pentru dvs."
 
 #. Type: error
 #. Description
@@ -105,8 +105,8 @@ msgid ""
 "install."
 msgstr ""
 "Instalarea pe sistemul de fișiere țintă a fost anulată. Ar trebui să vă "
-"întoarceți și să ștergeți sau să formatați sistemul de fișiere țintă înainte "
-"de a continua instalarea."
+"întoarceți la pasul anterior și să ștergeți sau să formatați sistemul de "
+"fișiere țintă înainte de a continua instalarea."
 
 #. Type: text
 #. Description
@@ -182,7 +182,7 @@ msgstr "Instalarea sistemului de bază"
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 msgid "Cannot install base system"
-msgstr "Instalarea sistemului de bază este imposibilă"
+msgstr "Nu se poate instala sistemul de bază"
 
 #. Type: error
 #. Description
@@ -194,8 +194,9 @@ msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"Instalatorul nu poate afla cum să instaleze sistemul de bază. Nu a găsit "
-"nicio imagine instalabilă și nu a fost configurată nicio oglindă validă."
+"Programul de instalare nu poate determina modul de a instala sistemul de "
+"bază. Nu a găsit nicio imagine instalabilă și nu a fost configurată nicio "
+"oglindă validă."
 
 #. Type: error
 #. Description
@@ -232,21 +233,21 @@ msgstr ""
 #: ../bootstrap-base.templates:19001 ../bootstrap-base.templates:20001
 #: ../bootstrap-base.templates:21001 ../bootstrap-base.templates:22001
 msgid "Debootstrap Error"
-msgstr "Eroare debootstrap"
+msgstr "Eroare a «debootstrap»"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:3001
 msgid "Failed to determine the codename for the release."
-msgstr "Detectarea numelui de cod pentru lansare a eșuat."
+msgstr "Detectarea numelui în cod pentru versiunea lansată a eșuat."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "Failed to install the base system"
-msgstr "Eșec la instalarea sistemului de bază"
+msgstr "Instalarea sistemului de bază a eșuat"
 
 #. Type: error
 #. Description
@@ -278,7 +279,7 @@ msgstr "Instalarea sistemului de bază pe /target/ a eșuat."
 #: ../bootstrap-base.templates:11001 ../bootstrap-base.templates:16001
 msgid "Check /var/log/syslog or see virtual console 4 for the details."
 msgstr ""
-"Verificați /var/log/syslog sau consola virtuală numărul 4 pentru detalii."
+"Verificați „/var/log/syslog” sau consola virtuală numărul 4 pentru detalii."
 
 #. Type: error
 #. Description
@@ -297,14 +298,14 @@ msgstr "Eroare la instalarea sistemului de bază"
 msgid ""
 "The debootstrap program exited with an error (return value ${EXITCODE})."
 msgstr ""
-"Programul debootstrap s-a încheiat cu eroare (cod de eroare ${EXITCODE})."
+"Programul «debootstrap» s-a încheiat cu eroare (cod de eroare ${EXITCODE})."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:6001
 msgid "The debootstrap program exited abnormally."
-msgstr "Programul debootstrap s-a încheiat anormal."
+msgstr "Programul «debootstrap» s-a încheiat anormal."
 
 #. Type: error
 #. Description
@@ -318,7 +319,7 @@ msgstr "A apărut următoarea eroare:"
 #. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
-msgstr "Unealta utilizată pentru a genera imaginea initrd:"
+msgstr "Instrumentul utilizat pentru a genera imaginea „initrd”:"
 
 #. Type: select
 #. Description
@@ -329,8 +330,8 @@ msgid ""
 "should select the default. If your system fails to boot, you can retry the "
 "installation using the other options."
 msgstr ""
-"Această listă conține uneltele disponibile. Dacă nu știți pe care să o "
-"selectați, ar trebui să o alegeți pe cea implicită. Dacă sistemul eșuează la "
+"Această listă conține instrumentele disponibile. Dacă nu știți pe care să îl "
+"selectați, ar trebui să îl alegeți pe cel implicit. Dacă sistemul eșuează la "
 "pornire, puteți reîncerca instalarea folosind celelalte opțiuni."
 
 #. Type: error
@@ -338,7 +339,7 @@ msgstr ""
 #. :sl3:
 #: ../bootstrap-base.templates:9001
 msgid "Unsupported initrd generator"
-msgstr "Generator de initrd nesuportat"
+msgstr "Generator de „initrd” neacceptat"
 
 #. Type: error
 #. Description
@@ -348,8 +349,8 @@ msgid ""
 "The package ${GENERATOR} that was selected to generate the initrd is not "
 "supported."
 msgstr ""
-"Pachetul ${GENERATOR} care a fost selectat să genereze imaginea RAM, nu este "
-"suportat."
+"Pachetul ${GENERATOR} care a fost selectat să genereze imaginea „initrd”, nu "
+"este acceptat."
 
 #. Type: select
 #. Choices
@@ -370,7 +371,7 @@ msgstr "direcționat: include doar modulele necesare pentru acest sistem"
 #. :sl3:
 #: ../bootstrap-base.templates:10002
 msgid "Drivers to include in the initrd:"
-msgstr "Modulele de inclus în initrd:"
+msgstr "Controlorii de inclus în „initrd”:"
 
 #. Type: select
 #. Description
@@ -381,9 +382,9 @@ msgid ""
 "file system. It therefore needs to contain all drivers and supporting "
 "programs required to do that."
 msgstr ""
-"Funcția primordială a unui initrd este să permită nucleului să monteze "
-"sistemul de fișiere rădăcină. În consecință, trebuie să conțină toate "
-"modulele și programele necesare pentru a realiza acest lucru."
+"Funcția primordială a unei imagini „initrd” este să permită nucleului să "
+"monteze sistemul de fișiere rădăcină. În consecință, trebuie să conțină "
+"toate modulele și programele necesare pentru a realiza acest lucru."
 
 #. Type: select
 #. Description
@@ -396,18 +397,19 @@ msgid ""
 "smaller targeted initrd there is a very small chance that not all needed "
 "drivers are included."
 msgstr ""
-"Un initrd generic este mult mai mare decât unul direcționat și ar putea fi "
-"atât de mare încât unele încărcătoare de sistem sa nu poată să le încarce, "
-"dar are avantajul că poate fi folosit pentru pornirea sistemul pe aproape "
-"orice fel de hardware. Cu initrd-ul mai mic, cel direcționat, există o mică "
-"șansă ca să lipsească din modulele necesare."
+"O imagine „initrd” generică este mult mai mare decât una direcționată și ar "
+"putea fi atât de mare încât unele încărcătoare de pornire să nu poată să o "
+"încarce, dar are avantajul că poate fi folosită pentru pornirea sistemului "
+"țintă pe aproape orice fel de componente și dispozitive ale mașinii. Cu "
+"imaginea „initrd” mai mică, cea direcționată, există o mică șansă ca nu "
+"toate modulele de nucleu necesare să fie incluse."
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Unable to install the selected kernel"
-msgstr "Nu s-a putut instala nucleul de sistem selectat"
+msgstr "Nu s-a putut instala nucleul selectat"
 
 #. Type: error
 #. Description
@@ -417,7 +419,7 @@ msgid ""
 "An error was returned while trying to install the kernel into the target "
 "system."
 msgstr ""
-"S-a returnat eroare în timpul tentativei de instalare a nucleului pe "
+"A fost returnată o eroare în timpul încercării de instalare a nucleului în "
 "sistemul țintă."
 
 #. Type: error
@@ -425,7 +427,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Kernel package: '${KERNEL}'."
-msgstr "Pachetul de nucleu: '${KERNEL}'."
+msgstr "Pachetul de nucleu: „${KERNEL}”."
 
 #. Type: select
 #. Choices
@@ -435,7 +437,7 @@ msgid ""
 "none[ Do not translate what's inside the brackets and just put the "
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" means \"no kernel\" ]"
-msgstr "nici unul"
+msgstr "niciunul"
 
 #. Type: select
 #. Description
@@ -453,7 +455,7 @@ msgid ""
 "make the system bootable from the hard drive."
 msgstr ""
 "Această listă conține nucleele disponibile. Vă rugăm să alegeți unul din ele "
-"pentru a putea porni de pe discul fix."
+"pentru a putea porni de pe discul dur."
 
 #. Type: boolean
 #. Description
@@ -478,7 +480,7 @@ msgid ""
 "kernel later. This is only recommended for experts, otherwise you will "
 "likely end up with a machine that doesn't boot."
 msgstr ""
-"Puteți încerca să continuați fără nucleu și să instalați manual propriul "
+"Puteți încerca să continuați fără un nucleu și să instalați manual propriul "
 "dumneavoastră nucleu mai târziu. Această abordare este recomandată doar "
 "experților, altfel probabil că veți ajunge să aveți un calculator care nu "
 "pornește."
@@ -488,7 +490,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:15001
 msgid "Cannot install kernel"
-msgstr "Instalarea nucleului este imposibilă"
+msgstr "Nu se poate instala nucleul"
 
 #. Type: error
 #. Description
@@ -513,8 +515,8 @@ msgid ""
 "An error was returned while trying to install the ${PACKAGE} package onto "
 "the target system."
 msgstr ""
-"S-a returnat eroare la încercarea de instalare a pachetului ${PACKAGE} pe "
-"sistemul țintă."
+"A fost returnată o eroare în timpul încercării de a instala pachetul "
+"${PACKAGE} în sistemul țintă."
 
 #. Type: error
 #. Description
@@ -522,7 +524,7 @@ msgstr ""
 #. SUBST0 is a Release file name.
 #: ../bootstrap-base.templates:17001
 msgid "Failed getting Release file ${SUBST0}."
-msgstr "Eșec la descărcarea fișierului Release ${SUBST0}."
+msgstr "Obținerea fișierului Release ${SUBST0} a eșuat."
 
 #. Type: error
 #. Description
@@ -530,7 +532,7 @@ msgstr "Eșec la descărcarea fișierului Release ${SUBST0}."
 #. SUBST0 is a Release.gpg file name
 #: ../bootstrap-base.templates:18001
 msgid "Failed getting Release signature file ${SUBST0}."
-msgstr "Eșec la descărcarea fișierului ${SUBST0} cu semnătura Release."
+msgstr "Obținerea semnăturii fișierului Release ${SUBST0} a eșuat."
 
 #. Type: error
 #. Description
@@ -546,7 +548,7 @@ msgstr ""
 #. :sl2:
 #: ../bootstrap-base.templates:20001
 msgid "Invalid Release file: no valid components."
-msgstr "Fișier Release invalid: fără componente valide."
+msgstr "Fișier Release nevalid: nu există componente valide."
 
 #. Type: error
 #. Description
@@ -554,7 +556,7 @@ msgstr "Fișier Release invalid: fără componente valide."
 #. SUBST0 is a filename
 #: ../bootstrap-base.templates:21001
 msgid "Invalid Release file: no entry for ${SUBST0}."
-msgstr "Fișier Release invalid: nu există înregistrări pentru ${SUBST0}."
+msgstr "Fișier Release nevalid: nicio intrare pentru ${SUBST0}."
 
 #. Type: error
 #. Description
@@ -567,7 +569,8 @@ msgid ""
 "media, depending on your installation method."
 msgstr ""
 "Nu s-a putut prelua ${SUBST0}. Acest lucru poate fi cauzat de o problemă de "
-"rețea sau de un suport necorespunzător, în funcție de metoda de instalare."
+"rețea sau de un mediu de instalare defectuos, în funcție de metoda de "
+"instalare."
 
 #. Type: error
 #. Description
@@ -588,7 +591,7 @@ msgstr ""
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:23001
 msgid "Retrieving Release file"
-msgstr "Se preia fișierul de lansare"
+msgstr "Se preia fișierul „Release”"
 
 #. Type: text
 #. Description
@@ -596,7 +599,7 @@ msgstr "Se preia fișierul de lansare"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:24001
 msgid "Retrieving Release file signature"
-msgstr "Se preia semnătura fișierului de lansare"
+msgstr "Se preia semnătura fișierului „Release”"
 
 #. Type: text
 #. Description
@@ -604,7 +607,7 @@ msgstr "Se preia semnătura fișierului de lansare"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:25001
 msgid "Finding package sizes"
-msgstr "Găsirea dimensiunilor pachetelor"
+msgstr "Se calculează dimensiunea pachetelor"
 
 #. Type: text
 #. Description
@@ -612,7 +615,7 @@ msgstr "Găsirea dimensiunilor pachetelor"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:26001
 msgid "Retrieving Packages files"
-msgstr "Se preiau fișierele pachete"
+msgstr "Se preiau fișierele „Packages”"
 
 #. Type: text
 #. Description
@@ -620,7 +623,7 @@ msgstr "Se preiau fișierele pachete"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:27001
 msgid "Retrieving Packages file"
-msgstr "Se preia fișierul pachete"
+msgstr "Se preia fișierul „Packages”"
 
 #. Type: text
 #. Description
@@ -647,7 +650,7 @@ msgstr "Se extrag pachetele"
 #. be installed on the base system because of dependency resolution
 #: ../bootstrap-base.templates:31001
 msgid "Installing core packages"
-msgstr "Instalarea pachetelor esențiale"
+msgstr "Se instalează pachetele esențiale"
 
 #. Type: text
 #. Description
@@ -738,7 +741,7 @@ msgstr "Se configurează ${SUBST0}..."
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"
-msgstr "Se verifică semnătura de lansare"
+msgstr "Se verifică semnătura fișierului „Release”"
 
 #. Type: text
 #. Description
@@ -747,7 +750,7 @@ msgstr "Se verifică semnătura de lansare"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "Semnătură de lansare validă (ID cheie ${SUBST0})"
+msgstr "Semnătură validă a fișierului „Release” (ID cheie ${SUBST0})"
 
 #. Type: text
 #. Description
@@ -770,7 +773,7 @@ msgstr "Au fost găsite dependențe de bază suplimentare: ${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:46001
 msgid "Found additional required dependencies: ${SUBST0}"
-msgstr "S-au găsit dependențe suplimentare necesare: ${SUBST0}"
+msgstr "Au fost găsite dependențe suplimentare necesare: ${SUBST0}"
 
 #. Type: text
 #. Description
@@ -778,7 +781,7 @@ msgstr "S-au găsit dependențe suplimentare necesare: ${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:47001
 msgid "Found packages in base already in required: ${SUBST0}"
-msgstr "Au fost găsite pachete de bază care sunt deja necesare: ${SUBST0}"
+msgstr "Au fost găsite pachete necesare deja în sistemul de bază: : ${SUBST0}"
 
 #. Type: text
 #. Description
@@ -863,7 +866,7 @@ msgstr "Sistemul de bază a fost instalat cu succes."
 #. :sl2:
 #: ../bootstrap-base.templates:57001
 msgid "Debootstrap warning"
-msgstr "Avertisment debootstrap"
+msgstr "Avertisment de la «debootstrap»"
 
 #. Type: error
 #. Description

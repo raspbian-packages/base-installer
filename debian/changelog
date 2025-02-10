@@ -1,9 +1,51 @@
-base-installer (1.219+rpi1) trixie-staging; urgency=medium
+base-installer (1.222+rpi1) trixie-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Fri, 08 Nov 2024 07:23:15 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Mon, 10 Feb 2025 00:22:01 +0000
+
+base-installer (1.222) unstable; urgency=medium
+
+  * Team upload
+
+  * Remove Steve Langasek from Uploaders; RIP.
+
+  [ Helge Deller ]
+  * hppa: Improve kernel selector for hppa based on /proc/cpuinfo.
+  * hppa: Add additional hppa kernel test.
+
+  [ Updated translations ]
+  * Belarusian (be.po) by vics
+  * Persian (fa.po) by Danial Behzadi
+  * Hungarian (hu.po) by Szia Tomi
+  * Polish (pl.po) by Matthaiks
+  * Romanian (ro.po) by Remus-Gabriel Chelu
+  * Tamil (ta.po) by TamilNeram
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sun, 02 Feb 2025 22:12:17 +0100
+
+base-installer (1.221) unstable; urgency=medium
+
+  * Team upload
+
+  [ Updated translations ]
+  * Hebrew (he.po) by Yaron Shahrabani
+  * Punjabi (Gurmukhi) (pa.po) by Aman Alam
+
+ -- Holger Wansing <hwansing@mailbox.org>  Fri, 29 Nov 2024 21:31:16 +0100
+
+base-installer (1.220) unstable; urgency=medium
+
+  * Team upload
+
+  [ John Paul Adrian Glaubitz ]
+  * Add support for loong64 (Closes: #1076505)
+
+  [ Updated translations ]
+  * Persian (fa.po) by Danial Behzadi
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 14 Nov 2024 18:38:57 +0100
 
 base-installer (1.219) unstable; urgency=medium
 

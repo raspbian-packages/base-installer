@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2024-10-05 07:15+0000\n"
+"PO-Revision-Date: 2024-12-10 10:00+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
@@ -47,7 +47,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:1001
 msgid "Proceed with installation to unclean target?"
-msgstr "Nem tiszta (letörletlen) helyre folytatod a telepítést?"
+msgstr "Nem tiszta (letörletlen) célrendszerre folytatod a telepítést?"
 
 # Type: boolean
 # Description
@@ -61,9 +61,9 @@ msgid ""
 "could cause problems with the installation process, and if you proceed, some "
 "of the existing files may be overwritten."
 msgstr ""
-"A célfájlrendszer korábbi telepítésből származó fájlokat tartalmaz. Ezek "
-"gondot okozhatnak a telepítés során, és - amennyiben folytatod - néhány régi "
-"fájl felülíródhat."
+"A célrendszer korábbi telepítésből származó fájlokat tartalmaz. Ezek gondot "
+"okozhatnak a telepítés során, és - amennyiben folytatod - néhány régi fájl "
+"felülíródhat."
 
 # Type: error
 # Description
@@ -73,7 +73,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:2001
 msgid "No file system mounted on /target"
-msgstr "Nincs fájlrendszer csatolva a /célrendszerhez"
+msgstr "Nincs fájlrendszer csatlakoztatvava a „/target” célrendszerhez"
 
 # Type: error
 # Description
@@ -98,7 +98,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:3001
 msgid "Not installing to unclean target"
-msgstr "Kitisztítatlan célfájlrendszerre nem telepítek"
+msgstr "Kitisztítatlan célrendszerre nem telepítek"
 
 # Type: error
 # Description
@@ -112,8 +112,8 @@ msgid ""
 "back and erase or format the target file system before proceeding with the "
 "install."
 msgstr ""
-"A célfájlrendszerbe telepítés megszakadt. Lépj vissza, és töröld vagy "
-"formázd a célfájlrendszert, mielőtt folytatod a telepítést."
+"A célrendszerbe telepítés megszakadt. Lépj vissza, és töröld vagy formázd a "
+"célrendszert, mielőtt folytatod a telepítést."
 
 #. Type: text
 #. Description
@@ -308,7 +308,7 @@ msgstr "Az alaprendszer telepítése meghiúsult"
 #. :sl2:
 #: ../bootstrap-base.templates:4001
 msgid "The base system installation into /target/ failed."
-msgstr "Az alaprendszer telepítése a célfájlrendszerbe (/target/) meghiúsult."
+msgstr "Az alaprendszer telepítése a célrendszerbe (/target/) meghiúsult."
 
 #. Type: error
 #. Description
