@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2024-12-10 10:00+0000\n"
+"PO-Revision-Date: 2025-03-17 13:41+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
@@ -73,7 +73,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:2001
 msgid "No file system mounted on /target"
-msgstr "Nincs fájlrendszer csatlakoztatvava a „/target” célrendszerhez"
+msgstr "Nincs fájlrendszer csatolva a „/target” célrendszerhez"
 
 # Type: error
 # Description
@@ -86,9 +86,9 @@ msgid ""
 "Before the installation can proceed, a root file system must be mounted on /"
 "target. The partitioner and formatter should have done this for you."
 msgstr ""
-"A telepítés folytatása előtt a /célrendszerhez egy gyökér fájlrendszert kell "
-"csatolni. A particionálónak és a formázónak ezt már el kellett volna "
-"végeznie, valamiért azonban nem történt meg."
+"A telepítés folytatása előtt a /célrendszerhez egy gyökér (root) "
+"fájlrendszert kell csatolni. A particionálónak és a formázónak ezt már el "
+"kellett volna végeznie, valamiért azonban nem történt meg."
 
 # Type: error
 # Description
@@ -127,7 +127,7 @@ msgstr "Az alaprendszer telepítésének előkészítése..."
 #. :sl1:
 #: ../base-installer.templates:5001 ../bootstrap-base.templates:30001
 msgid "Installing the base system"
-msgstr "Alaprendszer telepítése"
+msgstr "Az alaprendszer telepítése"
 
 #. Type: text
 #. Description
@@ -141,14 +141,14 @@ msgstr "${SCRIPT} futtatása..."
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "Alaprendszer beállítása..."
+msgstr "Az alaprendszer beállítása..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../base-installer.templates:8001 ../bootstrap-base.templates:59001
 msgid "Configuring APT sources..."
-msgstr "APT-források konfigurálása..."
+msgstr "APT források konfigurálása..."
 
 #. Type: text
 #. Description
@@ -170,7 +170,7 @@ msgstr "Extra csomagok telepítése..."
 #. :sl1:
 #: ../base-installer.templates:11001
 msgid "Installing extra packages - retrieving and installing ${SUBST0}..."
-msgstr "Extra csomagok telepítése - ${SUBST0} beszerzése és telepítése..."
+msgstr "Extra csomagok telepítése - ${SUBST0} lekérése és telepítése..."
 
 #. Type: text
 #. Description
@@ -431,7 +431,7 @@ msgstr "általános: minden elérhető meghajtót tartalmaz"
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "targeted: only include drivers needed for this system"
-msgstr "célzott: csak az e rendszerhez szükséges meghajtókat tartalmazza"
+msgstr "célzott: csak ehez a rendszerhez szükséges meghajtókat tartalmaz"
 
 #. Type: select
 #. Description
@@ -449,9 +449,9 @@ msgid ""
 "file system. It therefore needs to contain all drivers and supporting "
 "programs required to do that."
 msgstr ""
-"Az initrd fő célja lehetővé tenni a kernelnek a gyökér fájlrendszer "
-"csatolását. Így azt ezt lehetővé tévő összes meghajtót és támogató programot "
-"kell tartalmaznia."
+"Az initrd elsődleges feladata, hogy lehetővé tegye a rendszermag számára a "
+"gyökér fájlrendszer csatolását. Így az ezt lehetővé tévő összes meghajtót és "
+"támogató programot tartalmaznia kell."
 
 #. Type: select
 #. Description
@@ -464,10 +464,11 @@ msgid ""
 "smaller targeted initrd there is a very small chance that not all needed "
 "drivers are included."
 msgstr ""
-"Egy általános initrd sokkal nagyobb, mint egy célzott, egyes betöltők "
-"számára még betölthetetlenül nagy is lehet, előnye, hogy szinte minden "
-"hardveren használható indításra. Ha a kisebb, célzott initrd-t választjuk, "
-"akkor is kicsi az esély, hogy ne kerülne bele az összes szükséges meghajtó."
+"Az általános initrd sokkal nagyobb, mint a célzott, és akár olyan nagy is "
+"lehet, hogy egyes rendszerbetöltők nem tudják betölteni, de előnye, hogy "
+"szinte bármilyen hardveren használható a célrendszer indításához. A kisebb "
+"célzott initrd esetében nagyon kicsi az esélye annak, hogy néhány, a "
+"számodra szükséges illesztőprogram hiányzik belőle."
 
 # Type: error
 # Description
@@ -716,7 +717,7 @@ msgstr ""
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:23001
 msgid "Retrieving Release file"
-msgstr "Release fájl beszerzése"
+msgstr "Kiadási fájl (release file) lekérése"
 
 #. Type: text
 #. Description
@@ -724,7 +725,7 @@ msgstr "Release fájl beszerzése"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:24001
 msgid "Retrieving Release file signature"
-msgstr "Release fájl aláírás letöltése"
+msgstr "A kiadási fájl (release file) aláírásának lekérése"
 
 #. Type: text
 #. Description
@@ -732,7 +733,7 @@ msgstr "Release fájl aláírás letöltése"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:25001
 msgid "Finding package sizes"
-msgstr "Csomag méretek keresése"
+msgstr "Csomagméretek keresése"
 
 #. Type: text
 #. Description
@@ -740,7 +741,7 @@ msgstr "Csomag méretek keresése"
 #. Packages is a filename which should not be translated
 #: ../bootstrap-base.templates:26001
 msgid "Retrieving Packages files"
-msgstr "Packages fájlok beszerzése"
+msgstr "Packages fájlok lekérése"
 
 #. Type: text
 #. Description
@@ -756,7 +757,7 @@ msgstr "Packages fájl letöltése"
 #. "packages" here can be translated
 #: ../bootstrap-base.templates:28001
 msgid "Retrieving packages"
-msgstr "Csomagok beszerzése"
+msgstr "Csomagok lekérése"
 
 #. Type: text
 #. Description
@@ -826,7 +827,7 @@ msgstr "${SECTION}: ${INFO}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:37001
 msgid "Validating ${SUBST0}..."
-msgstr "Épség ellenőrzése: ${SUBST0}..."
+msgstr "${SUBST0} hitelesítése..."
 
 #. Type: text
 #. Description
@@ -834,7 +835,7 @@ msgstr "Épség ellenőrzése: ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:38001
 msgid "Retrieving ${SUBST0}..."
-msgstr "Beszerzés: ${SUBST0}..."
+msgstr "${SUBST0} lekérése..."
 
 #. Type: text
 #. Description
@@ -842,7 +843,7 @@ msgstr "Beszerzés: ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:39001
 msgid "Extracting ${SUBST0}..."
-msgstr "Kitömörítés: ${SUBST0}..."
+msgstr "${SUBST0} kitömörítése..."
 
 #. Type: text
 #. Description
@@ -850,7 +851,7 @@ msgstr "Kitömörítés: ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:40001
 msgid "Unpacking ${SUBST0}..."
-msgstr "Kibontás: ${SUBST0}..."
+msgstr "${SUBST0} kibontása ..."
 
 #. Type: text
 #. Description
@@ -858,7 +859,7 @@ msgstr "Kibontás: ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:41001
 msgid "Configuring ${SUBST0}..."
-msgstr "Beállítás: ${SUBST0}..."
+msgstr "${SUBST0} beállítása..."
 
 #. Type: text
 #. Description
@@ -866,7 +867,7 @@ msgstr "Beállítás: ${SUBST0}..."
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:42001
 msgid "Checking Release signature"
-msgstr "Release aláírás ellenőrzése"
+msgstr "Kiadási aláírás ellenőrzése"
 
 #. Type: text
 #. Description
@@ -875,7 +876,7 @@ msgstr "Release aláírás ellenőrzése"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "Érvényes Release aláírás (kulcs azonosító ${SUBST0})"
+msgstr "Érvényes kiadási aláírás (kulcsazonosító ${SUBST0})"
 
 #. Type: text
 #. Description
@@ -906,7 +907,8 @@ msgstr "További kötelező függőségek vannak: ${SUBST0}"
 #. SUBST0 is a list of packages
 #: ../bootstrap-base.templates:47001
 msgid "Found packages in base already in required: ${SUBST0}"
-msgstr "Kötelezők közt már meglévő alapcsomagokra leltem: ${SUBST0}"
+msgstr ""
+"A rendszer a kötelezők között már meglévő alapcsomagokat talált: ${SUBST0}"
 
 #. Type: text
 #. Description
@@ -1026,14 +1028,14 @@ msgstr "A következő hibás letöltés újrapróbálása: ${SUBST0}"
 #. :sl1:
 #: ../bootstrap-base.templates:60001
 msgid "Selecting the kernel to install..."
-msgstr "Telepítendő rendszermag kiválasztása..."
+msgstr "Telepítendő rendszermag (kernel) kiválasztása..."
 
 #. Type: text
 #. Description
 #. :sl1:
 #: ../bootstrap-base.templates:61001
 msgid "Installing the kernel..."
-msgstr "Rendszermag telepítése..."
+msgstr "A rendszermag (kernel) telepítése..."
 
 #. Type: text
 #. Description
@@ -1041,4 +1043,4 @@ msgstr "Rendszermag telepítése..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "Rendszermag telepítése - ${SUBST0} beszerzése és telepítése..."
+msgstr "A rendszermag telepítése - ${SUBST0} lekérése és telepítése..."
