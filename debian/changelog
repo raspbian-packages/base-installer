@@ -1,9 +1,19 @@
-base-installer (1.223+rpi1) trixie-staging; urgency=medium
+base-installer (1.224+rpi1) trixie-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Wed, 09 Apr 2025 00:43:26 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sat, 17 May 2025 07:32:06 +0000
+
+base-installer (1.224) unstable; urgency=medium
+
+  * Team upload
+
+  [ Pascal Hambourg ]
+  * Filter out *-signed-template packages from kernel selection.
+    Closes: #1104907.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Sat, 10 May 2025 19:04:48 +0200
 
 base-installer (1.223) unstable; urgency=medium
 
