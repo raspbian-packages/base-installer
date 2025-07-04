@@ -39,7 +39,7 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2024-12-04 12:00+0000\n"
+"PO-Revision-Date: 2025-05-11 14:03+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
@@ -134,7 +134,7 @@ msgstr "Se rulează ${SCRIPT}..."
 #. :sl1:
 #: ../base-installer.templates:7001
 msgid "Setting up the base system..."
-msgstr "Se configurează sistemul de bază..."
+msgstr "Se pregătește sistemului de bază..."
 
 #. Type: text
 #. Description

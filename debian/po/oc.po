@@ -8,7 +8,7 @@
 # This file is distributed under the same license as the debian-installer package.
 # Yannig MARCHEGAY <yannick.marchegay@lokanova.com>, 2006.
 # Cédric VALMARY <cvalmary@yahoo.fr>, 2016.
-# Quentin PAGÈS <quentinantonin@free.fr>, 2020.
+# Quentin PAGÈS <quentinantonin@free.fr>, 2020, 2022.
 #
 #
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: debian-installer sublevel1\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2020-11-15 18:28+0000\n"
+"PO-Revision-Date: 2025-04-11 17:53+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan (post 1500) <ubuntu-l10n-oci@lists.ubuntu.com>\n"
 "Language: oc\n"
@@ -880,4 +880,4 @@ msgstr "Installacion del nucli..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "Installacion del nucli : recuperacion e installacion de ${SUBSTO}..."
+msgstr "Installacion del nucli : recuperacion e installacion de ${SUBST0}..."

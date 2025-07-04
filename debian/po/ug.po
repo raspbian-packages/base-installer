@@ -3,7 +3,8 @@
 #
 # DO NOT MODIFY THIS FILE DIRECTLY: SUCH CHANGES WILL BE LOST
 #
-#
+# Abdusalam <1810010207@s.upc.edu.cn>, 2020.
+# Abduqadir Abliz <sahran.ug@gmail.com>, 2017.
 #
 # Debian Installer master translation for Uyghur
 # Don't forget to properly fill-in the header of PO files
@@ -19,13 +20,14 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2012-02-27 17:17+0600\n"
-"Last-Translator: Sahran <sahran.ug@gmail.com>\n"
+"PO-Revision-Date: 2025-05-30 13:03+0000\n"
+"Last-Translator: Abduqadir Abliz <sahranbay@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
-"Language: \n"
+"Language: ug\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 #. Type: boolean
 #. Description
@@ -168,17 +170,12 @@ msgstr "ئاساسىي سىستېمىنى ئورنىتالمىدى"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"ئورنىتىش پروگراممىسى ئاساسىي سىستېمىنى قانداق ئورنىتىشنى بىلەلمىدى. "
-"ئورنىتىشقا لازىملىق ھېچقانداق CD-ROM تاپالمىدى، ھېچقانداق ئىناۋەتلىك "
-"تەسۋىرمۇ تەڭشەلمىگەن."
+"ئورناتقۇچ ئاساسىي سىستېمىنى قانداق ئورنىتىشنى بىلەلمىدى. ئورنىتىشقا لازىملىق "
+"ھېچقانداق ئورنىتىشچان تەسۋىر ھۆججىتى ۋە ئىناۋەتلىك تەسۋىر بېكىتى سەپلەنمىگەن."
 
 #. Type: error
 #. Description
@@ -348,7 +345,7 @@ msgstr "ئادەتتىكى: بارلىق ئىشلەتكىلى بولىدىغان
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "targeted: only include drivers needed for this system"
-msgstr "نىشان: پەقەت سىستېمىغا لازىملىق قوزغاتقۇلارنىلا ئۆز ئىچىگە ئالىدۇ."
+msgstr "نىشان: پەقەت سىستېمىغا لازىملىق قوزغاتقۇلارنىلا ئۆز ئىچىگە ئالىدۇ"
 
 #. Type: select
 #. Description
@@ -381,8 +378,8 @@ msgid ""
 "smaller targeted initrd there is a very small chance that not all needed "
 "drivers are included."
 msgstr ""
-"ئادەتتىكى initrd بىر قانچە  boot loader لاردىمۇ ئوقۇيالمىغۇدەك دەرىجىدە "
-"نىشان قىلىنغاندىنمۇ چوڭ بولۇپ كېتىدىغان ئەھۋال بار بولسىمۇ، كوپ قىسىم قاتتىق "
+"ئادەتتىكى initrd بىر قانچە boot loader لاردىمۇ ئوقۇيالمىغۇدەك دەرىجىدە نىشان "
+"قىلىنغاندىنمۇ چوڭ بولۇپ كېتىدىغان ئەھۋال بار بولسىمۇ، كوپ قىسىم قاتتىق "
 "دېتاللاردا سىستېمىنى قوزغىتالايدۇ. سىغىمى كىچىك بولغان initrd دا بولسا "
 "نۇرغۇن قوزغاتقۇلار قىسقارتىۋېتىلگەنلىكتىن، بىر قىسىم قاتتىق دېتاللاردا "
 "سىستېمىنى قوزغىتالماي قېلىشى مۇقەررەر."
@@ -408,7 +405,7 @@ msgstr "نىشان ھۆججەت سىستېمىسىغا يادرو ئورنىتى
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Kernel package: '${KERNEL}'."
-msgstr "يادرو يۇمشاق دېتال بوغچىسى:  '${KERNEL}'"
+msgstr "يادرو يۇمشاق دېتال بوغچىسى: «${KERNEL}»."
 
 #. Type: select
 #. Choices
@@ -503,7 +500,7 @@ msgstr ""
 #. SUBST0 is a Release file name.
 #: ../bootstrap-base.templates:17001
 msgid "Failed getting Release file ${SUBST0}."
-msgstr "${SUBST0}  تارقىتىش ھۆججىتىگە ئېرىش مەغلۇپ بولدى."
+msgstr "${SUBST0} تارقىتىش ھۆججىتىگە ئېرىشەلمىدى."
 
 #. Type: error
 #. Description
@@ -511,7 +508,7 @@ msgstr "${SUBST0}  تارقىتىش ھۆججىتىگە ئېرىش مەغلۇپ �
 #. SUBST0 is a Release.gpg file name
 #: ../bootstrap-base.templates:18001
 msgid "Failed getting Release signature file ${SUBST0}."
-msgstr "${SUBST0}  تارقىتىش ئىمزالىق ھۆججىتىگە ئېرىش مەغلۇپ بولدى."
+msgstr "${SUBST0} تارقىتىش ئىمزالىق ھۆججىتىگە ئېرىشەلمىدى."
 
 #. Type: error
 #. Description
@@ -542,16 +539,12 @@ msgstr "ئىناۋەتسىز تارقىتىش ھۆججىتى: ${SUBST0} تۈرى
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
 "${SUBST0} غا ئېرىشەلمىدى. سىزنىڭ ئىشلەتكەن ئورنىتىش ئۇسۇلىڭىزغا ئاساسەن، بۇ "
-"مەسىلە كېلىپ چىقىشىنىڭ سەۋەبى تور كاشىلىسى ياكى CD-ROM بۇزۇلغان بولۇشى "
+"مەسىلە كېلىپ چىقىشىنىڭ سەۋەبى تور كاشىلىسى ياكى ۋاسىتە بۇزۇلغان بولۇشى "
 "مۇمكىن."
 
 #. Type: error
