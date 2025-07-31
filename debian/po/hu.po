@@ -29,7 +29,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2025-03-17 13:41+0000\n"
+"PO-Revision-Date: 2025-07-07 20:50+0000\n"
 "Last-Translator: Szia Tomi <sziatomi01@gmail.com>\n"
 "Language-Team: Debian L10n Hungarian <debian-l10n-hungarian@lists.debian."
 "org>\n"
@@ -431,7 +431,7 @@ msgstr "általános: minden elérhető meghajtót tartalmaz"
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "targeted: only include drivers needed for this system"
-msgstr "célzott: csak ehez a rendszerhez szükséges meghajtókat tartalmaz"
+msgstr "célzott: csak ehhez a rendszerhez szükséges meghajtókat tartalmaz"
 
 #. Type: select
 #. Description
@@ -500,7 +500,7 @@ msgstr "A rendszermag célrendszerbe telepítése során hiba történt."
 #. :sl2:
 #: ../bootstrap-base.templates:11001
 msgid "Kernel package: '${KERNEL}'."
-msgstr "Rendszermagcsomag: '${KERNEL}'."
+msgstr "Rendszermagcsomag: ${KERNEL}."
 
 # Type: select
 # Choices
@@ -615,7 +615,8 @@ msgstr "Nem lehet telepíteni: ${PACKAGE}"
 msgid ""
 "An error was returned while trying to install the ${PACKAGE} package onto "
 "the target system."
-msgstr "A következő csomag telepítése közben hiba történt: ${PACKAGE}."
+msgstr ""
+"A következő csomag célrendszerbe telepítése közben hiba történt: ${PACKAGE}."
 
 # Type: error
 # Description
