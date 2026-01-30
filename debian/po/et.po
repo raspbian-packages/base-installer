@@ -32,7 +32,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2025-09-08 14:02+0000\n"
+"PO-Revision-Date: 2026-01-08 22:01+0000\n"
 "Last-Translator: Priit Jõerüüt <jrthwlate@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Estonian <>\n"
 "Language: et\n"
@@ -46,7 +46,7 @@ msgstr ""
 #. :sl2:
 #: ../base-installer.templates:1001
 msgid "Proceed with installation to unclean target?"
-msgstr "Kas jätkata paigaldamist räpasele failisüsteemile?"
+msgstr "Kas jätkad paigaldamist räpasele failisüsteemile?"
 
 #. Type: boolean
 #. Description

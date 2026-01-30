@@ -10,6 +10,7 @@
 # Translators:
 # shashi kiran <shashi859@gmail.com>, 2010, 2011.
 # Prabodh CP <prabodhcp@gmail.com>, 2011.
+# Yogesh <yogesh@karnatakaeducation.org.in>, 2020.
 #
 # Credits: Thanks to contributions from Free Software Movement Karnataka (FSMK), 2011.
 #
@@ -21,8 +22,8 @@ msgstr ""
 "Project-Id-Version: kn\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2019-02-13 15:09+0000\n"
-"Last-Translator: deepu2 <deepuhsdeepak@gmail.com>\n"
+"PO-Revision-Date: 2026-01-13 12:12+0000\n"
+"Last-Translator: Prasannakumar T Bhat <pbhat99@gmail.com>\n"
 "Language-Team: Kannada <debian-l10n-kannada@lists.debian.org>\n"
 "Language: kn\n"
 "MIME-Version: 1.0\n"
@@ -171,9 +172,6 @@ msgstr "ಮೂಲ ವ್ಯವಸ್ಥೆಯನ್ನು ಅನುಸ್ಥಾ�
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 #, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
@@ -239,18 +237,6 @@ msgstr "ಮೂಲ ವ್ಯವಸ್ಥೆಯನ್ನು ಅನುಸ್ಥಾ�
 msgid "The base system installation into /target/ failed."
 msgstr "ಮೂಲ ವ್ಯವಸ್ಥೆಯನ್ನು /target/ನೊಳಗೆ ಅನುಸ್ಥಾಪಿಸುವಲ್ಲಿ ವಿಫಲವಾಗಿದೆ"
 
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
-#  templates.pot (PACKAGE VERSION)#-#-#-#-
 #. Type: error
 #. Description
 #. :sl2:
@@ -313,7 +299,7 @@ msgstr "ಈ ಕೆಳಗಿನ ದೋಷ ಸಂಭವಿಸಿದೆ:"
 #. :sl3:
 #: ../bootstrap-base.templates:8001
 msgid "Tool to use to generate boot initrd:"
-msgstr "'ಬೂಟ್ ಇನಿಟ್ ಆರ್ ಡೀ' ಸೃಷ್ಟಿಸುವ ಉಪಕರಣ "
+msgstr "initrd ಸೃಷ್ಟಿಸುವ ಉಪಕರಣ:"
 
 #. Type: select
 #. Description
@@ -325,7 +311,7 @@ msgid ""
 "installation using the other options."
 msgstr ""
 "ಲಭ್ಯವಿರುವ ಉಪಕರಣಗಳು ಈ ಪಟ್ಟಿಯಲ್ಲಿವೆ . ಆಯ್ಕೆಯು ಖಚಿತವಿಲ್ಲದಿದ್ದಲ್ಲಿ ಇರುವ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ. "
-"ನಿಮ್ಮ ಗಣಕ ಸ್ವಯಂ  ಶುರುವಾಗದಲ್ಲಿ, ಬೇರೆ  ಆಯ್ಕೆಗಳನ್ನು ಯತ್ನಿಸಬಹುದು "
+"ನಿಮ್ಮ ಗಣಕ ಸ್ವಯಂ ಶುರುವಾಗದಲ್ಲಿ, ಬೇರೆ  ಆಯ್ಕೆಗಳನ್ನು ಯತ್ನಿಸಬಹುದು ."
 
 #. Type: error
 #. Description
@@ -341,7 +327,7 @@ msgstr "ಬೆಂಬಲವಿಲ್ಲದ initrd ಉತ್ಪಾದಕ"
 msgid ""
 "The package ${GENERATOR} that was selected to generate the initrd is not "
 "supported."
-msgstr "intrid ಸ್ರುಷ್ಠಿಸಲು ಆಯ್ಕೆ ಮಾಡಿರುವ package ${GENERATOR} ಬೆಂಬಲಹೊಂದಿಲ್ಲ "
+msgstr "intrid ಸ್ರುಷ್ಠಿಸಲು ಆಯ್ಕೆ ಮಾಡಿರುವ package ${GENERATOR} ಬೆಂಬಲಹೊಂದಿಲ್ಲ."
 
 #. Type: select
 #. Choices
@@ -373,8 +359,9 @@ msgid ""
 "file system. It therefore needs to contain all drivers and supporting "
 "programs required to do that."
 msgstr ""
-"intridನ ಪ್ರಾಥಮಿಕ ಕೆಲಸ ಕರ್ನಲ್ಗೆ  ಮೂಲ ಕಡತ ವ್ಯವಸ್ತೆಯನ್ನು ಆರೋಹಿಸಲು ಅವಕಾಶ ಕಲ್ಪಿಸಿ "
-"ಕೊಡುವುದು. ಅದಕ್ಕಾಗಿ ಎಲ್ಲ ಡ್ರೈವರ್ ಗಳು ಮತ್ತು ಬೆಂಬಲಿತ  ಪ್ರೋಗ್ರಾಂಗಳುಇದರಲ್ಲಿ ಇರ್ಬೆಕಾಗುತ್ತದೆ"
+"initrd ನ ಪ್ರಾಥಮಿಕ ಕಾರ್ಯವೆಂದರೆ ರೂಟ್ ಫೈಲ್ ಸಿಸ್ಟಮ್ ಅನ್ನು ಆರೋಹಿಸಲು ಕರ್ನಲ್ ಅನ್ನು "
+"ಅನುಮತಿಸುವುದು. ಆದ್ದರಿಂದ ಇದನ್ನು ಮಾಡಲು ಅಗತ್ಯವಿರುವ ಎಲ್ಲಾ ಡ್ರೈವರ್‌ಗಳು ಮತ್ತು ಪೋಷಕ "
+"ಪ್ರೋಗ್ರಾಂಗಳನ್ನು ಒಳಗೊಂಡಿರಬೇಕು."
 
 #. Type: select
 #. Description
@@ -388,8 +375,8 @@ msgid ""
 "drivers are included."
 msgstr ""
 "targeted intird ಗಿಂತ generic ತುಂಬ ದೊಡ್ಡಡಾಗಿರಬಹುದು ,ಕೆಲವು bootloaderಗೆ ಅದನ್ನು "
-"ಅನುಷ್ಠಾಪಿಸಲಾಗುವುದಿಲ್ಲ  ಆದರೂ ಹಾರ್ಡ್ವೆರ್ ಅನ್ನು ಬೂಟ್ಮಾಡುತ್ತದೆ.targeted intrid "
-"ಚಿಕ್ಕದಾದಲ್ಲಿ ಬೇಕಾಗಿರುವ ಎಲ್ಲಾ ಡ್ರೈವರ್ಗಳನ್ನು ಹೊಂದದೆ ಇರಬಹುದು  "
+"ಅನುಷ್ಠಾಪಿಸಲಾಗುವುದಿಲ್ಲ ಆದರೂ ಹಾರ್ಡ್ವೆರ್ ಅನ್ನು ಬೂಟ್ಮಾಡುತ್ತದೆ.targeted intrid ಚಿಕ್ಕದಾದಲ್ಲಿ "
+"ಬೇಕಾಗಿರುವ ಎಲ್ಲಾ ಡ್ರೈವರ್ಗಳನ್ನು ಹೊಂದದೆ ಇರಬಹುದು."
 
 #. Type: error
 #. Description
@@ -424,6 +411,9 @@ msgid ""
 "translation for the word \"none\" in your language without any brackets. "
 "This \"none\" means \"no kernel\" ]"
 msgstr ""
+"ಯಾವುದೂ ಇಲ್ಲ[ ಬ್ರಾಕೆಟ್‌ಗಳ ಒಳಗೆ ಏನಿದೆ ಎಂಬುದನ್ನು ಅನುವಾದಿಸಬೇಡಿ ಮತ್ತು ಯಾವುದೇ "
+"ಬ್ರಾಕೆಟ್‌ಗಳಿಲ್ಲದೆ ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿ \"ಯಾವುದೂ ಇಲ್ಲ\" ಪದದ ಅನುವಾದವನ್ನು ಇರಿಸಿ. ಈ \"ಯಾವುದೂ "
+"ಇಲ್ಲ\" ಎಂದರೆ \"ಕರ್ನಲ್ ಇಲ್ಲ\" ]"
 
 #. Type: select
 #. Description
@@ -550,9 +540,6 @@ msgstr "ಅಮಾನ್ಯವಾದ ಬಿಡುಗಡೆ ಕಡತ: ${SUBST0}�
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
 #, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."

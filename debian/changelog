@@ -1,9 +1,20 @@
-base-installer (1.227+rpi1) forky-staging; urgency=medium
+base-installer (1.228+rpi1) forky-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Tue, 13 Jan 2026 17:43:40 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 30 Jan 2026 07:38:03 +0000
+
+base-installer (1.228) unstable; urgency=medium
+
+  [ John Paul Adrian Glaubitz ]
+  * Remove loong64 from the list of Debian Ports architectures
+
+  [ Updated translations ]
+  * Estonian (et.po) by Priit Jõerüüt
+  * Kannada (kn.po) by Prasannakumar T Bhat
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 23 Jan 2026 09:23:46 +0100
 
 base-installer (1.227) unstable; urgency=medium
 
