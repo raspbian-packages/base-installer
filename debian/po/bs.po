@@ -10,6 +10,7 @@
 #
 # Safir Secerovic <sapphire@linux.org.ba>, 2006.
 # Armin Besirovic <armin@linux.org.ba>, 2008.
+# Amar Tufo <bhllinux@gmail.com>, 2022.
 #
 # Translations from iso-codes:
 #   Alastair McKinstry <mckinstry@computer.org>, 2001,2002.
@@ -26,14 +27,15 @@ msgstr ""
 "Project-Id-Version: debian-installer_packages_po_sublevel1_bs\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2013-11-29 19:21+0100\n"
-"Last-Translator: Amila Valjevčić <valjevcic.amila@gmail.com>\n"
+"PO-Revision-Date: 2026-04-20 19:09+0000\n"
+"Last-Translator: pacavarn <nahadster@gmail.com>\n"
 "Language-Team: Bosnian <lokal@linux.org.ba>\n"
 "Language: bs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: 3;\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Type: boolean
 #. Description
@@ -179,16 +181,12 @@ msgstr "Ne mogu instalirati osnovni sistem"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
 msgstr ""
-"Instalater ne može odrediti način instalacije osnovnog sistema. Odgovarajući "
-"CD-ROM nije pronađen niti odgovarajući mirror podešen."
+"Instalacijski program ne može shvatiti kako instalirati osnovni sistem. Nije "
+"pronašao instalacijsku sliku i nije konfiguriran valjani mirror."
 
 #. Type: error
 #. Description
@@ -346,21 +344,21 @@ msgstr "Paket ${GENERATOR} koji je odabran za kreiranje initrd-a nije podržan."
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "generic: include all available drivers"
-msgstr "generic: uključi sve dostupne drivere"
+msgstr "generičko: uključuje sve dostupne upravljačke programe"
 
 #. Type: select
 #. Choices
 #. :sl3:
 #: ../bootstrap-base.templates:10001
 msgid "targeted: only include drivers needed for this system"
-msgstr "targeted: samo uključi drivere potrebne za ovaj sistem"
+msgstr "ciljano: uključite samo drajvere potrebne za ovaj sistem"
 
 #. Type: select
 #. Description
 #. :sl3:
 #: ../bootstrap-base.templates:10002
 msgid "Drivers to include in the initrd:"
-msgstr "Driveri za uključiti u initrd:"
+msgstr "Drajveri za uključiti u initrd:"
 
 #. Type: select
 #. Description
@@ -386,11 +384,11 @@ msgid ""
 "smaller targeted initrd there is a very small chance that not all needed "
 "drivers are included."
 msgstr ""
-"Generic initrd je mnogo veći od targeted initrd-a i moće biti dovoljno velik "
-"da ga neki bootloaderi ne mogu učitati ali ima prednost da se može "
-"iskoristiti za pokretanje ciljanog sistema na bilo kojem hardveru. Sa manjim "
-"ciljanim (targeted) initrdom postoji veoma mala šansa da ne sadrži sve "
-"potrebne drivere."
+"Generički initrd je mnogo veći od ciljanog i može biti čak toliko velik da "
+"ga neki boot loaderi ne mogu učitati, ali ima prednost što se može koristiti "
+"za pokretanje ciljnog sistema na gotovo svakom hardveru. S manjim ciljanim "
+"initrd-om postoji vrlo mala vjerovatnoća da nisu uključeni svi potrebni "
+"drajveri."
 
 #. Type: error
 #. Description
@@ -550,16 +548,12 @@ msgstr "Neispravna Release datoteka: nema unosa za ${SUBST0}."
 #. SUBST0 is a filename or package name
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
-#, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
 msgstr ""
-"Nemoguće preuzeti ${SUBST0}. Ovo može biti zbog problem s mrežom ili lošeg "
-"CD-a, u zavisnosti od Vašeg metoda instalacije."
+"Nije moguće preuzeti ${SUBST0}. Razlog tome može biti problem s mrežom ili "
+"loš medij, ovisno o vašoj metodi instalacije."
 
 #. Type: error
 #. Description
@@ -639,7 +633,7 @@ msgstr "Raspakivam pakete"
 #. be installed on the base system because of dependency resolution
 #: ../bootstrap-base.templates:31001
 msgid "Installing core packages"
-msgstr "Instaliram osnovne pakete..."
+msgstr "Instaliram osnovne pakete"
 
 #. Type: text
 #. Description

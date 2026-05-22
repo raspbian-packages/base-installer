@@ -37,9 +37,10 @@ if db_get base-installer/debootstrap_variant && [ "$RET" ]; then
 	DEBOOTSTRAP_VARIANT="--variant=$RET"
 fi
 
-if is_ports_architecture $ARCH ; then
-	DEBOOTSTRAP_EXTRA_SUITES="--extra-suites=unreleased"
-fi
+# TODO: on netboot images only
+#if is_ports_architecture $ARCH ; then
+#       DEBOOTSTRAP_EXTRA_SUITES="--extra-suites=unreleased"
+#fi
 
 # Avoid debconf sending email during the base install process
 DEBCONF_ADMIN_EMAIL=""

@@ -9,14 +9,14 @@
 #
 # Debian Installer translators, please read the D-I i18n documentation
 # in doc/i18n/i18n.txt
-# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2015, 2016, 2017, 2018
+# Victor Ibragimov <victor.ibragimov@gmail.com>, 2013, 2014, 2018, 2019
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2018-02-08 14:24+0500\n"
+"PO-Revision-Date: 2026-05-11 14:36+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: Tajik <victor.ibragimov@gmail.com>\n"
 "Language: tg\n"
@@ -102,7 +102,7 @@ msgstr "Насбкунии низоми асосӣ"
 #. :sl1:
 #: ../base-installer.templates:6001
 msgid "Running ${SCRIPT}..."
-msgstr "Иҷрокунии ${SCRIPT}..."
+msgstr "Иҷрокунии «${SCRIPT}»..."
 
 #. Type: text
 #. Description
@@ -116,7 +116,7 @@ msgstr "Танзимкунии низоми асосӣ..."
 #. :sl1:
 #: ../base-installer.templates:8001 ../bootstrap-base.templates:59001
 msgid "Configuring APT sources..."
-msgstr "Танзимкунии манбаҳои APT..."
+msgstr "Танзимкунии манбаҳои «APT»..."
 
 #. Type: text
 #. Description
@@ -138,7 +138,7 @@ msgstr "Насбкунии бастаҳои иловагӣ..."
 #. :sl1:
 #: ../base-installer.templates:11001
 msgid "Installing extra packages - retrieving and installing ${SUBST0}..."
-msgstr "Насбкунии бастаҳои иловагӣ - бозёбӣ ва насбкунии ${SUBST0}..."
+msgstr "Насбкунии бастаҳои иловагӣ - бозёбӣ ва насбкунии «${SUBST0}»..."
 
 #. Type: text
 #. Description
@@ -165,9 +165,6 @@ msgstr "Низоми асосӣ насб намешавад"
 #. :sl2:
 #: ../bootstrap-base.templates:2001
 #, fuzzy
-#| msgid ""
-#| "The installer cannot figure out how to install the base system. No "
-#| "installable CD-ROM was found and no valid mirror was configured."
 msgid ""
 "The installer cannot figure out how to install the base system. It found no "
 "installable image, and no valid mirror was configured."
@@ -542,9 +539,6 @@ msgstr "Файли барориши беэътибор: ягон вуруд ба
 #. Debootstrap is a program name: should not be translated
 #: ../bootstrap-base.templates:22001
 #, fuzzy
-#| msgid ""
-#| "Couldn't retrieve ${SUBST0}. This may be due to a network problem or a "
-#| "bad CD, depending on your installation method."
 msgid ""
 "Couldn't retrieve ${SUBST0}. This may be due to a network problem or bad "
 "media, depending on your installation method."
@@ -681,7 +675,7 @@ msgstr "${SECTION}: ${INFO}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:37001
 msgid "Validating ${SUBST0}..."
-msgstr "Санҷиши эътибори ${SUBST0}..."
+msgstr "Санҷиши эътибори «${SUBST0}»..."
 
 #. Type: text
 #. Description
@@ -689,7 +683,7 @@ msgstr "Санҷиши эътибори ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:38001
 msgid "Retrieving ${SUBST0}..."
-msgstr "Бозёбии ${SUBST0}..."
+msgstr "Бозёбии «${SUBST0}»..."
 
 #. Type: text
 #. Description
@@ -697,7 +691,7 @@ msgstr "Бозёбии ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:39001
 msgid "Extracting ${SUBST0}..."
-msgstr "Барориши ${SUBST0}..."
+msgstr "Барориши «${SUBST0}»..."
 
 #. Type: text
 #. Description
@@ -705,7 +699,7 @@ msgstr "Барориши ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:40001
 msgid "Unpacking ${SUBST0}..."
-msgstr "Барориши ${SUBST0}..."
+msgstr "Барориши «${SUBST0}»..."
 
 #. Type: text
 #. Description
@@ -713,7 +707,7 @@ msgstr "Барориши ${SUBST0}..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:41001
 msgid "Configuring ${SUBST0}..."
-msgstr "Танзимкунии ${SUBST0}..."
+msgstr "Танзимкунии «${SUBST0}»..."
 
 #. Type: text
 #. Description
@@ -730,7 +724,7 @@ msgstr "Санҷиши имзои барориш"
 #. Release is a filename which should not be translated
 #: ../bootstrap-base.templates:43001
 msgid "Valid Release signature (key id ${SUBST0})"
-msgstr "Имзои ҳақиқии барориш (рамзи калид ${SUBST0})"
+msgstr "Имзои ҳақиқии барориш (рамзи калид: «${SUBST0}»)"
 
 #. Type: text
 #. Description
@@ -777,7 +771,7 @@ msgstr "Ҳалкунии вобастагиҳои бастаҳои лозимӣ 
 #. SUBST1 is a mirror
 #: ../bootstrap-base.templates:49001
 msgid "Checking component ${SUBST0} on ${SUBST1}..."
-msgstr "Санҷиши унсурҳои ${SUBST0} дар ${SUBST1}..."
+msgstr "Санҷиши унсури «${SUBST0}» дар «${SUBST1}»..."
 
 #. Type: text
 #. Description
@@ -884,4 +878,4 @@ msgstr "Насбкунии ҳаста..."
 #. SUBST0 is a package name
 #: ../bootstrap-base.templates:62001
 msgid "Installing the kernel - retrieving and installing ${SUBST0}..."
-msgstr "Насбкунии ҳаста - бозёбӣ ва насбкунии ${SUBST0}..."
+msgstr "Насбкунии ҳаста - бозёбӣ ва насбкунии «${SUBST0}»..."

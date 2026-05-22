@@ -61,7 +61,7 @@ msgstr ""
 "Project-Id-Version: debian-installer\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2025-11-28 05:00+0000\n"
+"PO-Revision-Date: 2026-03-20 01:09+0000\n"
 "Last-Translator: Francisco Serrador <fserrador@gmail.com>\n"
 "Language-Team: Debian Spanish <debian-l10n-spanish@lists.debian.org>\n"
 "Language: es\n"
@@ -201,7 +201,6 @@ msgstr "Instalar el sistema base"
 #. See http://www.debian.org/doc/debian-policy/ch-binary.html#s3.7
 #. :sl2:
 #: ../bootstrap-base.templates:2001
-#, fuzzy
 msgid "Cannot install base system"
 msgstr "No se puede instalar el sistema base"
 
@@ -423,7 +422,7 @@ msgid ""
 msgstr ""
 "Un initrd genérico es más grande que uno dirigido y puede incluso ser tan "
 "grande que algunos cargadores de arranque no pueden cargarlo, sin embargo "
-"tiene la ventaja que puede utilizarse para arrancar el sistema objetivo en "
+"tiene la ventaja que puede utilizarse para arrancar el sistema de destino en "
 "casi cualquier hardware. Hay una posibilidad muy pequeña de que un initrd "
 "dirigido más pequeño no tenga todos los controladores necesarios."
 

@@ -1,9 +1,25 @@
-base-installer (1.228+rpi1) forky-staging; urgency=medium
+base-installer (1.229+rpi1) forky-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Fri, 30 Jan 2026 07:38:03 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Fri, 22 May 2026 19:47:01 +0000
+
+base-installer (1.229) unstable; urgency=medium
+
+  * Team upload
+
+  [ Samuel Thibault ]
+  * Revert bootstrap-base.postinst: Pass --extra-suites=unreleased on ports
+    archs.
+
+  [ Updated translations ]
+  * Bosnian (bs.po) by pacavarn
+  * Spanish (es.po) by Francisco Serrador
+  * Georgian (ka.po) by Temuri Doghonadze
+  * Tajik (tg.po) by Victor Ibragimov
+
+ -- Holger Wansing <hwansing@mailbox.org>  Wed, 13 May 2026 22:53:28 +0200
 
 base-installer (1.228) unstable; urgency=medium
 
