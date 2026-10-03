@@ -39,7 +39,7 @@ msgstr ""
 "Project-Id-Version: ro\n"
 "Report-Msgid-Bugs-To: base-installer@packages.debian.org\n"
 "POT-Creation-Date: 2019-11-02 20:56+0100\n"
-"PO-Revision-Date: 2025-05-11 14:03+0000\n"
+"PO-Revision-Date: 2026-06-14 08:01+0000\n"
 "Last-Translator: Remus-Gabriel Chelu <remusgabriel.chelu@disroot.org>\n"
 "Language-Team: Romanian <debian-l10n-romanian@lists.debian.org>\n"
 "Language: ro\n"
@@ -524,7 +524,7 @@ msgstr ""
 #. SUBST0 is a Release file name.
 #: ../bootstrap-base.templates:17001
 msgid "Failed getting Release file ${SUBST0}."
-msgstr "Obținerea fișierului Release ${SUBST0} a eșuat."
+msgstr "Obținerea fișierului „Release” ${SUBST0} a eșuat."
 
 #. Type: error
 #. Description
@@ -532,7 +532,7 @@ msgstr "Obținerea fișierului Release ${SUBST0} a eșuat."
 #. SUBST0 is a Release.gpg file name
 #: ../bootstrap-base.templates:18001
 msgid "Failed getting Release signature file ${SUBST0}."
-msgstr "Obținerea semnăturii fișierului Release ${SUBST0} a eșuat."
+msgstr "Obținerea semnăturii fișierului „Release” ${SUBST0} a eșuat."
 
 #. Type: error
 #. Description
@@ -541,14 +541,15 @@ msgstr "Obținerea semnăturii fișierului Release ${SUBST0} a eșuat."
 #: ../bootstrap-base.templates:19001
 msgid "Release file signed by unknown key (key id ${SUBST0})"
 msgstr ""
-"Fișier Release semnat de o cheie necunoscută (identificator cheie ${SUBST0})"
+"Fișier „Release” semnat de o cheie necunoscută (identificator cheie "
+"${SUBST0})"
 
 #. Type: error
 #. Description
 #. :sl2:
 #: ../bootstrap-base.templates:20001
 msgid "Invalid Release file: no valid components."
-msgstr "Fișier Release nevalid: nu există componente valide."
+msgstr "Fișier „Release” nevalid: nu există componente valide."
 
 #. Type: error
 #. Description
@@ -556,7 +557,7 @@ msgstr "Fișier Release nevalid: nu există componente valide."
 #. SUBST0 is a filename
 #: ../bootstrap-base.templates:21001
 msgid "Invalid Release file: no entry for ${SUBST0}."
-msgstr "Fișier Release nevalid: nicio intrare pentru ${SUBST0}."
+msgstr "Fișier „Release” nevalid: nicio intrare pentru ${SUBST0}."
 
 #. Type: error
 #. Description

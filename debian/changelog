@@ -1,9 +1,24 @@
-base-installer (1.229+rpi1) forky-staging; urgency=medium
+base-installer (1.230+rpi1) forky-staging; urgency=medium
 
   [changes brought forward from 1.148+rpi1 by Peter Michael Green <plugwash@raspbian.org> at Wed, 30 Jul 2014 05:27:29 +0000]
   * Use raspbian-archive-keyring instead of debian-archive-keyring.
 
- -- Raspbian forward porter <root@raspbian.org>  Fri, 22 May 2026 19:47:01 +0000
+ -- Raspbian forward porter <root@raspbian.org>  Sat, 03 Oct 2026 14:08:24 +0000
+
+base-installer (1.230) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Updated translations ]
+  * Romanian (ro.po) by Remus-Gabriel Chelu
+  * Northern Sami (se.po) by Børre Gaup
+
+  [ Pascal Hambourg ]
+  * Change base-installer/kernel/altmeta type to "string", so that it appears
+    in the preseed list at https://preseed.debian.net/debian-preseed/.
+    Triggered by bug #1140391.
+
+ -- Holger Wansing <hwansing@mailbox.org>  Thu, 17 Sep 2026 22:17:25 +0200
 
 base-installer (1.229) unstable; urgency=medium
 
